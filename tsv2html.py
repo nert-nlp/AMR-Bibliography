@@ -27,6 +27,7 @@ def get(text,col):
 
 file = 'amr_papers.tsv'
 file2 = 'amr_papers.html'
+template = open('template.html','r',encoding='utf8').read()
 with open(file, 'r', encoding='utf8') as f:
     i = 0
     l, r='{','}'
@@ -51,7 +52,8 @@ with open(file, 'r', encoding='utf8') as f:
 
 with open(file2, 'w', encoding='utf8') as f:
     heading = '''
-    <table>
+    <table class="tablesorter">
+    <thead>
         <tr>
             <th>Title</th>
             <th>Authors</th>
@@ -61,5 +63,7 @@ with open(file2, 'w', encoding='utf8') as f:
             <th>Arxiv</th>
             <th>Tags</th>
         </tr>
+    </thead>
+    <tbody>
     '''
-    f.write(heading+''.join(rows)+'\n</table>')
+    f.write(template.replace('{}', heading+''.join(rows)+'\n</tbody>\n</table>'))

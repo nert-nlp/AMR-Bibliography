@@ -1,5 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="amr_papers.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.tablesorter/jquery.tablesorter.min.js"></script> 
+</head>
+<body>
+<div style="overflow-x:auto;">
 
-    <table>
+
+    <table class="tablesorter">
+    <thead>
         <tr>
             <th>Title</th>
             <th>Authors</th>
@@ -9,6 +20,8 @@
             <th>Arxiv</th>
             <th>Tags</th>
         </tr>
+    </thead>
+    <tbody>
     
             <tr>
                 <td>"Reforming AMR" </td>
@@ -1080,4 +1093,17 @@
                 <td><b>[Applications: Information Extraction, Question Answering, Biomedical]</b></td>
             </tr>
         
+</tbody>
 </table>
+
+</div> 
+<script>
+$(document).ready(function() 
+    { 
+        $("table").tablesorter({sortList: [[0,0], [1,0]]}); 
+    } 
+); 
+   
+</script>
+</body>
+</html> 
