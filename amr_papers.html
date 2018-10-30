@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8"> 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
 <script type="text/javascript" src="jquery.tablesorter/jquery.tablesorter.min.js"></script> 
+<script src="topic_buttons.js"></script> 
 <!-- choose a theme file -->
-<link rel="stylesheet" href="jquery.tablesorter/themes/blue/style.css">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="jquery.tablesorter/themes/blue/style.css">
 <!-- tablesorter widgets (optional) -->
 </head>
 <body>
@@ -244,7 +246,7 @@
                 <td>2014</td>
                 <td>"<a href=""http://www.isi.edu/natural-language/mt/amr_eng_align.pdf"">PDF</a> <a href=""http://www.isi.edu/natural-language/mt/dev-gold.txt"">dev data</a> <a href=""http://www.isi.edu/natural-language/mt/test-gold.txt"">test data</a></b>"</td>
                 <td></td>
-                <td><button class="Alignment" on="0">Alignment</button></td>
+                <td><button topic="Alignment" on="0">Alignment</button></td>
             </tr>
         
             <tr>
@@ -254,7 +256,7 @@
                 <td>2015</td>
                 <td><a href="http://www.aclweb.org/anthology/P15-3007">pdf</a></td>
                 <td></td>
-                <td><button class="Alignment" on="0">Alignment</button></td>
+                <td><button topic="Alignment" on="0">Alignment</button></td>
             </tr>
         
             <tr>
@@ -264,7 +266,7 @@
                 <td>2017</td>
                 <td><a href="http://verbs.colorado.edu/~wech5560/paper/EACL17.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Alignment" on="0">Alignment</button></td>
+                <td><button topic="Alignment" on="0">Alignment</button></td>
             </tr>
         
             <tr>
@@ -274,7 +276,7 @@
                 <td>2017</td>
                 <td></td>
                 <td><a href="https://arxiv.org/abs/1606.02126">arxiv</a></td>
-                <td><button class="Alignment" on="0">Alignment</button></td>
+                <td><button topic="Alignment" on="0">Alignment</button></td>
             </tr>
         
             <tr>
@@ -284,7 +286,7 @@
                 <td>2015</td>
                 <td><a href="https://aclweb.org/anthology/N/N15/N15-3008.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Alignment" on="0">Alignment</button></td>
+                <td><button topic="Alignment" on="0">Alignment</button></td>
             </tr>
         
             <tr>
@@ -294,7 +296,7 @@
                 <td>2018</td>
                 <td><a href="http://aclweb.org/anthology/N18-1106">pdf</a></td>
                 <td></td>
-                <td><button class="Alignment" on="0">Alignment</button> <button class="Syntax/grammar" on="0">Syntax/grammar</button></td>
+                <td><button topic="Alignment" on="0">Alignment</button> <button topic="Syntax/grammar" on="0">Syntax/grammar</button></td>
             </tr>
         
             <tr>
@@ -304,7 +306,7 @@
                 <td>2017</td>
                 <td><a href="https://link.springer.com/chapter/10.1007/978-3-662-56343-4_5">pdf</a></td>
                 <td></td>
-                <td><button class="Annotation scheme" on="0">Annotation scheme</button></td>
+                <td><button topic="Annotation scheme" on="0">Annotation scheme</button></td>
             </tr>
         
             <tr>
@@ -314,7 +316,7 @@
                 <td>2018</td>
                 <td><a href="http://www.lrec-conf.org/proceedings/lrec2018/pdf/856.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Annotation scheme" on="0">Annotation scheme</button></td>
+                <td><button topic="Annotation scheme" on="0">Annotation scheme</button></td>
             </tr>
         
             <tr>
@@ -324,7 +326,7 @@
                 <td>2018</td>
                 <td><a href="http://www.lrec-conf.org/proceedings/lrec2018/pdf/1074.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Annotation scheme" on="0">Annotation scheme</button></td>
+                <td><button topic="Annotation scheme" on="0">Annotation scheme</button></td>
             </tr>
         
             <tr>
@@ -334,7 +336,7 @@
                 <td>2018</td>
                 <td></td>
                 <td></td>
-                <td><button class="Annotation scheme" on="0">Annotation scheme</button></td>
+                <td><button topic="Annotation scheme" on="0">Annotation scheme</button></td>
             </tr>
         
             <tr>
@@ -344,7 +346,7 @@
                 <td>2018</td>
                 <td><a href="http://people.cs.georgetown.edu/nschneid/p/amrtenseaspect.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Annotation scheme" on="0">Annotation scheme</button></td>
+                <td><button topic="Annotation scheme" on="0">Annotation scheme</button></td>
             </tr>
         
             <tr>
@@ -354,7 +356,7 @@
                 <td>2013</td>
                 <td><a href="http://amr.isi.edu/a.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Annotation scheme" on="0">Annotation scheme</button></td>
+                <td><button topic="Annotation scheme" on="0">Annotation scheme</button></td>
             </tr>
         
             <tr>
@@ -364,7 +366,7 @@
                 <td></td>
                 <td><a href="http://www.isi.edu/~ulf/amr/lib/amr-dict.html">pdf</a></td>
                 <td></td>
-                <td><button class="Annotation scheme" on="0">Annotation scheme</button></td>
+                <td><button topic="Annotation scheme" on="0">Annotation scheme</button></td>
             </tr>
         
             <tr>
@@ -374,7 +376,7 @@
                 <td></td>
                 <td><a href="http://www.isi.edu/~ulf/amr/AMR-editor.html">pdf</a></td>
                 <td></td>
-                <td><button class="Annotation scheme" on="0">Annotation scheme</button></td>
+                <td><button topic="Annotation scheme" on="0">Annotation scheme</button></td>
             </tr>
         
             <tr>
@@ -384,7 +386,7 @@
                 <td></td>
                 <td><a href="http://amr.isi.edu/papers/amr-editor-ulf2013a.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Annotation scheme" on="0">Annotation scheme</button></td>
+                <td><button topic="Annotation scheme" on="0">Annotation scheme</button></td>
             </tr>
         
             <tr>
@@ -394,7 +396,7 @@
                 <td>2016</td>
                 <td><a href="http://www.aclweb.org/anthology/J/J16/J16-3006.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Annotation scheme" on="0">Annotation scheme</button></td>
+                <td><button topic="Annotation scheme" on="0">Annotation scheme</button></td>
             </tr>
         
             <tr>
@@ -404,7 +406,7 @@
                 <td>2015</td>
                 <td><a href="https://github.com/amrisi/amr-guidelines/blob/master/amr.md">pdf</a></td>
                 <td></td>
-                <td><button class="Annotation scheme" on="0">Annotation scheme</button> <button class="Overview" on="0">Overview</button></td>
+                <td><button topic="Annotation scheme" on="0">Annotation scheme</button> <button topic="Overview" on="0">Overview</button></td>
             </tr>
         
             <tr>
@@ -414,7 +416,7 @@
                 <td>2015</td>
                 <td><a href="https://aclweb.org/anthology/N/N15/N15-1119.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Applications" on="0">Applications</button></td>
+                <td><button topic="Applications" on="0">Applications</button></td>
             </tr>
         
             <tr>
@@ -424,7 +426,7 @@
                 <td>2016</td>
                 <td><a href="http://link.springer.com/chapter/10.1007/978-3-319-46547-0_2">pdf</a></td>
                 <td></td>
-                <td><button class="Applications" on="0">Applications</button></td>
+                <td><button topic="Applications" on="0">Applications</button></td>
             </tr>
         
             <tr>
@@ -434,7 +436,7 @@
                 <td>2016</td>
                 <td><a href="https://aclweb.org/anthology/P/P16/P16-2079.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Applications" on="0">Applications</button></td>
+                <td><button topic="Applications" on="0">Applications</button></td>
             </tr>
         
             <tr>
@@ -444,7 +446,7 @@
                 <td>2016</td>
                 <td><a href="http://www.public.asu.edu/%7Ecbaral/papers/aaai2016-sub.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Applications" on="0">Applications</button></td>
+                <td><button topic="Applications" on="0">Applications</button></td>
             </tr>
         
             <tr>
@@ -454,7 +456,7 @@
                 <td>2016</td>
                 <td></td>
                 <td><a href="http://arxiv.org/pdf/1512.01587v1">arxiv</a></td>
-                <td><button class="Applications" on="0">Applications</button></td>
+                <td><button topic="Applications" on="0">Applications</button></td>
             </tr>
         
             <tr>
@@ -464,7 +466,7 @@
                 <td>2017</td>
                 <td><a href="http://www.aclweb.org/anthology/W/W17/W17-2315.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Applications" on="0">Applications</button></td>
+                <td><button topic="Applications" on="0">Applications</button></td>
             </tr>
         
             <tr>
@@ -474,7 +476,7 @@
                 <td>2017</td>
                 <td><a href="http://dl.acm.org/ft_gateway.cfm?id=3107426&ftid=1899900&dwn=1&CFID=975190606&CFTOKEN=20370168">pdf</a></td>
                 <td></td>
-                <td><button class="Applications" on="0">Applications</button></td>
+                <td><button topic="Applications" on="0">Applications</button></td>
             </tr>
         
             <tr>
@@ -484,7 +486,7 @@
                 <td>2013</td>
                 <td><a href="http://amr.isi.edu/smatch-13.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Evaluation" on="0">Evaluation</button></td>
+                <td><button topic="Evaluation" on="0">Evaluation</button></td>
             </tr>
         
             <tr>
@@ -494,7 +496,7 @@
                 <td>2016</td>
                 <td><a href="https://aclweb.org/anthology/S/S16/S16-1176.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Evaluation" on="0">Evaluation</button></td>
+                <td><button topic="Evaluation" on="0">Evaluation</button></td>
             </tr>
         
             <tr>
@@ -504,7 +506,7 @@
                 <td>2017</td>
                 <td><a href="https://github.com/mdtux89/amr-eager : Parser code ; https://github.com/mdtux89/amr-evaluation : Eval code">pdf</a></td>
                 <td><a href="https://arxiv.org/abs/1608.06111">arxiv</a></td>
-                <td><button class="Evaluation" on="0">Evaluation</button></td>
+                <td><button topic="Evaluation" on="0">Evaluation</button></td>
             </tr>
         
             <tr>
@@ -514,7 +516,7 @@
                 <td>2018</td>
                 <td></td>
                 <td><a href="https://arxiv.org/abs/1804.07707">arxiv</a></td>
-                <td><button class="Generation/Summarization" on="0">Generation/Summarization</button></td>
+                <td><button topic="Generation/Summarization" on="0">Generation/Summarization</button></td>
             </tr>
         
             <tr>
@@ -524,7 +526,7 @@
                 <td>2015</td>
                 <td><a href="https://aclweb.org/anthology/N/N15/N15-1114.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Generation/Summarization" on="0">Generation/Summarization</button></td>
+                <td><button topic="Generation/Summarization" on="0">Generation/Summarization</button></td>
             </tr>
         
             <tr>
@@ -534,7 +536,7 @@
                 <td>2016</td>
                 <td><a href="http://aclweb.org/anthology/W/W16/W16-6603.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Generation/Summarization" on="0">Generation/Summarization</button></td>
+                <td><button topic="Generation/Summarization" on="0">Generation/Summarization</button></td>
             </tr>
         
             <tr>
@@ -544,7 +546,7 @@
                 <td>2016</td>
                 <td><a href="https://www.aclweb.org/anthology/D/D16/D16-1112.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Generation/Summarization" on="0">Generation/Summarization</button></td>
+                <td><button topic="Generation/Summarization" on="0">Generation/Summarization</button></td>
             </tr>
         
             <tr>
@@ -554,7 +556,7 @@
                 <td>2016</td>
                 <td></td>
                 <td><a href="https://arxiv.org/abs/1609.07451">arxiv</a></td>
-                <td><button class="Generation/Summarization" on="0">Generation/Summarization</button></td>
+                <td><button topic="Generation/Summarization" on="0">Generation/Summarization</button></td>
             </tr>
         
             <tr>
@@ -564,7 +566,7 @@
                 <td>2016</td>
                 <td><a href="http://www.cs.cmu.edu/%7Ejmflanig/flanigan+etal.naacl2016.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Generation/Summarization" on="0">Generation/Summarization</button></td>
+                <td><button topic="Generation/Summarization" on="0">Generation/Summarization</button></td>
             </tr>
         
             <tr>
@@ -574,7 +576,7 @@
                 <td>2017</td>
                 <td></td>
                 <td><a href="https://arxiv.org/abs/1702.00500">arxiv</a></td>
-                <td><button class="Generation/Summarization" on="0">Generation/Summarization</button></td>
+                <td><button topic="Generation/Summarization" on="0">Generation/Summarization</button></td>
             </tr>
         
             <tr>
@@ -584,7 +586,7 @@
                 <td>2017</td>
                 <td></td>
                 <td><a href="https://arxiv.org/abs/1704.08381">arxiv</a></td>
-                <td><button class="Generation/Summarization" on="0">Generation/Summarization</button></td>
+                <td><button topic="Generation/Summarization" on="0">Generation/Summarization</button></td>
             </tr>
         
             <tr>
@@ -594,7 +596,7 @@
                 <td>2017</td>
                 <td></td>
                 <td><a href="https://arxiv.org/abs/1707.07591">arxiv</a></td>
-                <td><button class="Generation/Summarization" on="0">Generation/Summarization</button></td>
+                <td><button topic="Generation/Summarization" on="0">Generation/Summarization</button></td>
             </tr>
         
             <tr>
@@ -604,7 +606,7 @@
                 <td>2017</td>
                 <td></td>
                 <td><a href="https://arxiv.org/abs/1706.01678">arxiv</a></td>
-                <td><button class="Generation/Summarization" on="0">Generation/Summarization</button></td>
+                <td><button topic="Generation/Summarization" on="0">Generation/Summarization</button></td>
             </tr>
         
             <tr>
@@ -614,7 +616,7 @@
                 <td>2017</td>
                 <td><a href="http://www.aclweb.org/anthology/W17-3501">pdf</a></td>
                 <td></td>
-                <td><button class="Generation/Summarization" on="0">Generation/Summarization</button></td>
+                <td><button topic="Generation/Summarization" on="0">Generation/Summarization</button></td>
             </tr>
         
             <tr>
@@ -624,7 +626,7 @@
                 <td>2018</td>
                 <td><a href="http://www.lrec-conf.org/proceedings/lrec2018/pdf/743.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Multilingual" on="0">Multilingual</button></td>
+                <td><button topic="Multilingual" on="0">Multilingual</button></td>
             </tr>
         
             <tr>
@@ -634,7 +636,7 @@
                 <td>2018</td>
                 <td><a href="http://lrec-conf.org/workshops/lrec2018/W29/pdf/15_W29.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Multilingual" on="0">Multilingual</button></td>
+                <td><button topic="Multilingual" on="0">Multilingual</button></td>
             </tr>
         
             <tr>
@@ -644,7 +646,7 @@
                 <td>2014</td>
                 <td><a href="http://www.lrec-conf.org/proceedings/lrec2014/pdf/384_Paper.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Multilingual" on="0">Multilingual</button></td>
+                <td><button topic="Multilingual" on="0">Multilingual</button></td>
             </tr>
         
             <tr>
@@ -654,7 +656,7 @@
                 <td>2016</td>
                 <td><a href="https://aclweb.org/anthology/W/W16/W16-1702.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Multilingual" on="0">Multilingual</button></td>
+                <td><button topic="Multilingual" on="0">Multilingual</button></td>
             </tr>
         
             <tr>
@@ -664,7 +666,7 @@
                 <td>2015</td>
                 <td><a href="https://aclweb.org/anthology/N/N15/N15-3006.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Multilingual" on="0">Multilingual</button></td>
+                <td><button topic="Multilingual" on="0">Multilingual</button></td>
             </tr>
         
             <tr>
@@ -674,7 +676,7 @@
                 <td>2017</td>
                 <td></td>
                 <td><a href="https://arxiv.org/abs/1704.04539">arxiv</a></td>
-                <td><button class="Multilingual" on="0">Multilingual</button></td>
+                <td><button topic="Multilingual" on="0">Multilingual</button></td>
             </tr>
         
             <tr>
@@ -684,7 +686,7 @@
                 <td>2017</td>
                 <td><a href="https://addi.ehu.es/handle/10810/22056">pdf</a></td>
                 <td></td>
-                <td><button class="Multilingual" on="0">Multilingual</button></td>
+                <td><button topic="Multilingual" on="0">Multilingual</button></td>
             </tr>
         
             <tr>
@@ -694,7 +696,7 @@
                 <td>2018</td>
                 <td><a href="http://aclweb.org/anthology/N18-2040">pdf</a></td>
                 <td></td>
-                <td><button class="Multilingual" on="0">Multilingual</button> <button class="Parsing" on="0">Parsing</button> <button class="+Transition-based" on="0">+Transition-based</button></td>
+                <td><button topic="Multilingual" on="0">Multilingual</button> <button topic="Parsing" on="0">Parsing</button> <button topic="+Transition-based" on="0">+Transition-based</button></td>
             </tr>
         
             <tr>
@@ -704,7 +706,7 @@
                 <td>2015</td>
                 <td><a href="http://www.melanietosik.com/files/amr.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Overview" on="0">Overview</button></td>
+                <td><button topic="Overview" on="0">Overview</button></td>
             </tr>
         
             <tr>
@@ -714,7 +716,7 @@
                 <td>2015</td>
                 <td><a href="https://github.com/nschneid/amr-tutorial">pdf</a></td>
                 <td></td>
-                <td><button class="Overview" on="0">Overview</button></td>
+                <td><button topic="Overview" on="0">Overview</button></td>
             </tr>
         
             <tr>
@@ -724,7 +726,7 @@
                 <td>2015</td>
                 <td><a href="http://yoavartzi.com/pub/alz-emnlp.2015.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Parsing" on="0">Parsing</button> <button class="+CCG" on="0">+CCG</button></td>
+                <td><button topic="Parsing" on="0">Parsing</button> <button topic="+CCG" on="0">+CCG</button></td>
             </tr>
         
             <tr>
@@ -734,7 +736,7 @@
                 <td></td>
                 <td>"<a href=""http://aclweb.org/anthology/D/D16/D16-1183.pdf"">PDF</a> <a href=""http://aclweb.org/anthology/attachments/D/D16/D16-1183.Attachment.pdf"">Supplement</a>"</td>
                 <td></td>
-                <td><button class="Parsing" on="0">Parsing</button> <button class="+CCG" on="0">+CCG</button></td>
+                <td><button topic="Parsing" on="0">Parsing</button> <button topic="+CCG" on="0">+CCG</button></td>
             </tr>
         
             <tr>
@@ -744,7 +746,7 @@
                 <td>2015</td>
                 <td><a href="https://aclweb.org/anthology/N/N15/N15-3006.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Parsing" on="0">Parsing</button> <button class="+Conversion" on="0">+Conversion</button></td>
+                <td><button topic="Parsing" on="0">Parsing</button> <button topic="+Conversion" on="0">+Conversion</button></td>
             </tr>
         
             <tr>
@@ -754,7 +756,7 @@
                 <td>2016</td>
                 <td><a href="https://aclweb.org/anthology/S/S16/S16-1182.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Parsing" on="0">Parsing</button> <button class="+Conversion" on="0">+Conversion</button></td>
+                <td><button topic="Parsing" on="0">Parsing</button> <button topic="+Conversion" on="0">+Conversion</button></td>
             </tr>
         
             <tr>
@@ -764,7 +766,7 @@
                 <td>2016</td>
                 <td><a href="https://aclweb.org/anthology/S/S16/S16-1177.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Parsing" on="0">Parsing</button> <button class="+Conversion" on="0">+Conversion</button></td>
+                <td><button topic="Parsing" on="0">Parsing</button> <button topic="+Conversion" on="0">+Conversion</button></td>
             </tr>
         
             <tr>
@@ -774,7 +776,7 @@
                 <td>2016</td>
                 <td><a href="https://aclweb.org/anthology/S/S16/S16-1179.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Parsing" on="0">Parsing</button> <button class="+Conversion" on="0">+Conversion</button></td>
+                <td><button topic="Parsing" on="0">Parsing</button> <button topic="+Conversion" on="0">+Conversion</button></td>
             </tr>
         
             <tr>
@@ -784,7 +786,7 @@
                 <td>2012</td>
                 <td><a href="http://www.isi.edu/natural-language/people/sembmt-coling-12.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Parsing" on="0">Parsing</button> <button class="+graph grammar" on="0">+graph grammar</button></td>
+                <td><button topic="Parsing" on="0">Parsing</button> <button topic="+graph grammar" on="0">+graph grammar</button></td>
             </tr>
         
             <tr>
@@ -794,7 +796,7 @@
                 <td>2013</td>
                 <td><a href="http://aclweb.org/anthology/P13/P13-1091.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Parsing" on="0">Parsing</button> <button class="+graph grammar" on="0">+graph grammar</button></td>
+                <td><button topic="Parsing" on="0">Parsing</button> <button topic="+graph grammar" on="0">+graph grammar</button></td>
             </tr>
         
             <tr>
@@ -804,7 +806,7 @@
                 <td>2014</td>
                 <td><a href="http://www.isi.edu/natural-language/mt/boygirl_paper_lrec.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Parsing" on="0">Parsing</button> <button class="+graph grammar" on="0">+graph grammar</button></td>
+                <td><button topic="Parsing" on="0">Parsing</button> <button topic="+graph grammar" on="0">+graph grammar</button></td>
             </tr>
         
             <tr>
@@ -814,7 +816,7 @@
                 <td>2015</td>
                 <td><a href="http://www.aclweb.org/anthology/K/K15/K15-1004.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Parsing" on="0">Parsing</button> <button class="+graph grammar" on="0">+graph grammar</button></td>
+                <td><button topic="Parsing" on="0">Parsing</button> <button topic="+graph grammar" on="0">+graph grammar</button></td>
             </tr>
         
             <tr>
@@ -824,7 +826,7 @@
                 <td>2016</td>
                 <td><a href="http://www8.cs.umu.se/research/uminf/reports/2015/013/part1.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Parsing" on="0">Parsing</button> <button class="+graph grammar" on="0">+graph grammar</button></td>
+                <td><button topic="Parsing" on="0">Parsing</button> <button topic="+graph grammar" on="0">+graph grammar</button></td>
             </tr>
         
             <tr>
@@ -834,7 +836,7 @@
                 <td>2016</td>
                 <td><a href="https://aclweb.org/anthology/S/S16/S16-1183.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Parsing" on="0">Parsing</button> <button class="+graph grammar" on="0">+graph grammar</button></td>
+                <td><button topic="Parsing" on="0">Parsing</button> <button topic="+graph grammar" on="0">+graph grammar</button></td>
             </tr>
         
             <tr>
@@ -844,7 +846,7 @@
                 <td>2015</td>
                 <td><a href="https://aclweb.org/anthology/P/P15/P15-1143.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Parsing" on="0">Parsing</button> <button class="+graph grammar" on="0">+graph grammar</button></td>
+                <td><button topic="Parsing" on="0">Parsing</button> <button topic="+graph grammar" on="0">+graph grammar</button></td>
             </tr>
         
             <tr>
@@ -854,7 +856,7 @@
                 <td>2014</td>
                 <td><a href="http://www.cs.cmu.edu/%7Ejmflanig/flanigan+etal.acl2014.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Parsing +graph-based" on="0">Parsing +graph-based</button></td>
+                <td><button topic="Parsing +graph-based" on="0">Parsing +graph-based</button></td>
             </tr>
         
             <tr>
@@ -864,7 +866,7 @@
                 <td>2016</td>
                 <td><a href="https://aclweb.org/anthology/S/S16/S16-1186.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Parsing" on="0">Parsing</button> <button class="+graph-based" on="0">+graph-based</button></td>
+                <td><button topic="Parsing" on="0">Parsing</button> <button topic="+graph-based" on="0">+graph-based</button></td>
             </tr>
         
             <tr>
@@ -874,7 +876,7 @@
                 <td>2015</td>
                 <td><a href="http://nlp.stanford.edu/pubs/2015werling-amr.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Parsing" on="0">Parsing</button> <button class="+graph-based" on="0">+graph-based</button></td>
+                <td><button topic="Parsing" on="0">Parsing</button> <button topic="+graph-based" on="0">+graph-based</button></td>
             </tr>
         
             <tr>
@@ -884,7 +886,7 @@
                 <td>2015</td>
                 <td><a href="https://aclweb.org/anthology/D/D15/D15-1136.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Parsing" on="0">Parsing</button> <button class="+MT-based" on="0">+MT-based</button></td>
+                <td><button topic="Parsing" on="0">Parsing</button> <button topic="+MT-based" on="0">+MT-based</button></td>
             </tr>
         
             <tr>
@@ -894,7 +896,7 @@
                 <td>2016</td>
                 <td><a href="https://aclweb.org/anthology/S/S16/S16-1184.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Parsing" on="0">Parsing</button> <button class="Imitation Learning/Learning to Search" on="0">Imitation Learning/Learning to Search</button> <button class="+Graph-based" on="0">+Graph-based</button></td>
+                <td><button topic="Parsing" on="0">Parsing</button> <button topic="Imitation Learning/Learning to Search" on="0">Imitation Learning/Learning to Search</button> <button topic="+Graph-based" on="0">+Graph-based</button></td>
             </tr>
         
             <tr>
@@ -904,7 +906,7 @@
                 <td>2016</td>
                 <td><a href="http://aclweb.org/anthology/P16-1001">pdf</a></td>
                 <td></td>
-                <td><button class="Parsing" on="0">Parsing</button> <button class="Imitation Learning/Learning to Search" on="0">Imitation Learning/Learning to Search</button> <button class="+Transition-based" on="0">+Transition-based</button></td>
+                <td><button topic="Parsing" on="0">Parsing</button> <button topic="Imitation Learning/Learning to Search" on="0">Imitation Learning/Learning to Search</button> <button topic="+Transition-based" on="0">+Transition-based</button></td>
             </tr>
         
             <tr>
@@ -914,7 +916,7 @@
                 <td>2016</td>
                 <td><a href="https://aclweb.org/anthology/S/S16/S16-1180.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Parsing" on="0">Parsing</button> <button class="Imitation Learning/Learning to Search" on="0">Imitation Learning/Learning to Search</button> <button class="+Transition-based" on="0">+Transition-based</button></td>
+                <td><button topic="Parsing" on="0">Parsing</button> <button topic="Imitation Learning/Learning to Search" on="0">Imitation Learning/Learning to Search</button> <button topic="+Transition-based" on="0">+Transition-based</button></td>
             </tr>
         
             <tr>
@@ -924,7 +926,7 @@
                 <td>2016</td>
                 <td><a href="https://aclweb.org/anthology/S/S16/S16-1176.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Parsing" on="0">Parsing</button> <button class="Neural" on="0">Neural</button></td>
+                <td><button topic="Parsing" on="0">Parsing</button> <button topic="Neural" on="0">Neural</button></td>
             </tr>
         
             <tr>
@@ -934,7 +936,7 @@
                 <td>2016</td>
                 <td><a href="https://aclweb.org/anthology/S/S16/S16-1185.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Parsing" on="0">Parsing</button> <button class="Neural" on="0">Neural</button></td>
+                <td><button topic="Parsing" on="0">Parsing</button> <button topic="Neural" on="0">Neural</button></td>
             </tr>
         
             <tr>
@@ -944,7 +946,7 @@
                 <td>2017</td>
                 <td><a href="http://www.cs.brandeis.edu/~cwang24/files/eacl17.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Parsing" on="0">Parsing</button> <button class="Neural" on="0">Neural</button></td>
+                <td><button topic="Parsing" on="0">Parsing</button> <button topic="Neural" on="0">Neural</button></td>
             </tr>
         
             <tr>
@@ -954,7 +956,7 @@
                 <td>2017</td>
                 <td></td>
                 <td><a href="https://arxiv.org/abs/1704.08381">arxiv</a></td>
-                <td><button class="Parsing" on="0">Parsing</button> <button class="Neural" on="0">Neural</button></td>
+                <td><button topic="Parsing" on="0">Parsing</button> <button topic="Neural" on="0">Neural</button></td>
             </tr>
         
             <tr>
@@ -964,7 +966,7 @@
                 <td>2017</td>
                 <td></td>
                 <td></td>
-                <td><button class="Parsing" on="0">Parsing</button> <button class="Neural" on="0">Neural</button></td>
+                <td><button topic="Parsing" on="0">Parsing</button> <button topic="Neural" on="0">Neural</button></td>
             </tr>
         
             <tr>
@@ -974,7 +976,7 @@
                 <td>2017</td>
                 <td></td>
                 <td><a href="https://arxiv.org/abs/1705.09980">arxiv</a></td>
-                <td><button class="Parsing" on="0">Parsing</button> <button class="Neural" on="0">Neural</button></td>
+                <td><button topic="Parsing" on="0">Parsing</button> <button topic="Neural" on="0">Neural</button></td>
             </tr>
         
             <tr>
@@ -984,7 +986,7 @@
                 <td>2016</td>
                 <td><a href="https://aclweb.org/anthology/S/S16/S16-1178.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Parsing" on="0">Parsing</button> <button class="+Neural" on="0">+Neural</button> <button class="+Transition-based" on="0">+Transition-based</button></td>
+                <td><button topic="Parsing" on="0">Parsing</button> <button topic="+Neural" on="0">+Neural</button> <button topic="+Transition-based" on="0">+Transition-based</button></td>
             </tr>
         
             <tr>
@@ -994,7 +996,7 @@
                 <td>2017</td>
                 <td></td>
                 <td><a href="https://arxiv.org/abs/1704.07092">arxiv</a></td>
-                <td><button class="Parsing" on="0">Parsing</button> <button class="+Neural" on="0">+Neural</button> <button class="+Transition-based" on="0">+Transition-based</button></td>
+                <td><button topic="Parsing" on="0">Parsing</button> <button topic="+Neural" on="0">+Neural</button> <button topic="+Transition-based" on="0">+Transition-based</button></td>
             </tr>
         
             <tr>
@@ -1004,7 +1006,7 @@
                 <td>2017</td>
                 <td></td>
                 <td><a href="https://arxiv.org/abs/1707.07755">arxiv</a></td>
-                <td><button class="Parsing" on="0">Parsing</button> <button class="+Neural" on="0">+Neural</button> <button class="+Transition-based" on="0">+Transition-based</button></td>
+                <td><button topic="Parsing" on="0">Parsing</button> <button topic="+Neural" on="0">+Neural</button> <button topic="+Transition-based" on="0">+Transition-based</button></td>
             </tr>
         
             <tr>
@@ -1014,7 +1016,7 @@
                 <td>2017</td>
                 <td><a href="http://www.cs.brandeis.edu/%7Ecwang24/files/emnlp17.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Parsing" on="0">Parsing</button> <button class="+Neural" on="0">+Neural</button> <button class="+Transition-based" on="0">+Transition-based</button></td>
+                <td><button topic="Parsing" on="0">Parsing</button> <button topic="+Neural" on="0">+Neural</button> <button topic="+Transition-based" on="0">+Transition-based</button></td>
             </tr>
         
             <tr>
@@ -1024,7 +1026,7 @@
                 <td>2016</td>
                 <td><a href="https://aclweb.org/anthology/S/S16/S16-1166.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Parsing" on="0">Parsing</button> <button class="Share Task Overview" on="0">Share Task Overview</button></td>
+                <td><button topic="Parsing" on="0">Parsing</button> <button topic="Share Task Overview" on="0">Share Task Overview</button></td>
             </tr>
         
             <tr>
@@ -1034,7 +1036,7 @@
                 <td>2015</td>
                 <td><a href="https://aclweb.org/anthology/N/N15/N15-1040.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Parsing" on="0">Parsing</button> <button class="Transition-based" on="0">Transition-based</button></td>
+                <td><button topic="Parsing" on="0">Parsing</button> <button topic="Transition-based" on="0">Transition-based</button></td>
             </tr>
         
             <tr>
@@ -1044,7 +1046,7 @@
                 <td>2016</td>
                 <td><a href="https://aclweb.org/anthology/S/S16/S16-1181.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Parsing" on="0">Parsing</button> <button class="Transition-based" on="0">Transition-based</button></td>
+                <td><button topic="Parsing" on="0">Parsing</button> <button topic="Transition-based" on="0">Transition-based</button></td>
             </tr>
         
             <tr>
@@ -1054,7 +1056,7 @@
                 <td>2016</td>
                 <td><a href="https://www.aclweb.org/anthology/D/D16/D16-1065.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Parsing" on="0">Parsing</button> <button class="Transition-based" on="0">Transition-based</button></td>
+                <td><button topic="Parsing" on="0">Parsing</button> <button topic="Transition-based" on="0">Transition-based</button></td>
             </tr>
         
             <tr>
@@ -1064,7 +1066,7 @@
                 <td>2015</td>
                 <td><a href="http://www.aclweb.org/anthology/P15-2141.pdf">pdf</a></td>
                 <td></td>
-                <td><button class="Parsing" on="0">Parsing</button> <button class="Transition-based" on="0">Transition-based</button></td>
+                <td><button topic="Parsing" on="0">Parsing</button> <button topic="Transition-based" on="0">Transition-based</button></td>
             </tr>
         
             <tr>
@@ -1074,7 +1076,7 @@
                 <td>2015</td>
                 <td><a href="http://www.aclweb.org/anthology/P15-2140">pdf</a></td>
                 <td></td>
-                <td><button class="Parsing" on="0">Parsing</button> <button class="Transition-based" on="0">Transition-based</button></td>
+                <td><button topic="Parsing" on="0">Parsing</button> <button topic="Transition-based" on="0">Transition-based</button></td>
             </tr>
         
             <tr>
@@ -1084,7 +1086,7 @@
                 <td>2017</td>
                 <td>"<a href=""""https://arxiv.org/abs/1608.06111"""">arXiv</a>. <a href=""""https://github.com/mdtux89/amr-eager"""">Parser code</a>, <a href=""""https://github.com/mdtux89/amr-evaluation"""">Eval code</a>"""</td>
                 <td></td>
-                <td><button class="Parsing" on="0">Parsing</button> <button class="Transition-based" on="0">Transition-based</button> <button class="+ neural" on="0">+ neural</button></td>
+                <td><button topic="Parsing" on="0">Parsing</button> <button topic="Transition-based" on="0">Transition-based</button> <button topic="+ neural" on="0">+ neural</button></td>
             </tr>
         
             <tr>
@@ -1094,7 +1096,7 @@
                 <td>2018</td>
                 <td><a href="http://aclweb.org/anthology/S18-2006">pdf</a></td>
                 <td></td>
-                <td><button class="Syntax/grammar" on="0">Syntax/grammar</button></td>
+                <td><button topic="Syntax/grammar" on="0">Syntax/grammar</button></td>
             </tr>
         
 </tbody>

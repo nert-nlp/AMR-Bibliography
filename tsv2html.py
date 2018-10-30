@@ -48,7 +48,7 @@ def tags(line):
     for tag in x:
         if not tag.strip(): continue
         tag = tag.replace('"','')
-        tags.append(f'<button class="{tag}" on="0">{tag}</button>')
+        tags.append(f'<button topic="{tag}" on="0">{tag}</button>')
     return ' '.join(tags)
 
 file = 'amr_papers.tsv'

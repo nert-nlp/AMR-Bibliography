@@ -14,3 +14,12 @@ button {
 	display: inline-block;
 	background-color: #66ccff;
 }
+
+button.green {
+
+	background-color: lightgreen;
+
+}
+ tr.green td {
+	 background-color: #b7ff47 !important;
+ }
