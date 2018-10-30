@@ -56,7 +56,7 @@ def authors(line):
     return get(line,'authors').replace('"','')
 
 file = 'amr_papers.tsv'
-file2 = 'amr_papers.html'
+file2 = 'index.html'
 template = open('template.html','r',encoding='utf8').read()
 with open(file, 'r', encoding='utf8') as f:
     i = 0
