@@ -1,3 +1,1 @@
-An AMR Bibliography
-
-See `amr_papers.html`.
+https://nert-gu.github.io/AMR-Bibliography/
