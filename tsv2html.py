@@ -37,7 +37,7 @@ def link(line):
 def arxiv(line):
     x = get(line,'arxiv')
     if x.strip():
-        return f'<a href="{x}">arxiv</a>'
+        return f'<a href="{x}">arXiv</a>'
     else:
         return ''
 
@@ -48,8 +48,12 @@ def tags(line):
     for tag in x:
         if not tag.strip(): continue
         tag = tag.replace('"','')
-        tags.append(f'<button topic="{tag}" on="0">{tag}</button>')
+        topic = tag.lower().replace('+','').strip()
+        tags.append(f'<button topic="{topic}" on="0">{tag}</button>')
     return ' '.join(tags)
+
+def authors(line):
+    return get(line,'authors').replace('"','')
 
 file = 'amr_papers.tsv'
 file2 = 'amr_papers.html'
@@ -64,7 +68,7 @@ with open(file, 'r', encoding='utf8') as f:
         bib = f'''
             <tr>
                 <td>{get(line,'title')} </td>
-                <td>({get(line,'authors')})</td>
+                <td>({authors(line)})</td>
                 <td>{get(line,'venue')}</td>
                 <td>{get(line,'year')}</td>
                 <td>{link(line)}</td>
