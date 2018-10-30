@@ -3,3 +3,14 @@
 table {
 	font-size: 10pt !important;
 }
+
+
+button {
+	border: 1px solid white;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	background-color: #66ccff;
+}

@@ -41,6 +41,15 @@ def arxiv(line):
     else:
         return ''
 
+def tags(line):
+    tags = []
+    x = get(line,'tags')
+    x = x.split(', ')
+    for tag in x:
+        if not tag.strip(): continue
+        tag = tag.replace('"','')
+        tags.append(f'<button class="{tag}" on="0">{tag}</button>')
+    return ' '.join(tags)
 
 file = 'amr_papers.tsv'
 file2 = 'amr_papers.html'
@@ -60,7 +69,7 @@ with open(file, 'r', encoding='utf8') as f:
                 <td>{get(line,'year')}</td>
                 <td>{link(line)}</td>
                 <td>{arxiv(line)}</td>
-                <td><b>[{get(line,'tags')}]</b></td>
+                <td>{tags(line)}</td>
             </tr>
         '''
         print(bib)
