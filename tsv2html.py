@@ -25,6 +25,23 @@ def get(text,col):
     return text.split('\t')[columns[col]]
 
 
+def link(line):
+    x = get(line,'links')
+    if 'href' in x:
+        return x
+    elif x.strip():
+        return f'<a href="{x}">pdf</a>'
+    else:
+        return ''
+
+def arxiv(line):
+    x = get(line,'arxiv')
+    if x.strip():
+        return f'<a href="{x}">arxiv</a>'
+    else:
+        return ''
+
+
 file = 'amr_papers.tsv'
 file2 = 'amr_papers.html'
 template = open('template.html','r',encoding='utf8').read()
@@ -37,12 +54,12 @@ with open(file, 'r', encoding='utf8') as f:
             continue
         bib = f'''
             <tr>
-                <td>"{get(line,'title')}" </td>
-                <td>({get(line,'authors')}).</td>
-                <td>{get(line,'venue')}, </td>
-                <td>{get(line,'year')}.</td>
-                <td><a href="{get(line,'links')}">link</a>, </td>
-                <td><a href="{get(line,'arxiv')}">arxiv</a>, . </td>
+                <td>{get(line,'title')} </td>
+                <td>({get(line,'authors')})</td>
+                <td>{get(line,'venue')}</td>
+                <td>{get(line,'year')}</td>
+                <td>{link(line)}</td>
+                <td>{arxiv(line)}</td>
                 <td><b>[{get(line,'tags')}]</b></td>
             </tr>
         '''
