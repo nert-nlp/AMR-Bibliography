@@ -59,7 +59,9 @@ def tags(line):
     return ' '.join(tags)
 
 def authors(line):
-    return get(line,'authors').replace('"','')
+    x = get(line,'authors')
+    first_author = x.split()[1]
+    return '<span style="display:none;">'+first_author+'</span>' + x
 
 file = 'amr_papers.tsv'
 file2 = 'index.html'

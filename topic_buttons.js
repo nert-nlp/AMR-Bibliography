@@ -7,6 +7,9 @@
 
 
 $(document).ready(function () {
+    $("table").tablesorter({
+        sortList: [[3,1], [1,0]]
+    });
     $("button").on({
         click:function(){
             if ($(this).attr('on')==='0'){
