@@ -22,7 +22,10 @@ rows = []
 
 def get(text,col):
     columns = {'authors':0,'title':1,'year':3,'venue':2,'links':4,'arxiv':5,'tags':6}
-    return text.split('\t')[columns[col]]
+    x = text.split('\t')[columns[col]]
+    if x and x[0] == '"' and x[-1] == '"':
+        x = x[1:-1]
+    return x
 
 
 def link(line):
@@ -41,6 +44,8 @@ def arxiv(line):
     else:
         return ''
 
+
+topics = set()
 def tags(line):
     tags = []
     x = get(line,'tags')
@@ -49,6 +54,7 @@ def tags(line):
         if not tag.strip(): continue
         tag = tag.replace('"','')
         topic = tag.lower().replace('+','').strip()
+        topics.add(tag.strip())
         tags.append(f'<button topic="{topic}" on="0">{tag}</button>')
     return ' '.join(tags)
 
@@ -68,7 +74,7 @@ with open(file, 'r', encoding='utf8') as f:
         bib = f'''
             <tr>
                 <td>{get(line,'title')} </td>
-                <td>({authors(line)})</td>
+                <td>{authors(line)}</td>
                 <td>{get(line,'venue')}</td>
                 <td>{get(line,'year')}</td>
                 <td>{link(line)}</td>
@@ -97,3 +103,6 @@ with open(file2, 'w', encoding='utf8') as f:
     <tbody>
     '''
     f.write(template.replace('{}', heading+''.join(rows)+'\n</tbody>\n</table>'))
+
+for topic in sorted(topics):
+    print(topic)
