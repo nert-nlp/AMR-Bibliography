@@ -12,6 +12,33 @@
 <!-- tablesorter widgets (optional) -->
 </head>
 <body>
+<center><h1>Welcome to the AMR Bibliography</h1></center>
+<center>
+Abstarct Meaning Representation (<math>AMR</math>) is a graph framework for representing sentence meaning.
+
+<div class='instructions'>
+<h3>Explore the research on AMR</h3>
+The table below is sortable by column.<br/>
+You can highlight rows by topic (click on a topic <math>TAG</math>).<br/>
+</div>
+<br/>
+<div class='description'>
+<math>Annotation</math>: Research on and methods for AMR annotators<br/>
+<math>Parsing</math>: Produce an AMR from natural language text<br/>
+<math>Generation</math>: Produce natural language text from an AMR<br/>
+<math>Applications</math>: Summarization, Information Extraction, Biomedical, etc.<br/>
+<math>Alignment</math>: Find the AMR subgraph corresponding to a word or phrase<br/>
+<math>AMR Extensions</math>: Research which adds features to the AMR annotation scheme<br/>
+<math>+Multilingual</math>: Extensions of AMR from its original language (English) to other languages<br/>
+<br/>
+<br/>
+<b>How to request an update to this page</b>: create an issue on our <a href="https://github.com/nert-gu/AMR-Bibliography">GitHub</a> 
+if you want to request a <b>paper</b>, <b>edit</b>, or <math>TAG</math>.<br/>
+</div>
+
+
+
+</center>
 <div style="overflow-x:auto;">
 
 
@@ -30,36 +57,6 @@
     <tbody>
     
             <tr>
-                <td>CAMR at SemEval-2016 Task 8: An Extended Transition-based AMR Parser </td>
-                <td>(Chuan Wang; Sameer Pradhan; Xiaoman Pan; Heng Ji; Nianwen Xue)</td>
-                <td>SemEval</td>
-                <td>2016</td>
-                <td><a href="https://aclweb.org/anthology/S/S16/S16-1181.pdf">pdf</a></td>
-                <td></td>
-                <td><button topic="parsing" on="0">Parsing</button> <button topic="transition-based" on="0">+Transition-based</button></td>
-            </tr>
-        
-            <tr>
-                <td>AMR Parsing with an Incremental Joint Model </td>
-                <td>(J. Zhou, F. Xu, H. Uszkoreit, W. Qu, R. Li and Y. Gu)</td>
-                <td>EMNLP</td>
-                <td>2016</td>
-                <td><a href="https://www.aclweb.org/anthology/D/D16/D16-1065.pdf">pdf</a></td>
-                <td></td>
-                <td><button topic="parsing" on="0">Parsing</button> <button topic="transition-based" on="0">+Transition-based</button></td>
-            </tr>
-        
-            <tr>
-                <td>A Transition-based Algorithm for AMR Parsing </td>
-                <td>(Chuan Wang, Nianwen Xue, Sameer Pradhan)</td>
-                <td>NAACL</td>
-                <td>2015</td>
-                <td><a href="https://aclweb.org/anthology/N/N15/N15-1040.pdf">pdf</a></td>
-                <td></td>
-                <td><button topic="parsing" on="0">Parsing</button> <button topic="transition-based" on="0">+Transition-based</button></td>
-            </tr>
-        
-            <tr>
                 <td>SemEval-2016 Task 8: Meaning Representation Parsing </td>
                 <td>(Jonathan May)</td>
                 <td>SemEval</td>
@@ -67,76 +64,6 @@
                 <td><a href="https://aclweb.org/anthology/S/S16/S16-1166.pdf">pdf</a></td>
                 <td></td>
                 <td><button topic="parsing" on="0">Parsing</button> <button topic="shared task overview" on="0">Shared Task Overview</button></td>
-            </tr>
-        
-            <tr>
-                <td>Neural AMR: Sequence-to-Sequence Models for Parsing and Generation </td>
-                <td>(Ioannis Konstas, Srinivasan Iyer, Mark Yatskar, Yejin Choi, and Luke Zettlemoyer)</td>
-                <td>ACL</td>
-                <td>2017</td>
-                <td></td>
-                <td><a href="https://arxiv.org/abs/1704.08381">arXiv</a></td>
-                <td><button topic="parsing" on="0">Parsing</button> <button topic="neural" on="0">+Neural</button></td>
-            </tr>
-        
-            <tr>
-                <td>Abstract Meaning Representation Parsing using LSTM Recurrent Neural Networks </td>
-                <td>(William Foland and James H. Martin)</td>
-                <td>ACL</td>
-                <td>2017</td>
-                <td></td>
-                <td></td>
-                <td><button topic="parsing" on="0">Parsing</button> <button topic="neural" on="0">+Neural</button></td>
-            </tr>
-        
-            <tr>
-                <td>Neural Semantic Parsing by Character-based Translation: Experiments with Abstract Meaning Representations </td>
-                <td>(Rik van Noord and Johan Bos)</td>
-                <td></td>
-                <td>2017</td>
-                <td></td>
-                <td><a href="https://arxiv.org/abs/1705.09980">arXiv</a></td>
-                <td><button topic="parsing" on="0">Parsing</button> <button topic="neural" on="0">+Neural</button></td>
-            </tr>
-        
-            <tr>
-                <td>RIGA at SemEval-2016 Task 8: Impact of Smatch Extensions and Character-Level Neural Translation on AMR Parsing Accuracy </td>
-                <td>(Guntis Barzdins; Didzis Gosko)</td>
-                <td>SemEval</td>
-                <td>2016</td>
-                <td><a href="https://aclweb.org/anthology/S/S16/S16-1176.pdf">pdf</a></td>
-                <td></td>
-                <td><button topic="parsing" on="0">Parsing</button> <button topic="neural" on="0">+Neural</button></td>
-            </tr>
-        
-            <tr>
-                <td>CU-NLP at SemEval-2016 Task 8: AMR Parsing using LSTM-based Recurrent Neural Networks </td>
-                <td>(William Foland; James H. Martin)</td>
-                <td>SemEval</td>
-                <td>2016</td>
-                <td><a href="https://aclweb.org/anthology/S/S16/S16-1185.pdf">pdf</a></td>
-                <td></td>
-                <td><button topic="parsing" on="0">Parsing</button> <button topic="neural" on="0">+Neural</button></td>
-            </tr>
-        
-            <tr>
-                <td>UCL+Sheffield at SemEval-2016 Task 8: Imitation learning for AMR parsing with an alpha-bound </td>
-                <td>(James Goodman; Andreas Vlachos; Jason Naradowsky)</td>
-                <td>SemEval</td>
-                <td>2016</td>
-                <td><a href="https://aclweb.org/anthology/S/S16/S16-1180.pdf">pdf</a></td>
-                <td></td>
-                <td><button topic="parsing" on="0">Parsing</button> <button topic="imitation learning/learning to search" on="0">+Imitation Learning/Learning to Search</button> <button topic="transition-based" on="0">+Transition-based</button></td>
-            </tr>
-        
-            <tr>
-                <td>CLIP@UMD at SemEval-2016 Task 8: Parser for Abstract Meaning Representation using Learning to Search </td>
-                <td>(Sudha Rao; Yogarshi Vyas; Hal Daumé III; Philip Resnik)</td>
-                <td>SemEval</td>
-                <td>2016</td>
-                <td><a href="https://aclweb.org/anthology/S/S16/S16-1184.pdf">pdf</a></td>
-                <td></td>
-                <td><button topic="parsing" on="0">Parsing</button> <button topic="imitation learning/learning to search" on="0">+Imitation Learning/Learning to Search</button> <button topic="graph-based" on="0">+Graph-based</button></td>
             </tr>
         
             <tr>
@@ -187,6 +114,36 @@
                 <td><a href="http://aclweb.org/anthology/N18-2040">pdf</a></td>
                 <td></td>
                 <td><button topic="parsing" on="0">Parsing</button> <button topic="transition-based" on="0">+Transition-based</button> <button topic="multilingual" on="0">+Multilingual</button></td>
+            </tr>
+        
+            <tr>
+                <td>CAMR at SemEval-2016 Task 8: An Extended Transition-based AMR Parser </td>
+                <td>(Chuan Wang; Sameer Pradhan; Xiaoman Pan; Heng Ji; Nianwen Xue)</td>
+                <td>SemEval</td>
+                <td>2016</td>
+                <td><a href="https://aclweb.org/anthology/S/S16/S16-1181.pdf">pdf</a></td>
+                <td></td>
+                <td><button topic="parsing" on="0">Parsing</button> <button topic="transition-based" on="0">+Transition-based</button></td>
+            </tr>
+        
+            <tr>
+                <td>AMR Parsing with an Incremental Joint Model </td>
+                <td>(J. Zhou, F. Xu, H. Uszkoreit, W. Qu, R. Li and Y. Gu)</td>
+                <td>EMNLP</td>
+                <td>2016</td>
+                <td><a href="https://www.aclweb.org/anthology/D/D16/D16-1065.pdf">pdf</a></td>
+                <td></td>
+                <td><button topic="parsing" on="0">Parsing</button> <button topic="transition-based" on="0">+Transition-based</button></td>
+            </tr>
+        
+            <tr>
+                <td>A Transition-based Algorithm for AMR Parsing </td>
+                <td>(Chuan Wang, Nianwen Xue, Sameer Pradhan)</td>
+                <td>NAACL</td>
+                <td>2015</td>
+                <td><a href="https://aclweb.org/anthology/N/N15/N15-1040.pdf">pdf</a></td>
+                <td></td>
+                <td><button topic="parsing" on="0">Parsing</button> <button topic="transition-based" on="0">+Transition-based</button></td>
             </tr>
         
             <tr>
@@ -270,6 +227,56 @@
             </tr>
         
             <tr>
+                <td>Neural AMR: Sequence-to-Sequence Models for Parsing and Generation </td>
+                <td>(Ioannis Konstas, Srinivasan Iyer, Mark Yatskar, Yejin Choi, and Luke Zettlemoyer)</td>
+                <td>ACL</td>
+                <td>2017</td>
+                <td></td>
+                <td><a href="https://arxiv.org/abs/1704.08381">arXiv</a></td>
+                <td><button topic="parsing" on="0">Parsing</button> <button topic="neural" on="0">+Neural</button></td>
+            </tr>
+        
+            <tr>
+                <td>Abstract Meaning Representation Parsing using LSTM Recurrent Neural Networks </td>
+                <td>(William Foland and James H. Martin)</td>
+                <td>ACL</td>
+                <td>2017</td>
+                <td></td>
+                <td></td>
+                <td><button topic="parsing" on="0">Parsing</button> <button topic="neural" on="0">+Neural</button></td>
+            </tr>
+        
+            <tr>
+                <td>Neural Semantic Parsing by Character-based Translation: Experiments with Abstract Meaning Representations </td>
+                <td>(Rik van Noord and Johan Bos)</td>
+                <td></td>
+                <td>2017</td>
+                <td></td>
+                <td><a href="https://arxiv.org/abs/1705.09980">arXiv</a></td>
+                <td><button topic="parsing" on="0">Parsing</button> <button topic="neural" on="0">+Neural</button></td>
+            </tr>
+        
+            <tr>
+                <td>RIGA at SemEval-2016 Task 8: Impact of Smatch Extensions and Character-Level Neural Translation on AMR Parsing Accuracy </td>
+                <td>(Guntis Barzdins; Didzis Gosko)</td>
+                <td>SemEval</td>
+                <td>2016</td>
+                <td><a href="https://aclweb.org/anthology/S/S16/S16-1176.pdf">pdf</a></td>
+                <td></td>
+                <td><button topic="parsing" on="0">Parsing</button> <button topic="neural" on="0">+Neural</button></td>
+            </tr>
+        
+            <tr>
+                <td>CU-NLP at SemEval-2016 Task 8: AMR Parsing using LSTM-based Recurrent Neural Networks </td>
+                <td>(William Foland; James H. Martin)</td>
+                <td>SemEval</td>
+                <td>2016</td>
+                <td><a href="https://aclweb.org/anthology/S/S16/S16-1185.pdf">pdf</a></td>
+                <td></td>
+                <td><button topic="parsing" on="0">Parsing</button> <button topic="neural" on="0">+Neural</button></td>
+            </tr>
+        
+            <tr>
                 <td>Oxford at SemEval-2017 Task 9: Neural AMR Parsing with Pointer-Augmented Attention </td>
                 <td>(Jan Buys, Phil Blunsom)</td>
                 <td>SemEval</td>
@@ -320,6 +327,16 @@
             </tr>
         
             <tr>
+                <td>UCL+Sheffield at SemEval-2016 Task 8: Imitation learning for AMR parsing with an alpha-bound </td>
+                <td>(James Goodman; Andreas Vlachos; Jason Naradowsky)</td>
+                <td>SemEval</td>
+                <td>2016</td>
+                <td><a href="https://aclweb.org/anthology/S/S16/S16-1180.pdf">pdf</a></td>
+                <td></td>
+                <td><button topic="parsing" on="0">Parsing</button> <button topic="imitation learning/learning to search" on="0">+Imitation Learning/Learning to Search</button> <button topic="transition-based" on="0">+Transition-based</button></td>
+            </tr>
+        
+            <tr>
                 <td>Noise Reduction and Targeted Exploration in Imitation Learning for Abstract Meaning Representation Parsing </td>
                 <td>(J. Goodman, A. Vlachos, and J. Naradowsky)</td>
                 <td>ACL</td>
@@ -327,6 +344,16 @@
                 <td><a href="http://aclweb.org/anthology/P16-1001">pdf</a></td>
                 <td></td>
                 <td><button topic="parsing" on="0">Parsing</button> <button topic="imitation learning/learning to search" on="0">+Imitation Learning/Learning to Search</button> <button topic="transition-based" on="0">+Transition-based</button></td>
+            </tr>
+        
+            <tr>
+                <td>CLIP@UMD at SemEval-2016 Task 8: Parser for Abstract Meaning Representation using Learning to Search </td>
+                <td>(Sudha Rao; Yogarshi Vyas; Hal Daumé III; Philip Resnik)</td>
+                <td>SemEval</td>
+                <td>2016</td>
+                <td><a href="https://aclweb.org/anthology/S/S16/S16-1184.pdf">pdf</a></td>
+                <td></td>
+                <td><button topic="parsing" on="0">Parsing</button> <button topic="imitation learning/learning to search" on="0">+Imitation Learning/Learning to Search</button> <button topic="graph-based" on="0">+Graph-based</button></td>
             </tr>
         
             <tr>
@@ -516,7 +543,7 @@
                 <td>2014</td>
                 <td><a href="http://www.cs.cmu.edu/%7Ejmflanig/flanigan+etal.acl2014.pdf">pdf</a></td>
                 <td></td>
-                <td><button topic="parsing graph-based" on="0">Parsing +Graph-based</button></td>
+                <td><button topic="parsing" on="0">Parsing</button> <button topic="graph-based" on="0">+Graph-based</button></td>
             </tr>
         
             <tr>
@@ -540,16 +567,6 @@
             </tr>
         
             <tr>
-                <td>Abstract Meaning Representation for Paraphrase Detection </td>
-                <td>(Fuad Issa, Marco Damonte, Shay B. Cohen, Xiaohui Yan, Yi Chang)</td>
-                <td>NAACL-HLT</td>
-                <td>2018</td>
-                <td><a href="http://aclweb.org/anthology/N18-1041">pdf</a></td>
-                <td></td>
-                <td><button topic="applications" on="0">Applications</button> <button topic="paraphrase detection" on="0">+Paraphrase Detection</button></td>
-            </tr>
-        
-            <tr>
                 <td>Abstract Meaning Representation: a survey </td>
                 <td>(Melanie Tosik)</td>
                 <td></td>
@@ -567,86 +584,6 @@
                 <td><a href="https://github.com/nschneid/amr-tutorial">pdf</a></td>
                 <td></td>
                 <td><button topic="overview" on="0">Overview</button></td>
-            </tr>
-        
-            <tr>
-                <td>Cross-lingual Abstract Meaning Representation Parsing </td>
-                <td>(Marco Damonte and Shay B. Cohen)</td>
-                <td></td>
-                <td>2017</td>
-                <td></td>
-                <td><a href="https://arxiv.org/abs/1704.04539">arXiv</a></td>
-                <td><button topic="multilingual" on="0"> +Multilingual</button></td>
-            </tr>
-        
-            <tr>
-                <td>Annotating the Little Prince with Chinese AMRs </td>
-                <td>(B. Li, Y. Wen, L. Bu, W. Qu, and N. Xue)</td>
-                <td>10th Linguistic Annotation Workshop (LAW X)</td>
-                <td>2016</td>
-                <td><a href="https://aclweb.org/anthology/W/W16/W16-1702.pdf">pdf</a></td>
-                <td></td>
-                <td><button topic="multilingual" on="0"> +Multilingual</button></td>
-            </tr>
-        
-            <tr>
-                <td>"An AMR parser for English, French, German, Spanish and Japanese and a new AMR-annotated corpus" </td>
-                <td>(Lucy Vanderwende, Arul Menezes and Chris Quirk)</td>
-                <td>NAACL (Demo session)</td>
-                <td>2015</td>
-                <td><a href="https://aclweb.org/anthology/N/N15/N15-3006.pdf">pdf</a></td>
-                <td></td>
-                <td><button topic="multilingual" on="0"> +Multilingual</button></td>
-            </tr>
-        
-            <tr>
-                <td>"Not an Interlingua, but Close: Comparison of English AMRs to Chinese and Czech" </td>
-                <td>(N. Xue, O. Bojar, J. Hajic, M. Palmer, Z. Uresova, X. Zhang)</td>
-                <td>LREC</td>
-                <td>2014</td>
-                <td><a href="http://www.lrec-conf.org/proceedings/lrec2014/pdf/384_Paper.pdf">pdf</a></td>
-                <td></td>
-                <td><button topic="multilingual" on="0"> +Multilingual</button></td>
-            </tr>
-        
-            <tr>
-                <td>Generation from Abstract Meaning Representation using Tree Transducers </td>
-                <td>(J. Flanigan, C. Dyer, N. A. Smith and J. Carbonell)</td>
-                <td>NAACL</td>
-                <td>2016</td>
-                <td><a href="http://www.cs.cmu.edu/%7Ejmflanig/flanigan+etal.naacl2016.pdf">pdf</a></td>
-                <td></td>
-                <td><button topic="generation" on="0">Generation</button></td>
-            </tr>
-        
-            <tr>
-                <td>Neural Headline Generation on Abstract Meaning Representation </td>
-                <td>(S. Takase, J. Suzuki, N. Okazaki, T. Hirao, M. Nagata)</td>
-                <td>EMNLP</td>
-                <td>2016</td>
-                <td><a href="https://www.aclweb.org/anthology/D/D16/D16-1112.pdf">pdf</a></td>
-                <td></td>
-                <td><button topic="generation" on="0">Generation</button> <button topic="neural" on="0">+Neural</button></td>
-            </tr>
-        
-            <tr>
-                <td>AMR-to-text generation as a Traveling Salesman Problem </td>
-                <td>(L. Song, Y. Zhang, X. Peng, Z. Wang and D. Gildea)</td>
-                <td>EMNLP</td>
-                <td>2016</td>
-                <td></td>
-                <td><a href="https://arxiv.org/abs/1609.07451">arXiv</a></td>
-                <td><button topic="generation" on="0">Generation</button></td>
-            </tr>
-        
-            <tr>
-                <td>Toward Abstractive Summarization Using Semantic Representations </td>
-                <td>(Fei Liu, Jeffrey Flanigan, Sam Thomson, Norman Sadeh, Noah A. Smith)</td>
-                <td>NAACL</td>
-                <td>2015</td>
-                <td><a href="https://aclweb.org/anthology/N/N15/N15-1114.pdf">pdf</a></td>
-                <td></td>
-                <td><button topic="applications" on="0">Applications</button> <button topic="summarization" on="0">+Summarization</button></td>
             </tr>
         
             <tr>
@@ -670,6 +607,16 @@
             </tr>
         
             <tr>
+                <td>Neural Headline Generation on Abstract Meaning Representation </td>
+                <td>(S. Takase, J. Suzuki, N. Okazaki, T. Hirao, M. Nagata)</td>
+                <td>EMNLP</td>
+                <td>2016</td>
+                <td><a href="https://www.aclweb.org/anthology/D/D16/D16-1112.pdf">pdf</a></td>
+                <td></td>
+                <td><button topic="generation" on="0">Generation</button> <button topic="neural" on="0">+Neural</button></td>
+            </tr>
+        
+            <tr>
                 <td>Linguistic realisation as machine translation: Comparing different MT models for AMR-to-text generation </td>
                 <td>(Thiago Castro Ferreira, Iacer Calixto, Sander Wubben, Emiel Krahmer)</td>
                 <td>INLG</td>
@@ -677,6 +624,26 @@
                 <td><a href="http://www.aclweb.org/anthology/W17-3501">pdf</a></td>
                 <td></td>
                 <td><button topic="generation" on="0">Generation</button> <button topic="mt-based" on="0">+MT-based</button></td>
+            </tr>
+        
+            <tr>
+                <td>Generation from Abstract Meaning Representation using Tree Transducers </td>
+                <td>(J. Flanigan, C. Dyer, N. A. Smith and J. Carbonell)</td>
+                <td>NAACL</td>
+                <td>2016</td>
+                <td><a href="http://www.cs.cmu.edu/%7Ejmflanig/flanigan+etal.naacl2016.pdf">pdf</a></td>
+                <td></td>
+                <td><button topic="generation" on="0">Generation</button></td>
+            </tr>
+        
+            <tr>
+                <td>AMR-to-text generation as a Traveling Salesman Problem </td>
+                <td>(L. Song, Y. Zhang, X. Peng, Z. Wang and D. Gildea)</td>
+                <td>EMNLP</td>
+                <td>2016</td>
+                <td></td>
+                <td><a href="https://arxiv.org/abs/1609.07451">arXiv</a></td>
+                <td><button topic="generation" on="0">Generation</button></td>
             </tr>
         
             <tr>
@@ -752,6 +719,16 @@
             <tr>
                 <td>Toward Abstractive Summarization Using Semantic Representations </td>
                 <td>(Fei Liu, Jeffrey Flanigan, Sam Thomson, Norman Sadeh, Noah A. Smith)</td>
+                <td>NAACL</td>
+                <td>2015</td>
+                <td><a href="https://aclweb.org/anthology/N/N15/N15-1114.pdf">pdf</a></td>
+                <td></td>
+                <td><button topic="applications" on="0">Applications</button> <button topic="summarization" on="0">+Summarization</button></td>
+            </tr>
+        
+            <tr>
+                <td>Toward Abstractive Summarization Using Semantic Representations </td>
+                <td>(Fei Liu, Jeffrey Flanigan, Sam Thomson, Norman Sadeh, Noah A. Smith)</td>
                 <td></td>
                 <td>2018</td>
                 <td></td>
@@ -780,6 +757,26 @@
             </tr>
         
             <tr>
+                <td>Addressing a Question Answering Challenge by Combining Statistical Methods with Inductive Rule Learning and Reasoning </td>
+                <td>(A. Mitra, C. Baral)</td>
+                <td>AAAI</td>
+                <td>2016</td>
+                <td><a href="http://www.public.asu.edu/%7Ecbaral/papers/aaai2016-sub.pdf">pdf</a></td>
+                <td></td>
+                <td><button topic="applications" on="0">Applications</button> <button topic="question answering" on="0">+Question Answering</button></td>
+            </tr>
+        
+            <tr>
+                <td>Abstract Meaning Representation for Paraphrase Detection </td>
+                <td>(Fuad Issa, Marco Damonte, Shay B. Cohen, Xiaohui Yan, Yi Chang)</td>
+                <td>NAACL-HLT</td>
+                <td>2018</td>
+                <td><a href="http://aclweb.org/anthology/N18-1041">pdf</a></td>
+                <td></td>
+                <td><button topic="applications" on="0">Applications</button> <button topic="paraphrase detection" on="0">+Paraphrase Detection</button></td>
+            </tr>
+        
+            <tr>
                 <td>Dependency and AMR Embeddings for Drug-Drug Interaction Extraction from Biomedical Literature </td>
                 <td>(Yanshan Wang, Sijia Liu, Majid Rastegar-Mojarad, Liwei Wang, Feichen Shen, Fei Liu, Hongfang Liu)</td>
                 <td>ACM-BCB</td>
@@ -800,6 +797,16 @@
             </tr>
         
             <tr>
+                <td>Extracting Biomolecular Interactions Using Semantic Parsing of Biomedical Text </td>
+                <td>(S. Garg, A. Galstyan, U. Hermjakob, and D. Marcu)</td>
+                <td>AAAI</td>
+                <td>2016</td>
+                <td></td>
+                <td><a href="http://arxiv.org/pdf/1512.01587v1">arXiv</a></td>
+                <td><button topic="applications" on="0">Applications</button> <button topic="information extraction" on="0">+Information Extraction</button></td>
+            </tr>
+        
+            <tr>
                 <td>Abstract Meaning Representation as Linked Data </td>
                 <td>(G. Burns, U. Hermjakob, J. L. Ambite)</td>
                 <td>International Semantic Web Conference Resources Track</td>
@@ -810,16 +817,6 @@
             </tr>
         
             <tr>
-                <td>Addressing a Question Answering Challenge by Combining Statistical Methods with Inductive Rule Learning and Reasoning </td>
-                <td>(A. Mitra, C. Baral)</td>
-                <td>AAAI</td>
-                <td>2016</td>
-                <td><a href="http://www.public.asu.edu/%7Ecbaral/papers/aaai2016-sub.pdf">pdf</a></td>
-                <td></td>
-                <td><button topic="applications" on="0">Applications</button> <button topic="question answering" on="0">+Question Answering</button></td>
-            </tr>
-        
-            <tr>
                 <td>Machine Comprehension Using Rich Semantic Representations  </td>
                 <td>(M. Sachan, E. Xing)</td>
                 <td>ACL</td>
@@ -827,16 +824,6 @@
                 <td><a href="https://aclweb.org/anthology/P/P16/P16-2079.pdf">pdf</a></td>
                 <td></td>
                 <td><button topic="applications" on="0">Applications</button></td>
-            </tr>
-        
-            <tr>
-                <td>Extracting Biomolecular Interactions Using Semantic Parsing of Biomedical Text </td>
-                <td>(S. Garg, A. Galstyan, U. Hermjakob, and D. Marcu)</td>
-                <td>AAAI</td>
-                <td>2016</td>
-                <td></td>
-                <td><a href="http://arxiv.org/pdf/1512.01587v1">arXiv</a></td>
-                <td><button topic="applications" on="0">Applications</button> <button topic="information extraction" on="0">+Information Extraction</button></td>
             </tr>
         
             <tr>
@@ -1077,6 +1064,46 @@
                 <td><a href="http://aclweb.org/anthology/N18-2023">pdf</a></td>
                 <td></td>
                 <td><button topic="parsing" on="0"> Parsing</button> <button topic="transition-based" on="0">+Transition-based</button></td>
+            </tr>
+        
+            <tr>
+                <td>Cross-lingual Abstract Meaning Representation Parsing </td>
+                <td>(Marco Damonte and Shay B. Cohen)</td>
+                <td></td>
+                <td>2017</td>
+                <td></td>
+                <td><a href="https://arxiv.org/abs/1704.04539">arXiv</a></td>
+                <td><button topic="multilingual" on="0"> +Multilingual</button></td>
+            </tr>
+        
+            <tr>
+                <td>Annotating the Little Prince with Chinese AMRs </td>
+                <td>(B. Li, Y. Wen, L. Bu, W. Qu, and N. Xue)</td>
+                <td>10th Linguistic Annotation Workshop (LAW X)</td>
+                <td>2016</td>
+                <td><a href="https://aclweb.org/anthology/W/W16/W16-1702.pdf">pdf</a></td>
+                <td></td>
+                <td><button topic="multilingual" on="0"> +Multilingual</button></td>
+            </tr>
+        
+            <tr>
+                <td>"An AMR parser for English, French, German, Spanish and Japanese and a new AMR-annotated corpus" </td>
+                <td>(Lucy Vanderwende, Arul Menezes and Chris Quirk)</td>
+                <td>NAACL (Demo session)</td>
+                <td>2015</td>
+                <td><a href="https://aclweb.org/anthology/N/N15/N15-3006.pdf">pdf</a></td>
+                <td></td>
+                <td><button topic="multilingual" on="0"> +Multilingual</button></td>
+            </tr>
+        
+            <tr>
+                <td>"Not an Interlingua, but Close: Comparison of English AMRs to Chinese and Czech" </td>
+                <td>(N. Xue, O. Bojar, J. Hajic, M. Palmer, Z. Uresova, X. Zhang)</td>
+                <td>LREC</td>
+                <td>2014</td>
+                <td><a href="http://www.lrec-conf.org/proceedings/lrec2014/pdf/384_Paper.pdf">pdf</a></td>
+                <td></td>
+                <td><button topic="multilingual" on="0"> +Multilingual</button></td>
             </tr>
         
             <tr>

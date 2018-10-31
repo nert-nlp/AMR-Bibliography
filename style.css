@@ -1,7 +1,31 @@
+h1 {
+	font-family: "HelveticaNeue-Light", sans-serif;
+	font-size:30px;
+}
+
+
+math {
+	font-family: "Cambria Math";
+	font-size: 14.5px;
+	color: grey;
+}
+math:hover {
+	color: #66ccff;
+}
+
+.instructions{
+	font-family: "HelveticaNeue-Light", sans-serif;
+}
+
+.description{
+	font-family: "HelveticaNeue-Light", sans-serif;
+	font-size: 13px;
+}
 
 
 table {
-	font-size: 10pt !important;
+	font-family: "HelveticaNeue-Light", sans-serif !important;
+	font-size: 11pt !important;
 }
 
 
