@@ -1,3 +1,9 @@
+
+
+file = 'data/amr_papers.tsv'
+file2 = 'index.html'
+template = open('template.html','r',encoding='utf8').read()
+
 # <table style="width:100%">
 #   <tr>
 #     <th>Authors</th>
@@ -64,9 +70,6 @@ def authors(line):
     first_author = first_author.split()[-1]
     return '<span style="display:none;">'+first_author+'</span>' + x
 
-file = 'data/amr_papers.tsv'
-file2 = 'index.html'
-template = open('template.html','r',encoding='utf8').read()
 with open(file, 'r', encoding='utf8') as f:
     i = 0
     l, r='{','}'
