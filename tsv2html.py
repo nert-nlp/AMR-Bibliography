@@ -60,10 +60,11 @@ def tags(line):
 
 def authors(line):
     x = get(line,'authors')
-    first_author = x.split()[1]
+    first_author = x.split(',')[0].strip()
+    first_author = first_author.split()[-1]
     return '<span style="display:none;">'+first_author+'</span>' + x
 
-file = 'amr_papers.tsv'
+file = 'data/amr_papers.tsv'
 file2 = 'index.html'
 template = open('template.html','r',encoding='utf8').read()
 with open(file, 'r', encoding='utf8') as f:

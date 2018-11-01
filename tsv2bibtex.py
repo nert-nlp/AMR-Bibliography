@@ -14,7 +14,7 @@ def get(text,col):
     return '{'+text.split('\t')[col]+'}'
 
 
-file = 'amr_papers.tsv'
+file = 'data/amr_papers.tsv'
 file2 = 'amr_papers.bib'
 with open(file, 'r', encoding='utf8') as f:
     i = 0
