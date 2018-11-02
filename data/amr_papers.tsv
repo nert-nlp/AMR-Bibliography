@@ -85,7 +85,7 @@ Wei-Te Chen	Learning to Map Dependency Parses to Abstract Meaning Representation
 "Jonas Groschwitz, Matthias Lindemann, Meaghan Fowlie, Mark Johnson, Alexander Koller"	AMR dependency parsing with a typed semantic algebra	ACL	2018	http://aclweb.org/anthology/P18-1170	https://arxiv.org/abs/1805.11465	"Parsing, Graph algebra"
 "Chunchuan Lyu, Ivan Titov"	AMR Parsing as Graph Prediction with Latent Alignment	ACL	2018	http://aclweb.org/anthology/P18-1037	https://arxiv.org/abs/1805.05286	Parsing
 "A. Mitra, C. Baral"	Addressing a Question Answering Challenge by Combining Statistical Methods with Inductive Rule Learning and Reasoning	AAAI	2016	http://www.public.asu.edu/%7Ecbaral/papers/aaai2016-sub.pdf		"Applications, Question Answering"
-"S. Garg, A. Galstyan, U. Hermjakob, D. Marcu"	Extracting Biomolecular Interactions Using Semantic Parsing of Biomedical Text	AAAI	2016		http://arxiv.org/pdf/1512.01587v1	"Applications, Information Extraction"
+"S. Garg, A. Galstyan, U. Hermjakob, D. Marcu"	Extracting Biomolecular Interactions Using Semantic Parsing of Biomedical Text	AAAI	2016		https://arxiv.org/abs/1512.01587	"Applications, Information Extraction"
 "B. Li, Y. Wen, L. Bu, W. Qu, N. Xue"	Annotating the Little Prince with Chinese AMRs	10th Linguistic Annotation Workshop (LAW X)	2016	https://aclweb.org/anthology/W/W16/W16-1702.pdf		 Multilingual
 "Sebastian Beschke, Wolfgang Menzel"	Graph Algebraic Combinatory Categorial Grammar	*SEM	2018	http://aclweb.org/anthology/S18-2006		"Parsing, CCG, Graph algebra"
 "Richard Crouch, Aikaterini-Lida Kalouli"	Named Graphs for Semantic Representation	*SEM	2018	http://aclweb.org/anthology/S18-2013		AMR Extensions
