@@ -100,5 +100,5 @@ Melanie Tosik	Abstract Meaning Representation: a survey		2015	http://www.melanie
 "Kris Cao, Stephen Clark"	Generating syntactically varied realisations from AMR graphs	preprint	2018		https://arxiv.org/abs/1804.07707	Generation
 Ulf Hermjakob	AMR Annotation Dictionary (maintained by Ulf Hermjakob).			"{ Tool : http://www.isi.edu/~ulf/amr/lib/amr-dict.html""}"		Annotation tool
 "Zhijiang Guo, Wei Lu"	Better Transition-Based AMR Parsing with a Refined Search Space	EMNLP	2018	http://aclweb.org/anthology/D18-1198		"Parsing, Transition-based"
-"Yufei Chen, Weiwei Sun, Xiaojun Wan"	An AMR Aligner Tuned by Transition-based Parser	EMNLP	2018	http://aclweb.org/anthology/D18-1264		"Alignment, Parsing, Transition-based"
+"Yijia Liu, Wanxiang Che, Bo Zheng, Bing Qin, Ting Liu"	An AMR Aligner Tuned by Transition-based Parser	EMNLP	2018	http://aclweb.org/anthology/D18-1264	https://arxiv.org/abs/1810.03541	"Alignment, Parsing, Transition-based"
 "Hardy Hardy, Andreas Vlachos"	 Guided Neural Language Generation for Abstractive Summarization using Abstract Meaning Representation	EMNLP	2018	http://aclweb.org/anthology/D18-1086		"Applications, Summarization"
