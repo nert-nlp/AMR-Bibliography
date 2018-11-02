@@ -26,7 +26,7 @@ template = open('template.html' ,'r' ,encoding='utf8').read()
 rows = []
 
 def get(text ,col):
-    columns = {'authors' :0 ,'title' :1 ,'year' :3 ,'venue' :2 ,'links' :4 ,'arxiv' :5 ,'tags' :6}
+    columns = {'authors' :0 ,'title' :1 ,'year' :3 ,'venue' :2 ,'links' :4 ,'arxiv' :5 ,'tags' :6,'review' :7}
     x = text.split('\t')[columns[col]]
     if x and x[0] == '"' and x[-1] == '"':
         x = x[1:-1]
@@ -94,9 +94,9 @@ with open(file, 'r', encoding='utf8') as f:
                 <td>{link(line)}</td>
                 <td>{arxiv(line)}</td>
                 <td>{tags(line)}</td>
+                <td>{'No' if get(line,'review')=='0' else 'Yes'}</td>
             </tr>
         '''
-        print(bib)
         rows.append(bib)
         i += 1
 
@@ -112,6 +112,7 @@ with open(file2, 'w', encoding='utf8') as f:
             <th>Link(s)</th>
             <th>Arxiv</th>
             <th>Tags</th>
+            <th>Reviewd</th>
         </tr>
     </thead>
     <tbody>
