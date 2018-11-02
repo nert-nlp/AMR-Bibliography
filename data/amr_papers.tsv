@@ -96,7 +96,7 @@ Melanie Tosik	Abstract Meaning Representation: a survey		2015	http://www.melanie
 "Rik van Noord, Johan Bos"	Neural Semantic Parsing by Character-based Translation: Experiments with Abstract Meaning Representations	preprint	2017		https://arxiv.org/abs/1705.09980	"Parsing, Neural"
 "Chenhui Chu, Sadao Kurohashi"	Supervised Syntax-based Alignment between English Sentences and Abstract Meaning Representation Graphs	preprint	2017		https://arxiv.org/abs/1606.02126	"Alignment, Syntax/grammar"
 "Shibhansh Dohare, Harish Karnick, Vivek Gupta"	Text Summarization using Abstract Meaning Representation	preprint	2017		https://arxiv.org/abs/1706.01678	"Applications, Summarization"
-"Kexin Liao, Logan Lebanoff, Fei Liu"	Abstract Meaning Representation for Multi-Document Summarization	preprint	2018		https://arxiv.org/abs/1806.05655	"Applications, Summarization"
+"Kexin Liao, Logan Lebanoff, Fei Liu"	Abstract Meaning Representation for Multi-Document Summarization	COLING	2018	http://aclweb.org/anthology/C18-1101	https://arxiv.org/abs/1806.05655	"Applications, Summarization"
 "Kris Cao, Stephen Clark"	Generating syntactically varied realisations from AMR graphs	preprint	2018		https://arxiv.org/abs/1804.07707	Generation
 Ulf Hermjakob	AMR Annotation Dictionary (maintained by Ulf Hermjakob).			"{ Tool : http://www.isi.edu/~ulf/amr/lib/amr-dict.html""}"		Annotation tool
 "Zhijiang Guo, Wei Lu"	Better Transition-Based AMR Parsing with a Refined Search Space	EMNLP	2018	http://aclweb.org/anthology/D18-1198		"Parsing, Transition-based"
