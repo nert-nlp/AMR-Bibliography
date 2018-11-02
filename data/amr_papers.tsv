@@ -42,7 +42,7 @@ Ulf Hermjakob	AMR Editor: A tool to build Abstract Meaning Representations	manus
 "Noelia Migueles-Abraira, Rodrigo Agerri, Arantza Diaz de Ilarraza"	Annotating Abstract Meaning Representations for Spanish	LREC	2018	http://www.lrec-conf.org/proceedings/lrec2018/pdf/743.pdf		"Annotation, Multilingual"
 "Tim O'Gorman, Sameer Pradhan, Martha Palmer, Julia Bonn, Kathryn Conger, James Gung"	The New Propbank: Aligning Propbank with AMR through POS Unification	LREC	2018	http://www.lrec-conf.org/proceedings/lrec2018/pdf/1074.pdf		AMR Extensions
 "Charles Welch, Jonathan K. Kummerfeld, Song Feng, Rada Mihalcea"	World Knowledge for Abstract Meaning Representation Parsing	LREC	2018	http://www.lrec-conf.org/proceedings/lrec2018/pdf/1085.pdf		AMR Extensions
-"Lucia Donatelli, Michael Regan, William Croft, Nathan Schneider"	Annotation of tense and aspect semantics for sentential AMR	LAW-MWE-CxG	2018	http://people.cs.georgetown.edu/nschneid/p/amrtenseaspect.pdf		AMR Extensions
+"Lucia Donatelli, Michael Regan, William Croft, Nathan Schneider"	Annotation of tense and aspect semantics for sentential AMR	LAW-MWE-CxG	2018	http://aclweb.org/anthology/W18-4912		AMR Extensions
 "H. Björklund, F. Drewes, P. Ericson"	Between a Rock and a Hard Place -- Uniform Parsing for Hyperedge Replacement DAG Grammars	LATA	2016	http://www8.cs.umu.se/research/uminf/reports/2015/013/part1.pdf		"Parsing, Graph algebra"
 "Jonas Groschwitz, Meaghan Fowlie, Mark Johnson, Alexander Koller"	A constrained graph algebra for semantic parsing with AMRs	IWCS	2017	http://www.aclweb.org/anthology/W17-6810		"Parsing, Graph algebra"
 "G. Burns, U. Hermjakob, J. L. Ambite"	Abstract Meaning Representation as Linked Data	International Semantic Web Conference Resources Track	2016	http://link.springer.com/chapter/10.1007/978-3-319-46547-0_2		Applications
@@ -99,3 +99,6 @@ Melanie Tosik	Abstract Meaning Representation: a survey		2015	http://www.melanie
 "Kexin Liao, Logan Lebanoff, Fei Liu"	Abstract Meaning Representation for Multi-Document Summarization	preprint	2018		https://arxiv.org/abs/1806.05655	"Applications, Summarization"
 "Kris Cao, Stephen Clark"	Generating syntactically varied realisations from AMR graphs	preprint	2018		https://arxiv.org/abs/1804.07707	Generation
 Ulf Hermjakob	AMR Annotation Dictionary (maintained by Ulf Hermjakob).			"{ Tool : http://www.isi.edu/~ulf/amr/lib/amr-dict.html""}"		Annotation tool
+"Zhijiang Guo, Wei Lu"	Better Transition-Based AMR Parsing with a Refined Search Space	EMNLP	2018	http://aclweb.org/anthology/D18-1198		"Parsing, Transition-based"
+"Yufei Chen, Weiwei Sun, Xiaojun Wan"	An AMR Aligner Tuned by Transition-based Parser	EMNLP	2018	http://aclweb.org/anthology/D18-1264		"Alignment, Parsing, Transition-based"
+"Hardy Hardy, Andreas Vlachos"	 Guided Neural Language Generation for Abstractive Summarization using Abstract Meaning Representation	EMNLP	2018	http://aclweb.org/anthology/D18-1086		"Applications, Summarization"
