@@ -66,6 +66,7 @@ a:hover {
 
 .container {
 	text-align: center;
+	max-width: 25em;
 }
 
 .container pre {
