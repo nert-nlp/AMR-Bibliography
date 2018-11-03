@@ -16,7 +16,6 @@ h1 {
 
 pre {
 	font-family: "Cambria Math";
-	font-size: 14.5px;
 }
 
 .amr-edge {
@@ -52,9 +51,9 @@ button.green {
 	background-color: lightgreen;
 
 }
- tr.green td {
+tr.green td {
 	 background-color: #b7ff47 !important;
- }
+}
 
 a {
 	text-decoration: none;
@@ -73,7 +72,7 @@ a:hover {
 .container pre {
 	display: inline-block;
 	text-align: left;
-	font-size: 17px;
+	font-size: 14.5px;
 }
 
 .row {
