@@ -72,4 +72,5 @@ a:hover {
 .container pre {
 	display: inline-block;
 	text-align: left;
+	font-size: 17px;
 }
