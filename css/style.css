@@ -9,9 +9,6 @@ math {
 	font-size: 14.5px;
 	color: grey;
 }
-math:hover {
-	color: #66ccff;
-}
 
 .instructions{
 	font-family: "HelveticaNeue-Light", sans-serif;
@@ -47,3 +44,15 @@ button.green {
  tr.green td {
 	 background-color: #b7ff47 !important;
  }
+
+a {
+	text-decoration: none;
+	color: rgb(31, 114, 230);
+	font-family: "HelveticaNeue-Light", sans-serif;
+	font-size: 14px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
