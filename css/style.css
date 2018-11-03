@@ -74,3 +74,11 @@ a:hover {
 	text-align: left;
 	font-size: 17px;
 }
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
