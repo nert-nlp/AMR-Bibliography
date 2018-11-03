@@ -94,7 +94,6 @@ with open(file, 'r', encoding='utf8') as f:
                 <td>{link(line)}</td>
                 <td>{arxiv(line)}</td>
                 <td>{tags(line)}</td>
-                <td>{'No' if get(line,'review')=='0' else 'Yes'}</td>
             </tr>
         '''
         rows.append(bib)
@@ -112,7 +111,6 @@ with open(file2, 'w', encoding='utf8') as f:
             <th>Link(s)</th>
             <th>Arxiv</th>
             <th>Tags</th>
-            <th>Reviewd</th>
         </tr>
     </thead>
     <tbody>
