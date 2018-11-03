@@ -3,9 +3,7 @@
 <head>
 <meta charset="UTF-8"> 
   <title>AMR Bibliography</title>
-  <style type="text/css">
-    h1 { text-align: center; }
-  </style>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
 <script type="text/javascript" src="js/jquery.tablesorter/jquery.tablesorter.min.js"></script> 
@@ -16,72 +14,73 @@
 <!-- tablesorter widgets (optional) -->
 </head>
 <body>
-<center>
-<h1>AMR Bibliography</h1>
-</center>
-<p style="text-align: center;"><a href="http://amr.isi.edu/">Abstract Meaning Representation</a> (<span class="math">:AMR</span>) is a graph framework for representing sentence meaning 
-  which has been the subject of considerable research in natural language processing.<br/>
-  This bibliography is maintained by <a href="http://www.austinblodgett.name/">Austin Blodgett</a> and <a href="http://nathan.cl">Nathan Schneider</a>, based in part on <a href="https://amr.isi.edu/research.html">this one</a> and <a href="http://people.cs.georgetown.edu/nschneid/cosc672/s17/amr-papers.html">this one</a>.
-</p>
-<div class="container">
-<pre>
-(j / join-01 
-            <span class="amr-edge">:ARG0</span> (p / person <span class="amr-edge">:wiki</span> - 
-                        <span class="amr-edge">:name</span> (p2 / name <span class="amr-edge">:op1</span> "Pierre" <span class="amr-edge">:op2</span> "Vinken") 
-                        <span class="amr-edge">:age</span> (t / temporal-quantity <span class="amr-edge">:quant</span> 61 
-                                    <span class="amr-edge">:unit</span> (y / year))) 
-            <span class="amr-edge">:ARG1</span> (b / board 
-                        <span class="amr-edge">:ARG1-of</span> (h / have-org-role-91 
-                                    <span class="amr-edge">:ARG0</span> p 
-                                    <span class="amr-edge">:ARG2</span> (d2 / director 
-                                                <span class="amr-edge">:mod</span> (e / executive <span class="amr-edge">:polarity</span> -)))) 
-            <span class="amr-edge">:time</span> (d / date-entity <span class="amr-edge">:month</span> 11 <span class="amr-edge">:day</span> 29))
-</pre>
-</div>
-<center>
-<div class='instructions'>
-<h3>Explore the research on AMR</h3>
-The table below is sortable by column.<br/>
-You can highlight rows by topic (click on a topic <span class="math">:TAG</span>).
-The main topics are:<br/>
-</div>
-<br/>
-<div class='description'>
-<span class="math">:Annotation</span>: Research on and methods for AMR annotators<br/>
-<span class="math">:Parsing</span>: Produce an AMR from natural language text <br/>
-(See <a href="https://nlpprogress.com/english/semantic_parsing.html#amr-parsing">state of the art</a> on NLP-progress)<br/>
-<span class="math">:Generation</span>: Produce natural language text from an AMR<br/>
-<span class="math">:Applications</span>: Summarization, Information Extraction, Biomedical, etc.<br/>
-<span class="math">:Alignment</span>: Find the AMR subgraph corresponding to a word or phrase<br/>
-<span class="math">:AMR Extensions</span>: Research which adds features to the AMR annotation scheme<br/>
-<span class="math">:Multilingual</span>: Extensions of AMR from its original language (English) to more languages<br/>
-<!--Other:
-<span class="math">:Overview</span>, 
-<span class="math">:Evaluation</span>, 
-<span class="math">:Annotation tools</span>, 
-<span class="math">:Shared Task Overview</span>, 
-<span class="math">:+Neural</span>, 
-<span class="math">:+Syntax/grammar</span>, 
-<span class="math">:+CCG</span>, 
-<span class="math">:+Co-reference</span>, 
-<span class="math">:+Graph algebra</span>, <br/>
-Parsing methods: 
-<span class="math">:+Conversion-based</span>, 
-<span class="math">:+Graph-based</span>, 
-<span class="math">:+Transition-based</span>, 
-<span class="math">:+MT-based</span>, 
-<span class="math">:+Imitation Learning/Learning to Search</span>, <br/>
-Applications: 
-<span class="math">:+Paraphrase Detection</span>, 
-<span class="math">:+Question Answering</span>, 
-<span class="math">:+Summarization</span>, 
-<span class="math">:+Information Extraction</span>, <br/>-->
-</div>
-<br/>
-<p>To suggest or update a paper, submit a pull request for <a href="https://github.com/nert-gu/AMR-Bibliography/blob/master/data/amr_papers.tsv">this TSV file</a>.
-  Use the <a href="https://github.com/nert-gu/AMR-Bibliography/issues">issue tracker</a> for bug reports and feature requests.
+  <h1>AMR Bibliography</h1>
+  <p style="text-align: center;"><a href="http://amr.isi.edu/">Abstract Meaning Representation</a> (<span class="math">:AMR</span>) is a graph framework for representing sentence meaning 
+    which has been the subject of considerable research in natural language processing.<br/>
+    This bibliography is maintained by <a href="http://www.austinblodgett.name/">Austin Blodgett</a> and <a href="http://nathan.cl">Nathan Schneider</a>, based in part on <a href="https://amr.isi.edu/research.html">this one</a> and <a href="http://people.cs.georgetown.edu/nschneid/cosc672/s17/amr-papers.html">this one</a>.
   </p>
-</center>
+  <div class="row">
+    <div class="column" style="text-align: center;">
+      <div class='instructions'>
+        <h3>Explore the research on AMR</h3>
+        <p>The table below is sortable by column.<br/>
+          You can highlight rows by topic (click on a topic <span class="math">:TAG</span>).
+          The main topics are:</p>
+      </div>
+      <div class='description'>
+        <span class="math">:Annotation</span>: Research on and methods for AMR annotators<br/>
+        <span class="math">:Parsing</span>: Produce an AMR from natural language text <br/>
+        (See <a href="https://nlpprogress.com/english/semantic_parsing.html#amr-parsing">state of the art</a> on NLP-progress)<br/>
+        <span class="math">:Generation</span>: Produce natural language text from an AMR<br/>
+        <span class="math">:Applications</span>: Summarization, Information Extraction, Biomedical, etc.<br/>
+        <span class="math">:Alignment</span>: Find the AMR subgraph corresponding to a word or phrase<br/>
+        <span class="math">:AMR Extensions</span>: Research which adds features to the AMR annotation scheme<br/>
+        <span class="math">:Multilingual</span>: Extensions of AMR from its original language (English) to more languages<br/>
+        <!--Other:
+        <span class="math">:Overview</span>, 
+        <span class="math">:Evaluation</span>, 
+        <span class="math">:Annotation tools</span>, 
+        <span class="math">:Shared Task Overview</span>, 
+        <span class="math">:+Neural</span>, 
+        <span class="math">:+Syntax/grammar</span>, 
+        <span class="math">:+CCG</span>, 
+        <span class="math">:+Co-reference</span>, 
+        <span class="math">:+Graph algebra</span>, <br/>
+        Parsing methods: 
+        <span class="math">:+Conversion-based</span>, 
+        <span class="math">:+Graph-based</span>, 
+        <span class="math">:+Transition-based</span>, 
+        <span class="math">:+MT-based</span>, 
+        <span class="math">:+Imitation Learning/Learning to Search</span>, <br/>
+        Applications: 
+        <span class="math">:+Paraphrase Detection</span>, 
+        <span class="math">:+Question Answering</span>, 
+        <span class="math">:+Summarization</span>, 
+        <span class="math">:+Information Extraction</span>, <br/>-->
+      </div>
+      <p>To suggest or update a paper, submit a pull request for <a href="https://github.com/nert-gu/AMR-Bibliography/blob/master/data/amr_papers.tsv">this TSV file</a>.
+        Use the <a href="https://github.com/nert-gu/AMR-Bibliography/issues">issue tracker</a> for bug reports and feature requests.
+        </p>
+    </div>
+    <div class="column">
+      <div class="container">
+        <pre>
+        (j / join-01 
+                    <span class="amr-edge">:ARG0</span> (p / person <span class="amr-edge">:wiki</span> - 
+                                <span class="amr-edge">:name</span> (p2 / name <span class="amr-edge">:op1</span> "Pierre" <span class="amr-edge">:op2</span> "Vinken") 
+                                <span class="amr-edge">:age</span> (t / temporal-quantity <span class="amr-edge">:quant</span> 61 
+                                            <span class="amr-edge">:unit</span> (y / year))) 
+                    <span class="amr-edge">:ARG1</span> (b / board 
+                                <span class="amr-edge">:ARG1-of</span> (h / have-org-role-91 
+                                            <span class="amr-edge">:ARG0</span> p 
+                                            <span class="amr-edge">:ARG2</span> (d2 / director 
+                                                        <span class="amr-edge">:mod</span> (e / executive <span class="amr-edge">:polarity</span> -)))) 
+                    <span class="amr-edge">:time</span> (d / date-entity <span class="amr-edge">:month</span> 11 <span class="amr-edge">:day</span> 29))
+        </pre>
+      </div>
+    </div>
+  </div>
+
 <div style="overflow-x:auto;">
 
 {}

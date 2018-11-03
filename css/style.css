@@ -1,5 +1,9 @@
+body,tbody {
+	font-family: "Roboto", "HelveticaNeue-Light", sans-serif;
+}
+
 h1 {
-	font-family: "HelveticaNeue-Light", sans-serif;
+	text-align: center;
 	font-size:30px;
 }
 
@@ -19,18 +23,16 @@ pre {
 	color: grey;
 }
 
-.instructions{
-	font-family: "HelveticaNeue-Light", sans-serif;
+.instructions {
+	
 }
 
-.description{
-	font-family: "HelveticaNeue-Light", sans-serif;
+.description {
 	font-size: 13px;
 }
 
 
 table {
-	font-family: "HelveticaNeue-Light", sans-serif !important;
 	font-size: 11pt !important;
 }
 
@@ -57,8 +59,6 @@ button.green {
 a {
 	text-decoration: none;
 	color: #15c;
-	font-family: "HelveticaNeue-Light", sans-serif;
-	font-size: 14px;
 }
 
 a:hover {
@@ -73,4 +73,12 @@ a:hover {
 	display: inline-block;
 	text-align: left;
 	font-size: 17px;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
 }
