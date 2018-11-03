@@ -16,7 +16,6 @@ h1 {
 
 pre {
 	font-family: "Cambria Math";
-	font-size: 14.5px;
 }
 
 .amr-edge {
@@ -76,9 +75,20 @@ a:hover {
 }
 
 .row {
-    display: flex;
+	display: flex;
+	align-items: center;
 }
 
-.column {
-    flex: 50%;
+.column { flex: 30%; }
+.column:first-child {
+	flex: 70%;
+}
+.column > .container {
+	border: solid 1px #eee;
+}
+.column > .container > .caption {
+	font-size: 90%;
+	max-width: 25em;
+	margin-left: auto;
+	margin-right: auto;
 }
