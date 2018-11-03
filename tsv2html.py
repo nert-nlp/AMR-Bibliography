@@ -43,18 +43,18 @@ def link(line):
             if ':' not in l: continue
             s = l.split(':', 1)
             links[s[0].strip()] = s[1].strip()
-        return ', '.join(f'<a href="{links[l]}">{l}</a>' for l in links)
+        return ', '.join(f'<a href="{links[l]}" target="_blank">{l}</a>' for l in links)
     elif 'href' in x:
         return x
     elif x.strip():
-        return f'<a href="{x}">pdf</a>'
+        return f'<a href="{x}" target="_blank">pdf</a>'
     else:
         return ''
 
 def arxiv(line):
     x = get(line ,'arxiv')
     if x.strip():
-        return f'<a href="{x}">arXiv</a>'
+        return f'<a href="{x}" target="_blank">arXiv</a>'
     else:
         return ''
 
