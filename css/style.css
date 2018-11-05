@@ -69,6 +69,7 @@ a:hover {
 .container {
 	text-align: center;
 	max-width: 25em;
+	padding: 3px;
 }
 
 .container pre {
@@ -82,16 +83,18 @@ a:hover {
 	align-items: center;
 }
 
-.column { flex: 30%; }
+.column { flex: 40%; }
 .column:first-child {
-	flex: 70%;
+	flex: 60%;
 }
 .column > .container {
 	border: solid 1px #eee;
 }
 .column > .container > .caption {
 	font-size: 90%;
-	max-width: 25em;
-	margin-left: auto;
-	margin-right: auto;
+	font-family: "HelveticaNeue-Light", sans-serif;
+	margin: 0px;
+	background-color: #f7f7f7;
+	border: solid 1px #ccc;
+	padding: 5px;
 }
