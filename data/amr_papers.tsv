@@ -42,7 +42,7 @@ Jonathan May	SemEval-2016 Task 8: Meaning Representation Parsing	SemEval	2016	ht
 "L. Song, Y. Zhang, X. Peng, Z. Wang, D. Gildea"	AMR-to-text generation as a Traveling Salesman Problem	EMNLP	2016		https://arxiv.org/abs/1609.07451	"Generation, Graph-based"
 "Lauritz Brandt, David Grimm, Mengfei Zhou, Yannick Versley"	ICL-HD at SemEval-2016 Task 8: Meaning Representation Parsing - Augmenting AMR Parsing with a Preposition Semantic Role Labeling Neural Network 	SemEval	2016	https://aclweb.org/anthology/S/S16/S16-1179.pdf		Parsing
 "M. Sachan, E. Xing"	Machine Comprehension Using Rich Semantic Representations 	ACL	2016	https://aclweb.org/anthology/P/P16/P16-2079.pdf		"Applications, Question Answering"
-"Nima Pourdamghani, Kevin Knight, Ulf Hermjakob"	Generating English from Abstract Meaning Representations	of INLG	2016	http://aclweb.org/anthology/W/W16/W16-6603.pdf		"Generation, MT-based"
+"Nima Pourdamghani, Kevin Knight, Ulf Hermjakob"	Generating English from Abstract Meaning Representations	INLG	2016	http://aclweb.org/anthology/W/W16/W16-6603.pdf		"Generation, MT-based"
 "S. Garg, A. Galstyan, U. Hermjakob, D. Marcu"	Extracting Biomolecular Interactions Using Semantic Parsing of Biomedical Text	AAAI	2016		https://arxiv.org/abs/1512.01587	"Applications, Information Extraction, Biomedical"
 "S. Takase, J. Suzuki, N. Okazaki, T. Hirao, M. Nagata"	Neural Headline Generation on Abstract Meaning Representation	EMNLP	2016	https://www.aclweb.org/anthology/D/D16/D16-1112.pdf		Generation
 "Sudha Rao, Yogarshi Vyas, Hal Daumé III, Philip Resnik"	CLIP@UMD at SemEval-2016 Task 8: Parser for Abstract Meaning Representation using Learning to Search	SemEval	2016	https://aclweb.org/anthology/S/S16/S16-1184.pdf		"Parsing, Imitation Learning/Learning to Search"
