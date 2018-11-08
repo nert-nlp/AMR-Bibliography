@@ -1,1 +1,1 @@
-https://nert-gu.github.io/AMR-Bibliography/
+https://nert-nlp.github.io/AMR-Bibliography/
