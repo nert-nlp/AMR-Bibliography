@@ -70,6 +70,7 @@ a:hover {
 	text-align: center;
 	max-width: 25em;
 	padding: 3px;
+	overflow: auto;
 }
 
 .container pre {
