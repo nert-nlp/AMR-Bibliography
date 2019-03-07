@@ -105,3 +105,4 @@ Timo Schick	Transition-Based Generation from Abstract Meaning Representations	"M
 "Zhijiang Guo, Wei Lu"	Better Transition-Based AMR Parsing with a Refined Search Space	EMNLP	2018	http://aclweb.org/anthology/D18-1198		"Parsing, Transition-based"
 Ulf Hermjakob	AMR Editor: A tool to build Abstract Meaning Representations	manuscript		"{ pdf : http://amr.isi.edu/papers/amr-editor-ulf2013a.pdf, Tool : http://www.isi.edu/~ulf/amr/AMR-editor.html }"		Annotation tool
 Ulf Hermjakob	AMR Annotation Dictionary (maintained by Ulf Hermjakob).			"{ Tool : http://www.isi.edu/~ulf/amr/lib/amr-dict.html}"		Annotation tool
+"Linfeng Song, Daniel Gildea, Yue Zhang, Zhiguo Wang, Jinsong Su"	Semantic Neural Machine Translation using AMR	TACL	2019		https://arxiv.org/abs/1902.07282	MT
