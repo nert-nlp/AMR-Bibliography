@@ -1,7 +1,7 @@
 Authors	Title	Venue	Year	Link	arXiv	Category
 "Bevan Jones, Jacob Andreas, Daniel Bauer, Karl-Moritz Hermann, Kevin Knight"	Semantics-Based Machine Translation with Hyperedge Replacement Grammars	COLING	2012	http://www.isi.edu/natural-language/people/sembmt-coling-12.pdf		"Alignment, Parsing, Generation, MT, Graph algebra"
 "D. Chiang, J. Andreas, D. Bauer, K. M. Hermann, B. Jones, K. Knight"	Parsing Graphs with Hyperedge Replacement Grammars	ACL	2013	http://www.aclweb.org/anthology/P13-1091		"Parsing, Graph algebra"
-"L. Banarescu, C. Bonial, S. Cai, M. Georgescu, K. Griffitt, U. Hermjakob, K. Knight, P. Koehn, M. Palmer, N. Schneider"	Abstract Meaning Representation for Sembanking	 Linguistic Annotation Workshop	2013	http://amr.isi.edu/a.pdf		Overview
+"Laura Banarescu, Claire Bonial, Shu Cai, Madalina Georgescu, Kira Griffitt, Ulf Hermjakob, Kevin Knight, Philipp Koehn, Martha Palmer, Nathan Schneider"	Abstract Meaning Representation for Sembanking	 Linguistic Annotation Workshop	2013	http://amr.isi.edu/a.pdf		Overview
 "Shu Cai, Kevin Knight"	Smatch: an Evaluation Metric for Semantic Feature Structures	ACL	2013	http://amr.isi.edu/smatch-13.pdf		Evaluation
 "F. Braune, D. Bauer, K. Knight"	Mapping between English Strings and Reentrant Semantic Graphs	LREC	2014	http://www.isi.edu/natural-language/mt/boygirl_paper_lrec.pdf		"Parsing, Syntax/grammar, Graph algebra"
 "J. Flanigan, S. Thomson, J. Carbonell, C. Dyer, N. Smith"	A Discriminative Graph-Based Parser for the Abstract Meaning Representation 	ACL	2014	"{pdf : http://www.cs.cmu.edu/%7Ejmflanig/flanigan+etal.acl2014.pdf, JAMR : https://github.com/jflanigan/jamr}"		"Parsing, Graph-based"
