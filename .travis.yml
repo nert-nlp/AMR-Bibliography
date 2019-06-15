@@ -1,2 +1,10 @@
 language: python
 script: python3 tsv2html.py
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN  # Set in the travis-ci.org settings page, as a secure variable
+  keep_history: true
+  on:
+    branch: master
+  target_branch: master
