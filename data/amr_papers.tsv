@@ -114,3 +114,7 @@ Ulf Hermjakob	AMR Annotation Dictionary (maintained by Ulf Hermjakob).			"{ Tool
 "Sheng Zhang, Xutai Ma, Kevin Duh, Benjamin Van Durme"	AMR parsing as sequence-to-graph transduction	ACL	2019		https://arxiv.org/abs/1905.08704	"Parsing, Graph-based"
 "Daniel Gildea, Giorgio Satta, Xiaochang Peng"	Ordered Tree Decomposition for HRG Rule Extraction	Computational Linguistics 45(2)	2019	https://www.mitpressjournals.org/doi/full/10.1162/coli_a_00350		"Parsing, Graph algebra"
 "Marco Antonio Sobrevilla Cabezudo, Thiago Alexandre Salgueiro Pardo"	"Towards a General Abstract Meaning Representation Corpus for Brazilian Portuguese"	Linguistic Annotation Workshop	2019	https://sigann.github.io/LAW-XIII-2019/pdf/W19-4028.pdf		"Annotation, Multilingual"
+"Claire Bonial, Lucia Donatelli, Stephanie M. Lukin, Stephen Tratz, Ron Artstein, David Traum, Clare R. Voss"	"Augmenting Abstract Meaning Representation for Human-Robot Dialogue"	Designing Meaning Representations Workshop	2019			"Annotation, Applications"
+"Yihuan Liu, Bin Li, Peiyi Yan, Li Song, Weiguang Qu"	"Ellipsis in Chinese AMR Corpus"	Designing Meaning Representations Workshop	2019			"Annotation, Multilingual"
+"Hyonsu Choe, Jiyoon Han, Hyejin Park, Hansaem Kim"	"Copula and Case-Stacking Annotations for Korean AMR"	Designing Meaning Representations Workshop	2019			"Annotation, Multilingual"
+"James Pustejovsky, Ken Lai, Nianwen Xue"	"Modeling Quantification and Scope in Abstract Meaning Representations"	Designing Meaning Representations Workshop	2019			"Annotation"
