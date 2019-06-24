@@ -113,3 +113,4 @@ Ulf Hermjakob	AMR Annotation Dictionary (maintained by Ulf Hermjakob).			"{ Tool
 "Linfeng Song, Daniel Gildea"	SemBleu: A robust metric for AMR parsing evaluation	ACL	2019		https://arxiv.org/abs/1905.10726	Evaluation
 "Sheng Zhang, Xutai Ma, Kevin Duh, Benjamin Van Durme"	AMR parsing as sequence-to-graph transduction	ACL	2019		https://arxiv.org/abs/1905.08704	"Parsing, Graph-based"
 "Daniel Gildea, Giorgio Satta, Xiaochang Peng"	Ordered Tree Decomposition for HRG Rule Extraction	Computational Linguistics 45(2)	2019	https://www.mitpressjournals.org/doi/full/10.1162/coli_a_00350		"Parsing, Graph algebra"
+"Marco Antonio Sobrevilla Cabezudo, Thiago Alexandre Salgueiro Pardo"	"Towards a General Abstract Meaning Representation Corpus for Brazilian Portuguese"	Linguistic Annotation Workshop	2019	https://sigann.github.io/LAW-XIII-2019/pdf/W19-4028.pdf		"Annotation, Multilingual"
