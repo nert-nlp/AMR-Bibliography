@@ -119,4 +119,5 @@ Ulf Hermjakob	AMR Annotation Dictionary (maintained by Ulf Hermjakob).			"{ Tool
 "Hyonsu Choe, Jiyoon Han, Hyejin Park, Hansaem Kim"	"Copula and Case-Stacking Annotations for Korean AMR"	Designing Meaning Representations Workshop	2019	https://www.aclweb.org/anthology/W19-3314		"Annotation, Multilingual"
 "James Pustejovsky, Ken Lai, Nianwen Xue"	"Modeling Quantification and Scope in Abstract Meaning Representations"	Designing Meaning Representations Workshop	2019	https://www.aclweb.org/anthology/W19-3303		"AMR Extensions"
 "Ha Linh, Huyen Nguyen"	"A Case Study on Meaning Representation for Vietnamese"	Designing Meaning Representations Workshop	2019	https://www.aclweb.org/anthology/W19-3317		"Annotation, Multilingual"
+"Zi Lin, Nianwen Xue"	"Parsing Meaning Representations: Is Easier Always Better?"	Designing Meaning Representations Workshop	2019	https://www.aclweb.org/anthology/W19-3304		"Parsing"
 Johan Bos	Separating Argument Structure from Logical Structure in AMR	preprint	2019		https://arxiv.org/abs/1908.01355	"AMR Extensions"
