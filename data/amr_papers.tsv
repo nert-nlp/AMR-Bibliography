@@ -63,7 +63,7 @@ Edward Stabler	Reforming AMR	International Conference on Formal Grammar	2017	"{ 
 "Lai Dac Viet, Vu Trong Sinh, Nguyen Le Minh, Ken Satoh"	ConvAMR: Abstract meaning representation parsing for legal document	SCIDOCA	2017		https://arxiv.org/abs/1711.06141	"Parsing, Seq2Seq"
 "Linfeng Song, Xiaochang Peng, Yue Zhang, Zhiguo Wang, Daniel Gildea"	AMR-to-text Generation with Synchronous Node Replacement Grammar	ACL	2017	https://www.aclweb.org/anthology/P17-2002	https://arxiv.org/abs/1702.00500	"Generation, Graph algebra"
 "M. Damonte, S. B. Cohen, G. Satta"	An Incremental Parser for Abstract Meaning Representation	EACL	2017	"{ Parser code : https://github.com/mdtux89/amr-eager, Eval code : https://github.com/mdtux89/amr-evaluation }"	https://arxiv.org/abs/1608.06111	"Parsing, Evaluation, Transition-based"
-"Miguel Ballesteros, Yaser Al-Onaizan"	AMR Parsing using Stack-LSTMs	EMNLP	2017		https://arxiv.org/abs/1707.07755	"Parsing, Transition-based"
+"Miguel Ballesteros, Yaser Al-Onaizan"	AMR Parsing using Stack-LSTMs	EMNLP	2017	https://www.aclweb.org/anthology/D17-1130	https://arxiv.org/abs/1707.07755	"Parsing, Transition-based"
 Noelia Migueles-Abraira	A Study Towards Spanish Abstract Meaning Representation	"MSc thesis, University of the Basque Country"	2017	https://addi.ehu.es/handle/10810/22056		"Annotation, Multilingual"
 "Rafael Torres Anchiêta, Thiago Alexandre Salgueiro Pardo"	"Towards AMR-BR: A SemBank for Brazilian Portuguese language"	LREC	2018	http://www.lrec-conf.org/proceedings/lrec2018/pdf/366.pdf		"Annotation, Multilingual"
 "Rafael Torres Anchiêta, Thiago Alexandre Salgueiro Pardo"	"A rule-based AMR parser for Portuguese"	IBERAMIA	2018	"{ springer : https://link.springer.com/chapter/10.1007/978-3-030-03928-8_28 }"		"Parsing, Rule-based, Multilingual"
@@ -109,8 +109,8 @@ Ulf Hermjakob	AMR Annotation Dictionary (maintained by Ulf Hermjakob).			"{ Tool
 "Marco Damonte, Shay B. Cohen"	Structural Neural Encoders for AMR-to-text Generation	NAACL	2019	https://www.aclweb.org/anthology/N19-1366	https://arxiv.org/abs/1903.11410	"Generation"
 "Juri Opitz, Anette Frank"	Automatic Accuracy Prediction for AMR Parsing	*SEM	2019	https://www.aclweb.org/anthology/S19-1024	https://arxiv.org/abs/1904.08301	"Parsing"
 "Emma Manning"	A partially rule-based approach to AMR generation	NAACL SRW	2019	https://www.aclweb.org/anthology/N19-3009		"Generation"
-"Linfeng Song, Daniel Gildea"	SemBleu: A robust metric for AMR parsing evaluation	ACL	2019		https://arxiv.org/abs/1905.10726	Evaluation
-"Sheng Zhang, Xutai Ma, Kevin Duh, Benjamin Van Durme"	AMR parsing as sequence-to-graph transduction	ACL	2019		https://arxiv.org/abs/1905.08704	"Parsing, Graph-based"
+"Linfeng Song, Daniel Gildea"	SemBleu: A robust metric for AMR parsing evaluation	ACL	2019	https://www.aclweb.org/anthology/P19-1446	https://arxiv.org/abs/1905.10726	Evaluation
+"Sheng Zhang, Xutai Ma, Kevin Duh, Benjamin Van Durme"	AMR parsing as sequence-to-graph transduction	ACL	2019	https://www.aclweb.org/anthology/P19-1009	https://arxiv.org/abs/1905.08704	"Parsing, Graph-based"
 "Daniel Gildea, Giorgio Satta, Xiaochang Peng"	Ordered Tree Decomposition for HRG Rule Extraction	Computational Linguistics 45(2)	2019	https://www.mitpressjournals.org/doi/full/10.1162/coli_a_00350		"Parsing, Graph algebra"
 "Marco Antonio Sobrevilla Cabezudo, Thiago Alexandre Salgueiro Pardo"	"Towards a General Abstract Meaning Representation Corpus for Brazilian Portuguese"	Linguistic Annotation Workshop	2019	https://www.aclweb.org/anthology/W19-4028		"Annotation, Multilingual"
 "Claire Bonial, Lucia Donatelli, Stephanie M. Lukin, Stephen Tratz, Ron Artstein, David Traum, Clare R. Voss"	"Augmenting Abstract Meaning Representation for Human-Robot Dialogue"	Designing Meaning Representations Workshop	2019	https://www.aclweb.org/anthology/W19-3322		"AMR Extensions, Applications"
