@@ -36,7 +36,7 @@ Alastair Butler	DynamicPower at SemEval-2016 Task 8: Processing syntactic parse 
 "J. Zhou, F. Xu, H. Uszkoreit, W. Qu, R. Li, Y. Gu"	AMR Parsing with an Incremental Joint Model	EMNLP	2016	https://www.aclweb.org/anthology/D/D16/D16-1065.pdf		"Parsing, Transition-based"
 "James Goodman, Andreas Vlachos, Jason Naradowsky"	UCL+Sheffield at SemEval-2016 Task 8: Imitation learning for AMR parsing with an alpha-bound	SemEval	2016	https://aclweb.org/anthology/S/S16/S16-1180.pdf		"Parsing, Imitation Learning/Learning to Search, Transition-based"
 "Jeffrey Flanigan, Chris Dyer, Noah A. Smith, Jaime Carbonell"	CMU at SemEval-2016 Task 8: Graph-based AMR Parsing with Infinite Ramp Loss	SemEval	2016	https://aclweb.org/anthology/S/S16/S16-1186.pdf		"Parsing, Graph-based"
-Johan Bos	Squib: Expressive Power of Abstract Meaning Representations	Computational Linguistics 42(3)	2016	http://www.aclweb.org/anthology/J/J16/J16-3006.pdf		Annotation
+Johan Bos	Squib: Expressive Power of Abstract Meaning Representations	Computational Linguistics 42(3)	2016	http://www.aclweb.org/anthology/J16-3006		"AMR Extensions"
 "Johannes Bjerva, Johan Bos, Hessel Haagsma"	The Meaning Factory at SemEval-2016 Task 8: Producing AMRs with Boxer	SemEval	2016	https://aclweb.org/anthology/S/S16/S16-1182.pdf		"Parsing, Conversion-based"
 Jonathan May	SemEval-2016 Task 8: Meaning Representation Parsing	SemEval	2016	https://aclweb.org/anthology/S/S16/S16-1166.pdf		"Shared Task Overview, Parsing"
 "L. Song, Y. Zhang, X. Peng, Z. Wang, D. Gildea"	AMR-to-text generation as a Traveling Salesman Problem	EMNLP	2016		https://arxiv.org/abs/1609.07451	"Generation, Graph-based"
@@ -119,3 +119,4 @@ Ulf Hermjakob	AMR Annotation Dictionary (maintained by Ulf Hermjakob).			"{ Tool
 "Hyonsu Choe, Jiyoon Han, Hyejin Park, Hansaem Kim"	"Copula and Case-Stacking Annotations for Korean AMR"	Designing Meaning Representations Workshop	2019	https://www.aclweb.org/anthology/W19-3314		"Annotation, Multilingual"
 "James Pustejovsky, Ken Lai, Nianwen Xue"	"Modeling Quantification and Scope in Abstract Meaning Representations"	Designing Meaning Representations Workshop	2019	https://www.aclweb.org/anthology/W19-3303		"AMR Extensions"
 "Ha Linh, Huyen Nguyen"	"A Case Study on Meaning Representation for Vietnamese"	Designing Meaning Representations Workshop	2019	https://www.aclweb.org/anthology/W19-3317		"Annotation, Multilingual"
+Johan Bos	Separating Argument Structure from Logical Structure in AMR	preprint	2019		https://arxiv.org/abs/1908.01355	"AMR Extensions"
