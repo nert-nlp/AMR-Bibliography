@@ -128,3 +128,6 @@ Johan Bos	Separating Argument Structure from Logical Structure in AMR	preprint	2
 "DongLai Ge, Junhui Li, Muhua Zhu, Shoushan Li"	Modeling Source Syntax and Semantics for Neural AMR Parsing	IJCAI	2019	https://www.ijcai.org/proceedings/2019/691		"Parsing, Syntax/grammar"
 "Deng Cai, Wai Lam"	Core Semantic First: A Top-down Approach for AMR Parsing	EMNLP	2019		https://arxiv.org/abs/1909.04303	"Parsing"
 "Guy Lapalme"	Verbalizing AMR Structures	Manuscript	2019	"{pdf: http://rali.iro.umontreal.ca/rali/sites/default/files/publis/GoPhi.pdf, code: https://github.com/rali-udem/gophi, demo: http://rali.iro.umontreal.ca/amr/current/build/amrVerbalizer.cgi}"		"Generation"
+"Marco Antonio Sobrevilla Cabezudo, Simon Mille, Thiago Pardo"	Back-Translation as Strategy to Tackle the Lack of Corpus in Natural Language Generation from Semantic Representations	Multilingual Surface Realisation Workshop	2019		https://www.aclweb.org/anthology/D19-6313/	"Generation"
+"Lisa Jin, Daniel Gildea"	AMR-to-Text Generation with Cache Transition Systems	preprint	2019		https://arxiv.org/abs/1912.01682	"Generation"
+"Mitchell Abrams, Claire Bonial, Lucia Donatelli"	"Graph-to-Graph Meaning Representation Transformations for Human-Robot Dialogue"	SCiL	2020	https://scholarworks.umass.edu/scil/vol3/iss1/50/		"AMR Extensions, Applications"
