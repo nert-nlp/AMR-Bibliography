@@ -1,3 +1,4 @@
+from collections import defaultdict, Counter
 
 file = 'data/amr_papers.tsv'
 file2 = 'index.html'
@@ -24,6 +25,8 @@ template = open('template.html' ,'r' ,encoding='utf8').read()
 # </table>
 
 rows = []
+
+paperCounts = defaultdict(Counter)  # topic => {year => count}
 
 def get(text ,col):
     columns = {'authors' :0 ,'title' :1 ,'year' :3 ,'venue' :2 ,'links' :4 ,'arxiv' :5 ,'tags' :6,'review' :7}
@@ -58,19 +61,37 @@ def arxiv(line):
     else:
         return ''
 
+years = set()
+year = ''
+def get_year():
+    global year # dirty hack so year is available in tags()
+    year = get(line,'year')
+    years.add(year)
+    return year
 
 topics = set()
 def tags(line):
     tags = []
+    tag_buttons = []
     x = get(line ,'tags')
     x = x.split(', ')
     for tag in x:
         if not tag.strip(): continue
-        tag = tag.replace('"' ,'')
+        tag = tag.replace('"' ,'').strip()
+        tags.append(tag)
         topic = tag.lower().replace('+' ,'').strip()
         topics.add(tag.strip())
-        tags.append(f'<button topic="{topic}" on="0">{tag}</button>')
-    return ' '.join(tags)
+        tag_buttons.append(f'<button topic="{topic}" on="0">{tag}</button>')
+    # Count paper by its first tag
+    if tags:
+        firsttag = tags[0]
+        # don't display these tag in chart
+        if tags[0] == 'Shared Task Overview':
+            firsttag = tags[1]
+    else:
+        firsttag = 'Misc'
+    paperCounts[firsttag][year] += 1
+    return ' '.join(tag_buttons)
 
 def authors(line):
     x = get(line ,'authors')
@@ -90,7 +111,7 @@ with open(file, 'r', encoding='utf8') as f:
                 <td>{get(line,'title')} </td>
                 <td>{authors(line)}</td>
                 <td>{get(line,'venue')}</td>
-                <td>{get(line,'year')}</td>
+                <td>{get_year()}</td>
                 <td>{link(line)}</td>
                 <td>{arxiv(line)}</td>
                 <td>{tags(line)}</td>
@@ -98,6 +119,28 @@ with open(file, 'r', encoding='utf8') as f:
         '''
         rows.append(bib)
         i += 1
+
+# Black + Tol palette from https://davidmathlogic.com/colorblind/
+COLOR_PALETTE = ['#332288', '#117733', '#44AA99', '#88CCEE', '#DDCC77', '#CC6677', '#AA4499', '#882255', '#000000']
+
+counts = []
+
+years = sorted(years)
+
+if '' in years: # entries with no date: count them but don't display in chart
+    years.remove('')
+
+nPapers = 0
+
+iColor = 0
+
+for tag in sorted(paperCounts.keys()):
+    nPapers += sum(paperCounts[tag].values())
+    if sum(paperCounts[tag][y] for y in years)>0:
+        counts.append('{\n' + f'''label: {tag!r},
+                data: {[paperCounts[tag][year] for year in years]!r},
+                backgroundColor: {COLOR_PALETTE[iColor % len(COLOR_PALETTE)]!r}''' + '\n},')
+        iColor += 1
 
 with open(file2, 'w', encoding='utf8') as f:
     heading = '''
@@ -115,7 +158,7 @@ with open(file2, 'w', encoding='utf8') as f:
     </thead>
     <tbody>
     '''
-    f.write(template.replace('{}', heading + ''.join(rows) + '\n</tbody>\n</table>'))
+    f.write(template.replace('{NPAPERS}', str(nPapers)).replace('{YEARS}', str(years)).replace('{COUNTS}', '\n'.join(counts)).replace('{ROWS}', heading + ''.join(rows) + '\n</tbody>\n</table>'))
 
 for topic in sorted(topics):
     print(topic)

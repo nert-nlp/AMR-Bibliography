@@ -99,3 +99,45 @@ a:hover {
 	border: solid 1px #ccc;
 	padding: 5px;
 }
+
+/* CHART POPUP */
+
+#chartPopupButton {
+	border: solid 3px #333;
+	cursor: pointer;
+}
+#chartPopupButton:hover {
+	border-color: #aaa;
+}
+
+/* https://www.quickcleancode.com/easy-popup-overlay-with-jquery/ */
+#overlay {
+   position: fixed;
+   height: 100%; 
+   width: 100%;
+   top: 0;
+   right: 0;  
+   bottom: 0;
+   left: 0;
+   background: rgba(0,0,0,0.8);
+   display: none;
+}
+
+#popup {
+   max-width: 600px;
+   width: 80%;
+   max-height: 300px;
+   height: 80%; 
+   padding: 20px;
+   position: relative;
+   background: #fff;
+   margin: 20px auto;
+}
+
+#close {
+   position: absolute;
+   top: 10px;
+   right: 10px;
+   cursor: pointer;
+   color: #000;
+}
