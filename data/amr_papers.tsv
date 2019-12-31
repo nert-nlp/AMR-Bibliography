@@ -84,7 +84,7 @@ Timo Schick	Transition-Based Generation from Abstract Meaning Representations	"M
 "Chuan Wang, Bin Li, Nianwen Xue"	Transition-Based Chinese AMR Parsing	NAACL-HLT	2018	http://aclweb.org/anthology/N18-2040		"Parsing, Transition-based, Multilingual"
 "Chunchuan Lyu, Ivan Titov"	AMR Parsing as Graph Prediction with Latent Alignment	ACL	2018	http://aclweb.org/anthology/P18-1037	https://arxiv.org/abs/1805.05286	"Parsing, Alignment"
 "Claire Bonial, Bianca Badarau, Kira Griffitt, Ulf Hermjakob, Kevin Knight, Tim O'Gorman, Martha Palmer, Nathan Schneider"	"Abstract Meaning Representation of Constructions: The More We Include, the Better the Representation"	LREC	2018	http://www.lrec-conf.org/proceedings/lrec2018/pdf/856.pdf		AMR Extensions
-"David Vilares, Carlos Gómez-Rodríguez"	A Transition-Based Algorithm for Unrestricted AMR Parsing	NAACL-HLT	2018	http://aclweb.org/anthology/N18-2023		" Parsing, Transition-based"
+"David Vilares, Carlos Gómez-Rodríguez"	A Transition-Based Algorithm for Unrestricted AMR Parsing	NAACL-HLT	2018	http://aclweb.org/anthology/N18-2023		"Parsing, Transition-based"
 "Fuad Issa, Marco Damonte, Shay B. Cohen, Xiaohui Yan, Yi Chang"	Abstract Meaning Representation for Paraphrase Detection	NAACL-HLT	2018	http://aclweb.org/anthology/N18-1041		"Applications, Paraphrase Detection"
 "Hardy Hardy, Andreas Vlachos"	 Guided Neural Language Generation for Abstractive Summarization using Abstract Meaning Representation	EMNLP	2018	http://aclweb.org/anthology/D18-1086		"Applications, Summarization"
 "Ida Szubert, Adam Lopez, Nathan Schneider"	A Structured Syntax-Semantics Interface for English-AMR Alignment	NAACL-HLT	2018	http://aclweb.org/anthology/N18-1106		"Alignment, Syntax/grammar, Dependency Trees"
@@ -104,7 +104,7 @@ Timo Schick	Transition-Based Generation from Abstract Meaning Representations	"M
 "Zhijiang Guo, Wei Lu"	Better Transition-Based AMR Parsing with a Refined Search Space	EMNLP	2018	http://aclweb.org/anthology/D18-1198		"Parsing, Transition-based"
 Ulf Hermjakob	AMR Editor: A tool to build Abstract Meaning Representations	manuscript		"{ pdf : http://amr.isi.edu/papers/amr-editor-ulf2013a.pdf, Tool : http://www.isi.edu/~ulf/amr/AMR-editor.html }"		Annotation tool
 Ulf Hermjakob	AMR Annotation Dictionary (maintained by Ulf Hermjakob).			"{ Tool : http://www.isi.edu/~ulf/amr/lib/amr-dict.html}"		Annotation tool
-"Linfeng Song, Daniel Gildea, Yue Zhang, Zhiguo Wang, Jinsong Su"	Semantic Neural Machine Translation using AMR	TACL	2019	https://www.aclweb.org/anthology/Q19-1002	https://arxiv.org/abs/1902.07282	MT
+"Linfeng Song, Daniel Gildea, Yue Zhang, Zhiguo Wang, Jinsong Su"	Semantic Neural Machine Translation using AMR	TACL	2019	https://www.aclweb.org/anthology/Q19-1002	https://arxiv.org/abs/1902.07282	"Applications, MT"
 "Kris Cao, Stephen Clark"	Factorising AMR generation through syntax	NAACL	2019	https://www.aclweb.org/anthology/N19-1223	https://arxiv.org/abs/1804.07707	"Generation, Syntax/grammar"
 "Marco Damonte, Shay B. Cohen"	Structural Neural Encoders for AMR-to-text Generation	NAACL	2019	https://www.aclweb.org/anthology/N19-1366	https://arxiv.org/abs/1903.11410	"Generation"
 "Juri Opitz, Anette Frank"	Automatic Accuracy Prediction for AMR Parsing	*SEM	2019	https://www.aclweb.org/anthology/S19-1024	https://arxiv.org/abs/1904.08301	"Parsing"
