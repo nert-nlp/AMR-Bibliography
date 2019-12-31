@@ -127,4 +127,4 @@ Johan Bos	Separating Argument Structure from Logical Structure in AMR	preprint	2
 "Jie Zhu, Junhui Li, Muhua Zhu, Longhua Qian, Min Zhang, Guodong Zhou"	Modeling Graph Structure in Transformer for Better AMR-to-Text Generation	EMNLP	2019		https://arxiv.org/abs/1909.00136	"Generation, Transformer"
 "DongLai Ge, Junhui Li, Muhua Zhu, Shoushan Li"	Modeling Source Syntax and Semantics for Neural AMR Parsing	IJCAI	2019	https://www.ijcai.org/proceedings/2019/691		"Parsing, Syntax/grammar"
 "Deng Cai, Wai Lam"	Core Semantic First: A Top-down Approach for AMR Parsing	EMNLP	2019		https://arxiv.org/abs/1909.04303	"Parsing"
-"Guy Lapalme"	Verbalizing AMR Structures	Manuscript	"{pdf: http://rali.iro.umontreal.ca/rali/sites/default/files/publis/GoPhi.pdf, code: https://github.com/rali-udem/gophi, demo: http://rali.iro.umontreal.ca/amr/current/build/amrVerbalizer.cgi}"		"Generation"
+"Guy Lapalme"	Verbalizing AMR Structures	Manuscript	2019	"{pdf: http://rali.iro.umontreal.ca/rali/sites/default/files/publis/GoPhi.pdf, code: https://github.com/rali-udem/gophi, demo: http://rali.iro.umontreal.ca/amr/current/build/amrVerbalizer.cgi}"		"Generation"
