@@ -131,4 +131,4 @@ Johan Bos	Separating Argument Structure from Logical Structure in AMR	preprint	2
 "Marco Antonio Sobrevilla Cabezudo, Simon Mille, Thiago Pardo"	Back-Translation as Strategy to Tackle the Lack of Corpus in Natural Language Generation from Semantic Representations	Multilingual Surface Realisation Workshop	2019	https://www.aclweb.org/anthology/D19-6313/		"Generation"
 "Lisa Jin, Daniel Gildea"	AMR-to-Text Generation with Cache Transition Systems	preprint	2019		https://arxiv.org/abs/1912.01682	"Generation"
 "Mitchell Abrams, Claire Bonial, Lucia Donatelli"	"Graph-to-Graph Meaning Representation Transformations for Human-Robot Dialogue"	SCiL	2020	https://scholarworks.umass.edu/scil/vol3/iss1/50/		"AMR Extensions, Applications"
-"Juri Opitz, Letitia Parcalabescu, Anette Frank"	"AMR Similarity Metrics from Principles"	preprint	2020	https://arxiv.org/abs/2001.10929	"Evaluation, AMR Extensions"
+"Juri Opitz, Letitia Parcalabescu, Anette Frank"	"AMR Similarity Metrics from Principles"	preprint	2020	"{paper: https://arxiv.org/abs/2001.10929, code: https://github.com/Heidelberg-NLP/amr-metric-suite}"	"Evaluation, AMR Extensions"
