@@ -93,7 +93,7 @@ Timo Schick	Transition-Based Generation from Abstract Meaning Representations	"M
 "Li Song, Yuan Wen, Sijia Ge, Bin Li, Junsheng Zhou, Weiguang Qu, Nianwen Xue"	An Easier and Efficient Framework to Annotate Semantic Roles: Evidence from the Chinese AMR Corpus	Workshop on Asian Language Resources	2018	http://lrec-conf.org/workshops/lrec2018/W29/pdf/15_W29.pdf		"Annotation, Multilingual"
 "Linfeng Song, Yue Zhang, Zhiguo Wang, Daniel Gildea"	A Graph-to-Sequence Model for AMR-to-Text Generation	ACL	2018	http://aclweb.org/anthology/P18-1150	https://arxiv.org/abs/1805.02473	Generation
 "Lucia Donatelli, Michael Regan, William Croft, Nathan Schneider"	Annotation of tense and aspect semantics for sentential AMR	LAW-MWE-CxG	2018	http://aclweb.org/anthology/W18-4912		AMR Extensions
-"Marco Damonte, Shay B. Cohen"	Cross-Lingual Abstract Meaning Representation Parsing	NAACL-HLT	2018	http://aclweb.org/anthology/N18-1104		"Parsing, Multilingual"
+"Marco Damonte, Shay B. Cohen"	Cross-Lingual Abstract Meaning Representation Parsing	NAACL-HLT	2018	"{ pdf : http://aclweb.org/anthology/N18-1104, data : https://catalog.ldc.upenn.edu/LDC2020T07}"		"Parsing, Multilingual"
 "Noelia Migueles-Abraira, Rodrigo Agerri, Arantza Diaz de Ilarraza"	Annotating Abstract Meaning Representations for Spanish	LREC	2018	http://www.lrec-conf.org/proceedings/lrec2018/pdf/743.pdf		"Annotation, Multilingual"
 "Richard Crouch, Aikaterini-Lida Kalouli"	Named Graphs for Semantic Representation	*SEM	2018	http://aclweb.org/anthology/S18-2013		AMR Extensions
 "Sebastian Beschke, Wolfgang Menzel"	Graph Algebraic Combinatory Categorial Grammar	*SEM	2018	http://aclweb.org/anthology/S18-2006		"Parsing, CCG, Graph algebra"
