@@ -28,7 +28,7 @@
     <div class="column" style="text-align: center; flex: 45%;">
       <div class='instructions'>
         <h3>Explore the research on AMR</h3>    
-        <p>The <big style="color: #a49;"><b>138</b></big> entries in the table below are sortable by column.<br/>
+        <p>The <big style="color: #a49;"><b>145</b></big> entries in the table below are sortable by column.<br/>
           You can highlight rows by topic (click on a topic <span class="math">TAG</span> in the last column).<br/>
           The main topics are:</p>
       </div>
@@ -80,7 +80,7 @@ var myChart = new Chart(ctx, {
     	labels: ['2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020'],
         datasets: [{
 label: 'AMR Extensions',
-                data: [0, 0, 0, 0, 1, 1, 5, 3, 1],
+                data: [0, 0, 0, 0, 1, 1, 5, 4, 4],
                 backgroundColor: '#332288'
 },
 {
@@ -109,14 +109,19 @@ label: 'Generation',
                 backgroundColor: '#CC6677'
 },
 {
-label: 'Overview',
-                data: [0, 1, 0, 3, 0, 0, 0, 0, 0],
+label: 'Multilingual',
+                data: [0, 0, 0, 0, 0, 0, 0, 0, 1],
                 backgroundColor: '#AA4499'
 },
 {
-label: 'Parsing',
-                data: [0, 1, 2, 9, 15, 17, 10, 9, 1],
+label: 'Overview',
+                data: [0, 1, 0, 3, 0, 0, 0, 0, 0],
                 backgroundColor: '#882255'
+},
+{
+label: 'Parsing',
+                data: [0, 1, 2, 9, 15, 17, 10, 10, 2],
+                backgroundColor: '#000000'
 },]
     },
     options: {
@@ -1503,8 +1508,8 @@ $(document).ready(function() {
                 <td><span style="display:none;">Opitz</span>Juri Opitz, Letitia Parcalabescu, Anette Frank</td>
                 <td>preprint</td>
                 <td>2020</td>
-                <td><a href="https://arxiv.org/abs/2001.10929" target="_blank">pdf</a>, <a href="https://github.com/Heidelberg-NLP/amr-metric-suite" target="_blank">code</a></td>
-                <td></td>
+                <td><a href="https://github.com/Heidelberg-NLP/amr-metric-suite" target="_blank">code</a></td>
+                <td><a href="https://arxiv.org/abs/2001.10929" target="_blank">arXiv</a></td>
                 <td><button topic="evaluation" on="0">Evaluation</button> <button topic="amr extensions" on="0">AMR Extensions</button></td>
             </tr>
         
@@ -1546,6 +1551,76 @@ $(document).ready(function() {
                 <td></td>
                 <td><a href="https://arxiv.org/abs/2004.05572" target="_blank">arXiv</a></td>
                 <td><button topic="parsing" on="0">Parsing</button></td>
+            </tr>
+        
+            <tr>
+                <td>Understanding and generating language with abstract meaning representation </td>
+                <td><span style="display:none;">Damonte</span>Marco Damonte</td>
+                <td>Ph.D. thesis</td>
+                <td>2020</td>
+                <td></td>
+                <td><a href="https://era.ed.ac.uk/handle/1842/36731" target="_blank">arXiv</a></td>
+                <td><button topic="parsing" on="0">Parsing</button> <button topic="generation" on="0">Generation</button> <button topic="multilingual" on="0">Multilingual</button> <button topic="evaluation" on="0">Evaluation</button></td>
+            </tr>
+        
+            <tr>
+                <td>Methods for taking semantic graphs apart and putting them back together again </td>
+                <td><span style="display:none;">Groschwitz</span>Jonas Groschwitz</td>
+                <td>Ph.D. thesis</td>
+                <td>2019</td>
+                <td></td>
+                <td><a href="https://www.researchonline.mq.edu.au/vital/access/manager/Repository/mq:71045" target="_blank">arXiv</a></td>
+                <td><button topic="parsing" on="0">Parsing</button> <button topic="syntax/grammar" on="0">Syntax/grammar</button></td>
+            </tr>
+        
+            <tr>
+                <td>Bringing together computational and linguistic models of implicit role interpretation </td>
+                <td><span style="display:none;">O'Gorman</span>Tim O'Gorman</td>
+                <td>Ph.D. thesis</td>
+                <td>2019</td>
+                <td></td>
+                <td><a href="https://search.proquest.com/docview/2301892687/abstract/B52EE13541A74D75PQ/1" target="_blank">arXiv</a></td>
+                <td><button topic="amr extensions" on="0">AMR Extensions</button></td>
+            </tr>
+        
+            <tr>
+                <td>Construct a sense-frame aligned predicate lexicon for Chinese AMR corpus </td>
+                <td><span style="display:none;">Song</span>Li Song, Yuling Dai, Yihuan Liu, Bin Li, Weiguang Qu</td>
+                <td>LREC</td>
+                <td>2020</td>
+                <td><a href="http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.361.pdf" target="_blank">pdf</a></td>
+                <td></td>
+                <td><button topic="multilingual" on="0">Multilingual</button></td>
+            </tr>
+        
+            <tr>
+                <td>Dialogue-AMR: Abstract Meaning Representation for dialogue </td>
+                <td><span style="display:none;">Bonial</span>Claire Bonial, Lucia Donatelli, Mitchell Abrams, Stephanie M. Lukin, Stephen Tratz, Matthew Marge, Ron Artstein, David Traum, Clare Voss</td>
+                <td>LREC</td>
+                <td>2020</td>
+                <td><a href="http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.85" target="_blank">pdf</a></td>
+                <td></td>
+                <td><button topic="amr extensions" on="0">AMR Extensions</button> <button topic="applications" on="0">Applications</button></td>
+            </tr>
+        
+            <tr>
+                <td>Spatial AMR: Expanded spatial annotation in the context of a grounded Minecraft corpus </td>
+                <td><span style="display:none;">Bonn</span>Julia Bonn, Martha Palmer, Zheng Cai, Kristin Wright-Bettner</td>
+                <td>LREC</td>
+                <td>2020</td>
+                <td><a href="http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.601" target="_blank">pdf</a></td>
+                <td></td>
+                <td><button topic="amr extensions" on="0">AMR Extensions</button> <button topic="applications" on="0">Applications</button></td>
+            </tr>
+        
+            <tr>
+                <td>From spatial relations to spatial configurations </td>
+                <td><span style="display:none;">Dan</span>Soham Dan, Parisa Kordjamshidi, Julia Bonn, Archna Bhatia, Zheng Cai, Martha Palmer, Dan Roth</td>
+                <td>LREC</td>
+                <td>2020</td>
+                <td><a href="http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.717" target="_blank">pdf</a></td>
+                <td></td>
+                <td><button topic="amr extensions" on="0">AMR Extensions</button> <button topic="applications" on="0">Applications</button></td>
             </tr>
         
 </tbody>
