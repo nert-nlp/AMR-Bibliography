@@ -148,6 +148,6 @@ Johan Bos	Separating Argument Structure from Logical Structure in AMR	preprint	2
 "Julia Bonn, Martha Palmer, Zheng Cai, Kristin Wright-Bettner"	Spatial AMR: Expanded spatial annotation in the context of a grounded Minecraft corpus	LREC	2020	https://www.aclweb.org/anthology/2020.lrec-1.601		"AMR Extensions, Applications"
 "Soham Dan, Parisa Kordjamshidi, Julia Bonn, Archna Bhatia, Zheng Cai, Martha Palmer, Dan Roth"	From spatial relations to spatial configurations	LREC	2020	https://www.aclweb.org/anthology/2020.lrec-1.717		"AMR Extensions, Applications"
 "Qiji Zhou, Yue Zhang, Donghong Ji, Hao Tang"	AMR Parsing with Latent Structural Information	ACL	2020			"Parsing"
-"Manuel Mager, Ramón Fernandez Astudillo, Tahira Naseem, Md Arafat Sultan, Young-Suk Lee, Radu Florian, Salim Roukos"	GPT-too: A language-model-first approach for AMR-to-text generation	ACL	2020		https://arxiv.org/abs/2005.09123	"Generation"
+"Manuel Mager, Ramón Fernandez Astudillo, Tahira Naseem, Md Arafat Sultan, Young-Suk Lee, Radu Florian, Salim Roukos"	GPT-too: A language-model-first approach for AMR-to-text generation	ACL	2020	"{code: https://github.com/IBM/GPT-too-AMR2text}"	https://arxiv.org/abs/2005.09123	"Generation"
 "Yanbin Zhao, Lu Chen, Zhi Chen, Ruisheng Cao, Su Zhu, Kai Yu"	Line Graph Enhanced AMR-to-Text Generation with Mix-Order Graph Attention Networks	ACL	2020			"Generation"
 "Juri Opitz"	AMR quality rating with a lightweight CNN	preprint	2020		https://arxiv.org/abs/2005.12187	"Parsing"
