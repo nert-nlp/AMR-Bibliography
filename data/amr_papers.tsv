@@ -153,3 +153,4 @@ Johan Bos	Separating Argument Structure from Logical Structure in AMR	preprint	2
 "Juri Opitz"	AMR quality rating with a lightweight CNN	preprint	2020		https://arxiv.org/abs/2005.12187	"Parsing"
 "Martin van Harmelen, Jonas Groschwitz"	Graphs with Multiple Sources per Vertex	preprint	2020		https://arxiv.org/abs/2006.11159	"Parsing, Syntax/grammar"
 "Michael Wayne Goodman"	Penman: An Open-Source Library and Tool for AMR Graphs	ACL (Demo session)	2020	https://www.aclweb.org/anthology/2020.acl-demos.35		"Evaluation"
+"Tianming Wang, Xiaojun Wan, Hanqi Jin"	AMR-To-Text Generation with Graph Transformer	TACL	2020	https://www.mitpressjournals.org/doi/full/10.1162/tacl_a_00297		"Generation"
