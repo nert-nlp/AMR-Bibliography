@@ -132,7 +132,7 @@ Johan Bos	Separating Argument Structure from Logical Structure in AMR	preprint	2
 "Lisa Jin, Daniel Gildea"	AMR-to-Text Generation with Cache Transition Systems	preprint	2019		https://arxiv.org/abs/1912.01682	"Generation"
 "Sebastian Beschke"	Exploring Graph-Algebraic CCG Combinators for Syntactic-Semantic AMR Parsing	RANLP	2019	https://www.aclweb.org/anthology/R19-1014/		"Parsing, CCG, Graph algebra"
 "Mitchell Abrams, Claire Bonial, Lucia Donatelli"	"Graph-to-Graph Meaning Representation Transformations for Human-Robot Dialogue"	SCiL	2020	https://scholarworks.umass.edu/scil/vol3/iss1/50/		"AMR Extensions, Applications"
-"Juri Opitz, Letitia Parcalabescu, Anette Frank"	"AMR Similarity Metrics from Principles"	preprint	2020	"{code: https://github.com/Heidelberg-NLP/amr-metric-suite}"	https://arxiv.org/abs/2001.10929	"Evaluation, AMR Extensions"
+"Juri Opitz, Letitia Parcalabescu, Anette Frank"	"AMR Similarity Metrics from Principles"	TACL	2020	"{pdf: https://transacl.org/index.php/tacl/article/view/2205, code: https://github.com/Heidelberg-NLP/amr-metric-suite}"	https://arxiv.org/abs/2001.10929	"Evaluation, AMR Extensions"
 "Emma Manning, Shira Wein, Nathan Schneider"	A Human Evaluation of AMR-to-English Generation Systems	preprint	2020		https://arxiv.org/abs/2004.06814	"Evaluation, Generation"
 "Johannes Dellert"	Exploring Probabilistic Soft Logic as a framework for integrating top-down and bottom-up processing of language in a task context	preprint	2020		https://arxiv.org/abs/2004.07000	"Applications"
 "Deng Cai, Wai Lam"	Graph Transformer for Graph-to-Sequence Learning	AAAI	2020	https://aaai.org/ojs/index.php/AAAI/article/view/6243	https://arxiv.org/abs/1911.07470	"Generation"
@@ -160,3 +160,4 @@ Johan Bos	Separating Argument Structure from Logical Structure in AMR	preprint	2
 "Leonardo F. R. Ribeiro, Martin Schmitt, Hinrich Schütze, Iryna Gurevych"	Investigating Pretrained Language Models for Graph-to-Text Generation	preprint	2020		https://arxiv.org/abs/2007.08426	"Generation"
 "Matthias Lindemann, Jonas Groschwitz, Alexander Koller"	Fast semantic parsing with well-typedness guarantees	EMNLP	2020		https://arxiv.org/abs/2009.07365	"Parsing, Graph algebra"
 "Dongqin Xu, Junhui Li, Muhua Zhu, Min Zhang, Guodong Zhou"	Improving AMR Parsing with Sequence-to-Sequence Pre-training	EMNLP	2020		https://arxiv.org/abs/2010.01771	"Parsing, Seq2Seq"
+"Juri Opitz, Anette Frank"	Towards a Decomposable Metric for Explainable Evaluation of Text Generation from AMR	preprint	2020		https://arxiv.org/abs/2008.08896	"Evaluation, Generation"
