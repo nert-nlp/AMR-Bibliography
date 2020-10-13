@@ -6,14 +6,18 @@ template = open('template.html' ,'r' ,encoding='utf8').read()
 
 # <table style="width:100%">
 #   <tr>
-#     <th>Authors</th>
+#     <th>#</th>
 #     <th>Title</th>
-#     <th>Year</th>
+#     <th>Authors</th>
 #     <th>Venue</th>
+#     <th>Year</th>
 #     <th>Link(s)</th>
 #     <th>Arxiv</th>
+#     <th>Tags</th>
 #   </tr>
 #   <tr>
+#     <td>?</td>
+#     <td>?</td>
 #     <td>?</td>
 #     <td>?</td>
 #     <td>?</td>
@@ -108,6 +112,7 @@ with open(file, 'r', encoding='utf8') as f:
             continue
         bib = f'''
             <tr>
+                <td>{i}</td>
                 <td>{get(line,'title')} </td>
                 <td>{authors(line)}</td>
                 <td>{get(line,'venue')}</td>
@@ -147,6 +152,7 @@ with open(file2, 'w', encoding='utf8') as f:
     <table class="tablesorter">
     <thead>
         <tr>
+            <th>#</th>
             <th>Title</th>
             <th>Authors</th>
             <th>Venue</th>
