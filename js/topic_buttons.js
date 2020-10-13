@@ -8,7 +8,8 @@
 
 $(document).ready(function () {
     $("table").tablesorter({
-        sortList: [[3,1], [1,0]]
+        sortList: [[0,1]]   // row number desc (most recently added first)
+        //sortList: [[4,1], [2,0]] // year desc, title asc
     });
     $("button").on({
         click:function(){
