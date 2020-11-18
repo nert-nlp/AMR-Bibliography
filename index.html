@@ -28,7 +28,7 @@
     <div class="column" style="text-align: center; flex: 45%;">
       <div class='instructions'>
         <h3>Explore the research on AMR</h3>    
-        <p>The <big style="color: #a49;"><b>169</b></big> entries in the table below are sortable by column.<br/>
+        <p>The <big style="color: #a49;"><b>178</b></big> entries in the table below are sortable by column.<br/>
           You can highlight rows by topic (click on a topic <span class="math">TAG</span> in the last column).<br/>
           The main topics are:</p>
       </div>
@@ -85,7 +85,7 @@ label: 'AMR Extensions',
 },
 {
 label: 'Alignment',
-                data: [1, 0, 1, 1, 0, 2, 2, 0, 0],
+                data: [1, 0, 1, 1, 0, 2, 2, 0, 1],
                 backgroundColor: '#117733'
 },
 {
@@ -105,7 +105,7 @@ label: 'Evaluation',
 },
 {
 label: 'Generation',
-                data: [0, 0, 0, 0, 4, 5, 2, 8, 8],
+                data: [0, 0, 0, 0, 4, 5, 2, 8, 9],
                 backgroundColor: '#CC6677'
 },
 {
@@ -120,7 +120,7 @@ label: 'Overview',
 },
 {
 label: 'Parsing',
-                data: [0, 1, 2, 9, 15, 18, 12, 11, 11],
+                data: [0, 1, 2, 9, 15, 18, 12, 11, 18],
                 backgroundColor: '#000000'
 },]
     },
@@ -2031,6 +2031,105 @@ $(document).ready(function() {
                 <td></td>
                 <td><a href="https://arxiv.org/abs/2011.00766" target="_blank">arXiv</a></td>
                 <td><button topic="applications" on="0">Applications</button></td>
+            </tr>
+        
+            <tr>
+                <td>170</td>
+                <td>Multilingual AMR-to-Text Generation </td>
+                <td><span style="display:none;">Fan</span>Angela Fan, Claire Gardent</td>
+                <td>EMNLP</td>
+                <td>2020</td>
+                <td><a href="https://www.aclweb.org/anthology/2020.emnlp-main.231" target="_blank">pdf</a></td>
+                <td></td>
+                <td><button topic="generation" on="0">Generation</button> <button topic="multilingual" on="0">Multilingual</button></td>
+            </tr>
+        
+            <tr>
+                <td>171</td>
+                <td>Semantically Inspired AMR Alignment for the Portuguese Language </td>
+                <td><span style="display:none;">Anchiêta</span>Rafael Anchiêta, Thiago Pardo</td>
+                <td>EMNLP</td>
+                <td>2020</td>
+                <td><a href="https://www.aclweb.org/anthology/2020.emnlp-main.123" target="_blank">pdf</a></td>
+                <td></td>
+                <td><button topic="alignment" on="0">Alignment</button> <button topic="multilingual" on="0">Multilingual</button></td>
+            </tr>
+        
+            <tr>
+                <td>172</td>
+                <td>The Role of Reentrancies in Abstract Meaning Representation Parsing </td>
+                <td><span style="display:none;">Damonte</span>Marco Damonte, Ida Szubert, Shay B. Cohen, Mark Steedman</td>
+                <td>Findings of EMNLP</td>
+                <td>2020</td>
+                <td><a href="https://www.aclweb.org/anthology/2020.findings-emnlp.199" target="_blank">pdf</a></td>
+                <td></td>
+                <td><button topic="parsing" on="0">Parsing</button> <button topic="annotation" on="0">Annotation</button></td>
+            </tr>
+        
+            <tr>
+                <td>173</td>
+                <td>MRP 2020: The Second Shared Task on Cross-Framework and Cross-Lingual Meaning Representation Parsing </td>
+                <td><span style="display:none;">Oepen</span>Stephan Oepen, Omri Abend, Lasha Abzianidze, Johan Bos, Jan Hajic, Daniel Hershcovich, Bin Li, Tim O’Gorman, Nianwen Xue, Daniel Zeman</td>
+                <td>CoNLL</td>
+                <td>2020</td>
+                <td><a href="https://www.aclweb.org/anthology/2020.conll-shared.1" target="_blank">pdf</a></td>
+                <td></td>
+                <td><button topic="shared task overview" on="0">Shared Task Overview</button> <button topic="parsing" on="0">Parsing</button></td>
+            </tr>
+        
+            <tr>
+                <td>174</td>
+                <td>Hitachi at MRP 2020: Text-to-Graph-Notation Transducer </td>
+                <td><span style="display:none;">Ozaki</span>Hiroaki Ozaki, Gaku Morio, Yuta Koreeda, Terufumi Morishita, Toshinori Miyoshi</td>
+                <td>CoNLL</td>
+                <td>2020</td>
+                <td><a href="https://www.aclweb.org/anthology/2020.conll-shared.4" target="_blank">pdf</a></td>
+                <td></td>
+                <td><button topic="parsing" on="0">Parsing</button> <button topic="seq2seq" on="0">Seq2Seq</button></td>
+            </tr>
+        
+            <tr>
+                <td>175</td>
+                <td>ÚFAL at MRP 2020: Permutation-invariant Semantic Parsing in PERIN </td>
+                <td><span style="display:none;">Samuel</span>David Samuel, Milan Straka</td>
+                <td>CoNLL</td>
+                <td>2020</td>
+                <td><a href="https://www.aclweb.org/anthology/2020.conll-shared.5" target="_blank">pdf</a></td>
+                <td></td>
+                <td><button topic="parsing" on="0">Parsing</button> <button topic="graph-based" on="0">Graph-based</button></td>
+            </tr>
+        
+            <tr>
+                <td>176</td>
+                <td>HIT-SCIR at MRP 2020: Transition-based Parser and Iterative Inference Parser </td>
+                <td><span style="display:none;">Dou</span>Longxu Dou, Yunlong Feng, Yuqiu Ji, Wanxiang Che, Ting Liu</td>
+                <td>CoNLL</td>
+                <td>2020</td>
+                <td><a href="https://www.aclweb.org/anthology/2020.conll-shared.6" target="_blank">pdf</a></td>
+                <td></td>
+                <td><button topic="parsing" on="0">Parsing</button> <button topic="transition-based" on="0">Transition-based</button></td>
+            </tr>
+        
+            <tr>
+                <td>177</td>
+                <td>HUJI-KU at MRP 2020: Two Transition-based Neural Parsers </td>
+                <td><span style="display:none;">Arviv</span>Ofir Arviv, Ruixiang Cui, Daniel Hershcovich</td>
+                <td>CoNLL</td>
+                <td>2020</td>
+                <td><a href="https://www.aclweb.org/anthology/2020.conll-shared.7" target="_blank">pdf</a></td>
+                <td></td>
+                <td><button topic="parsing" on="0">Parsing</button> <button topic="transition-based" on="0">Transition-based</button></td>
+            </tr>
+        
+            <tr>
+                <td>178</td>
+                <td>JBNU at MRP 2020: AMR Parsing Using a Joint State Model for Graph-Sequence Iterative Inference </td>
+                <td><span style="display:none;">Na</span>Seung-Hoon Na, Jinwoo Min</td>
+                <td>CoNLL</td>
+                <td>2020</td>
+                <td><a href="https://www.aclweb.org/anthology/2020.conll-shared.8" target="_blank">pdf</a></td>
+                <td></td>
+                <td><button topic="parsing" on="0">Parsing</button></td>
             </tr>
         
 </tbody>
