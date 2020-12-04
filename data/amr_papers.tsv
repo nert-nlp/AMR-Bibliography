@@ -177,3 +177,5 @@ Johan Bos	Separating Argument Structure from Logical Structure in AMR	preprint	2
 "Longxu Dou, Yunlong Feng, Yuqiu Ji, Wanxiang Che, Ting Liu"	HIT-SCIR at MRP 2020: Transition-based Parser and Iterative Inference Parser	CoNLL	2020	https://www.aclweb.org/anthology/2020.conll-shared.6		"Parsing, Transition-based"
 "Ofir Arviv, Ruixiang Cui, Daniel Hershcovich"	HUJI-KU at MRP 2020: Two Transition-based Neural Parsers	CoNLL	2020	https://www.aclweb.org/anthology/2020.conll-shared.7		"Parsing, Transition-based"
 "Seung-Hoon Na, Jinwoo Min"	JBNU at MRP 2020: AMR Parsing Using a Joint State Model for Graph-Sequence Iterative Inference	CoNLL	2020	https://www.aclweb.org/anthology/2020.conll-shared.8		"Parsing"
+"Lisa Jin, Daniel Gildea"	Generalized Shortest-Paths Encoders for AMR-to-Text Generation	COLING	2020	https://www.aclweb.org/anthology/2020.coling-main.181		"Generation"
+"Tatiana Anikina, Alexander Koller, Michael Roth"	Predicting Coreference in Abstract Meaning Representations	Computational Models of Reference, Anaphora and Coreference Workshop	2020	https://www.aclweb.org/anthology/2020.crac-1.4		"Parsing, Annotation, AMR Extensions"
