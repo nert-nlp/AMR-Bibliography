@@ -150,7 +150,7 @@ Johan Bos	Separating Argument Structure from Logical Structure in AMR	preprint	2
 "Qiji Zhou, Yue Zhang, Donghong Ji, Hao Tang"	AMR Parsing with Latent Structural Information	ACL	2020	https://www.aclweb.org/anthology/2020.acl-main.397		"Parsing"
 "Manuel Mager, Ramón Fernandez Astudillo, Tahira Naseem, Md Arafat Sultan, Young-Suk Lee, Radu Florian, Salim Roukos"	GPT-too: A language-model-first approach for AMR-to-text generation	ACL	2020	"{pdf: https://www.aclweb.org/anthology/2020.acl-main.167, code: https://github.com/IBM/GPT-too-AMR2text}"	https://arxiv.org/abs/2005.09123	"Generation"
 "Yanbin Zhao, Lu Chen, Zhi Chen, Ruisheng Cao, Su Zhu, Kai Yu"	Line Graph Enhanced AMR-to-Text Generation with Mix-Order Graph Attention Networks	ACL	2020	https://www.aclweb.org/anthology/2020.acl-main.67		"Generation"
-"Juri Opitz"	AMR quality rating with a lightweight CNN	preprint	2020		https://arxiv.org/abs/2005.12187	"Parsing"
+"Juri Opitz"	AMR quality rating with a lightweight CNN	AACL	2020	https://www.aclweb.org/anthology/2020.aacl-main.27	https://arxiv.org/abs/2005.12187	"Parsing"
 "Martin van Harmelen, Jonas Groschwitz"	Graphs with Multiple Sources per Vertex	preprint	2020		https://arxiv.org/abs/2006.11159	"Parsing, Syntax/grammar"
 "Michael Wayne Goodman"	Penman: An Open-Source Library and Tool for AMR Graphs	ACL (Demo session)	2020	https://www.aclweb.org/anthology/2020.acl-demos.35		"Evaluation"
 "Tianming Wang, Xiaojun Wan, Hanqi Jin"	AMR-To-Text Generation with Graph Transformer	TACL	2020	https://www.mitpressjournals.org/doi/full/10.1162/tacl_a_00297		"Generation"
