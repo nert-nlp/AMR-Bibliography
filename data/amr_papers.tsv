@@ -15,7 +15,7 @@ Authors	Title	Venue	Year	Link	arXiv	Category
 "L. Banarescu, C. Bonial, S. Cai, M. Georgescu, K. Griffitt, U. Hermjakob, K. Knight, P. Koehn, M. Palmer, N. Schneider"	Abstract Meaning Representation (AMR) 1.2.2 Specification		2015	{Guidelines : https://github.com/amrisi/amr-guidelines/blob/master/amr.md}		Overview
 "Lucy Vanderwende, Arul Menezes, Chris Quirk"	"An AMR parser for English, French, German, Spanish and Japanese and a new AMR-annotated corpus"	NAACL (Demo session)	2015	https://aclweb.org/anthology/N15-3006		"Parsing, Annotation, Multilingual, Conversion-based"
 "M. Pust, U. Hermjakob, K. Knight, D. Marcu, J. May"	Using Syntax-Based Machine Translation to Parse English into Abstract Meaning Representation	EMNLP	2015	https://aclweb.org/anthology/D15-1136		"Parsing, MT-based"
-Melanie Tosik	Abstract Meaning Representation: a survey		2015	http://www.melanietosik.com/files/amr.pdf		Overview
+Melanie Tosik	Abstract Meaning Representation: a survey		2015	https://web.archive.org/web/20190303000649/http://www.melanietosik.com/files/amr.pdf		Overview
 "Naomi Saphra, Adam Lopez"	AMRICA: an AMR Inspector for Cross-language Alignments	NAACL (Demo session)	2015	https://aclweb.org/anthology/N15-3008		"Alignment, Multilingual"
 "Nathan Schneider, Jeffrey Flanigan, Tim O’Gorman"	"Tutorial: The Logic of AMR: Practical, Unified, Graph-Based Sentence Semantics for NLP"	 NAACL-HLT	2015	{Tutorial : https://github.com/nschneid/amr-tutorial}		Overview
 Wei-Te Chen	Learning to Map Dependency Parses to Abstract Meaning Representations	ACL-IJCNLP Student Research Workshop	2015	http://www.aclweb.org/anthology/P15-3007		"Parsing, Alignment, Dependency Trees"
