@@ -51,7 +51,7 @@ Jonathan May	SemEval-2016 Task 8: Meaning Representation Parsing	SemEval	2016	ht
 "Yevgeniy Puzikov, Daisuke Kawahara, Sadao Kurohashi"	M2L at SemEval-2016 Task 8: AMR Parsing with Neural Networks	SemEval	2016	https://aclweb.org/anthology/S16-1178		"Parsing, Transition-based"
 Daniel Bauer	Grammar-Based Semantic Parsing Into Graph Representations	Ph.D. thesis, Columbia University	2017	https://academiccommons.columbia.edu/doi/10.7916/D8JH3ZRR		"Parsing, Graph-based, Graph algebra, Alignment, Syntax/grammar"
 "Chenhui Chu, Sadao Kurohashi"	Supervised Syntax-based Alignment between English Sentences and Abstract Meaning Representation Graphs	preprint	2017		https://arxiv.org/abs/1606.02126	"Alignment, Syntax/grammar"
-"Chuan Wang, Nianwen Xue"	Getting the Most out of AMR Parsing	EMNLP	2017	http://www.cs.brandeis.edu/%7Ecwang24/files/emnlp17.pdf		"Parsing, Seq2Seq"
+"Chuan Wang, Nianwen Xue"	Getting the Most out of AMR Parsing	EMNLP	2017	http://www.cs.brandeis.edu/%7Ecwang24/files/emnlp17.pdf		"Parsing, Seq2Seq, Alignment"
 Edward Stabler	Reforming AMR	International Conference on Formal Grammar	2017	"{ springer : https://link.springer.com/chapter/10.1007/978-3-662-56343-4_5}"		AMR Extensions
 "Gerasimos Lampouras, Andreas Vlachos"	Sheffield at SemEval-2017 Task 9: Transition-based language generation from AMR	SemEval	2017	http://www.aclweb.org/anthology/S17-2096		"Generation, Transition-based"
 "Ioannis Konstas, Srinivasan Iyer, Mark Yatskar, Yejin Choi, Luke Zettlemoyer"	Neural AMR: Sequence-to-Sequence Models for Parsing and Generation	ACL	2017	https://www.aclweb.org/anthology/P17-1014	https://arxiv.org/abs/1704.08381	"Parsing, Generation, Seq2Seq"
