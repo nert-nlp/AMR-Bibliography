@@ -190,3 +190,4 @@ Johan Bos	Separating Argument Structure from Logical Structure in AMR	preprint	2
 "Alexander Hoyle, Ana Marasović, Noah Smith"	Promoting Graph Awareness in Linearized Graph-to-Text Generation	preprint	2020		https://arxiv.org/abs/2012.15793	"Generation"
 "Adylan Roaffa Ilmy, Masayu Leylia Khodra"	Parsing Indonesian Sentence into Abstract Meaning Representation using Machine Learning Approach	preprint	2021		https://arxiv.org/abs/2103.03730	"Parsing, Multilingual"
 "Jiawei Zhou, Tahira Naseem, Ramón Fernandez Astudillo, Radu Florian"	AMR Parsing with Action-Pointer Transformer	NAACL-HLT	2021	https://aclanthology.org/2021.naacl-main.443	https://arxiv.org/abs/2104.14674	"Parsing, Transition-based"
+"Austin Blodgett, Nathan Schneider"	Probabilistic, Structure-Aware Algorithms for Improved Variety, Accuracy, and Coverage of AMR Alignments	ACL-IJCNLP	2021		https://arxiv.org/abs/2106.06002	"Alignment"
