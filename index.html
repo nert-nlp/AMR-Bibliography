@@ -28,7 +28,7 @@
     <div class="column" style="text-align: center; flex: 45%;">
       <div class='instructions'>
         <h3>Explore the research on AMR</h3>    
-        <p>The <big style="color: #a49;"><b>195</b></big> entries in the table below are sortable by column.<br/>
+        <p>The <big style="color: #a49;"><b>196</b></big> entries in the table below are sortable by column.<br/>
           You can highlight rows by topic (click on a topic <span class="math">TAG</span> in the last column).<br/>
           The main topics are:</p>
       </div>
@@ -80,7 +80,7 @@ var myChart = new Chart(ctx, {
     	labels: ['2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021'],
         datasets: [{
 label: 'AMR Extensions',
-                data: [0, 0, 0, 0, 1, 1, 5, 4, 6, 0],
+                data: [0, 0, 1, 0, 1, 1, 5, 4, 6, 0],
                 backgroundColor: '#332288'
 },
 {
@@ -2317,6 +2317,17 @@ $(document).ready(function() {
                 <td></td>
                 <td><a href="https://arxiv.org/abs/2106.04565" target="_blank">arXiv</a></td>
                 <td><button topic="parsing" on="0">Parsing</button> <button topic="mt-based" on="0">MT-based</button> <button topic="multilingual" on="0">Multilingual</button></td>
+            </tr>
+        
+            <tr>
+                <td>196</td>
+                <td>HuRIC: a Human Robot Interaction Corpus </td>
+                <td><span style="display:none;">Bastianelli</span>Emanuele Bastianelli, Giuseppe Castellucci, Danilo Croce, Luca Iocchi, Roberto Basili, Daniele Nardi</td>
+                <td>LREC</td>
+                <td>2014</td>
+                <td><a href="https://www.aclweb.org/anthology/L14-1440" target="_blank">pdf</a></td>
+                <td></td>
+                <td><button topic="amr extensions" on="0">AMR Extensions</button> <button topic="applications" on="0">Applications</button></td>
             </tr>
         
 </tbody>
