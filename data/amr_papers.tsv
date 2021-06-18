@@ -195,3 +195,4 @@ Johan Bos	Separating Argument Structure from Logical Structure in AMR	preprint	2
 "Yitao Cai, Zhe Lin, Xiaojun Wan"	Making Better Use of Bilingual Information for Cross-Lingual AMR Parsing	Findings of ACL	2021		https://arxiv.org/abs/2106.04814	"Parsing, Seq2Seq, Multilingual"
 "Sarah Uhrig, Yoalli Rezepka Garcia, Juri Opitz, Anette Frank"	Translate, then Parse! A strong baseline for Cross-Lingual AMR Parsing	IWPT	2021		https://arxiv.org/abs/2106.04565	"Parsing, MT-based, Multilingual"
 "Emanuele Bastianelli, Giuseppe Castellucci, Danilo Croce, Luca Iocchi, Roberto Basili, Daniele Nardi"	HuRIC: a Human Robot Interaction Corpus	LREC	2014	https://www.aclweb.org/anthology/L14-1440		"AMR Extensions, Applications"
+"Rik van Noord"	Character-based Neural Semantic Parsing	Ph.D. thesis, University of Groningen	2021	https://doi.org/10.33612/diss.169308968		"Parsing, Seq2Seq"
