@@ -28,7 +28,7 @@
     <div class="column" style="text-align: center; flex: 45%;">
       <div class='instructions'>
         <h3>Explore the research on AMR</h3>    
-        <p>The <big style="color: #a49;"><b>197</b></big> entries in the table below are sortable by column.<br/>
+        <p>The <big style="color: #a49;"><b>199</b></big> entries in the table below are sortable by column.<br/>
           You can highlight rows by topic (click on a topic <span class="math">TAG</span> in the last column).<br/>
           The main topics are:</p>
       </div>
@@ -80,7 +80,7 @@ var myChart = new Chart(ctx, {
     	labels: ['2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021'],
         datasets: [{
 label: 'AMR Extensions',
-                data: [0, 0, 1, 0, 1, 1, 5, 4, 6, 0],
+                data: [0, 0, 1, 0, 1, 1, 5, 3, 6, 0],
                 backgroundColor: '#332288'
 },
 {
@@ -95,7 +95,7 @@ label: 'Annotation',
 },
 {
 label: 'Applications',
-                data: [0, 0, 0, 3, 4, 3, 3, 1, 3, 1],
+                data: [0, 0, 0, 4, 4, 3, 3, 1, 3, 2],
                 backgroundColor: '#88CCEE'
 },
 {
@@ -122,6 +122,11 @@ label: 'Overview',
 label: 'Parsing',
                 data: [0, 1, 2, 9, 15, 18, 12, 11, 19, 6],
                 backgroundColor: '#000000'
+},
+{
+label: 'Syntax/Grammar',
+                data: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0],
+                backgroundColor: '#332288'
 },]
     },
     options: {
@@ -1134,7 +1139,7 @@ $(document).ready(function() {
             <tr>
                 <td>88</td>
                 <td>Guided Neural Language Generation for Abstractive Summarization using Abstract Meaning Representation </td>
-                <td><span style="display:none;">Hardy</span>Hardy Hardy, Andreas Vlachos</td>
+                <td><span style="display:none;">Hardy</span>Hardy, Andreas Vlachos</td>
                 <td>EMNLP</td>
                 <td>2018</td>
                 <td><a href="http://aclweb.org/anthology/D18-1086" target="_blank">pdf</a></td>
@@ -1496,17 +1501,6 @@ $(document).ready(function() {
         
             <tr>
                 <td>121</td>
-                <td>Separating Argument Structure from Logical Structure in AMR </td>
-                <td><span style="display:none;">Bos</span>Johan Bos</td>
-                <td>preprint</td>
-                <td>2019</td>
-                <td></td>
-                <td><a href="https://arxiv.org/abs/1908.01355" target="_blank">arXiv</a></td>
-                <td><button topic="amr extensions" on="0">AMR Extensions</button></td>
-            </tr>
-        
-            <tr>
-                <td>122</td>
                 <td>Rewarding Smatch: Transition-Based AMR Parsing with Reinforcement Learning </td>
                 <td><span style="display:none;">Naseem</span>Tahira Naseem, Abhishek Shah, Hui Wan, Radu Florian, Salim Roukos, Miguel Ballesteros</td>
                 <td>ACL</td>
@@ -1517,7 +1511,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>123</td>
+                <td>122</td>
                 <td>Enhancing AMR-to-Text Generation with Dual Graph Representations </td>
                 <td><span style="display:none;">Ribeiro</span>Leonardo F. R. Ribeiro, Claire Gardent, Iryna Gurevych</td>
                 <td>EMNLP</td>
@@ -1528,7 +1522,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>124</td>
+                <td>123</td>
                 <td>Broad-Coverage Semantic Parsing as Transduction </td>
                 <td><span style="display:none;">Zhang</span>Sheng Zhang, Xutai Ma, Kevin Duh, Benjamin Van Durme</td>
                 <td>EMNLP</td>
@@ -1539,7 +1533,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>125</td>
+                <td>124</td>
                 <td>AMR Normalization for Fairer Evaluation </td>
                 <td><span style="display:none;">Goodman</span>Michael Wayne Goodman</td>
                 <td>preprint</td>
@@ -1550,7 +1544,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>126</td>
+                <td>125</td>
                 <td>Modeling Graph Structure in Transformer for Better AMR-to-Text Generation </td>
                 <td><span style="display:none;">Zhu</span>Jie Zhu, Junhui Li, Muhua Zhu, Longhua Qian, Min Zhang, Guodong Zhou</td>
                 <td>EMNLP</td>
@@ -1561,7 +1555,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>127</td>
+                <td>126</td>
                 <td>Modeling Source Syntax and Semantics for Neural AMR Parsing </td>
                 <td><span style="display:none;">Ge</span>DongLai Ge, Junhui Li, Muhua Zhu, Shoushan Li</td>
                 <td>IJCAI</td>
@@ -1572,7 +1566,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>128</td>
+                <td>127</td>
                 <td>Core Semantic First: A Top-down Approach for AMR Parsing </td>
                 <td><span style="display:none;">Cai</span>Deng Cai, Wai Lam</td>
                 <td>EMNLP</td>
@@ -1583,7 +1577,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>129</td>
+                <td>128</td>
                 <td>Verbalizing AMR Structures </td>
                 <td><span style="display:none;">Lapalme</span>Guy Lapalme</td>
                 <td>Manuscript</td>
@@ -1594,7 +1588,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>130</td>
+                <td>129</td>
                 <td>Back-Translation as Strategy to Tackle the Lack of Corpus in Natural Language Generation from Semantic Representations </td>
                 <td><span style="display:none;">Cabezudo</span>Marco Antonio Sobrevilla Cabezudo, Simon Mille, Thiago Pardo</td>
                 <td>Multilingual Surface Realisation Workshop</td>
@@ -1605,7 +1599,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>131</td>
+                <td>130</td>
                 <td>AMR-to-Text Generation with Cache Transition Systems </td>
                 <td><span style="display:none;">Jin</span>Lisa Jin, Daniel Gildea</td>
                 <td>preprint</td>
@@ -1616,7 +1610,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>132</td>
+                <td>131</td>
                 <td>Exploring Graph-Algebraic CCG Combinators for Syntactic-Semantic AMR Parsing </td>
                 <td><span style="display:none;">Beschke</span>Sebastian Beschke</td>
                 <td>RANLP</td>
@@ -1627,7 +1621,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>133</td>
+                <td>132</td>
                 <td>Graph-to-Graph Meaning Representation Transformations for Human-Robot Dialogue </td>
                 <td><span style="display:none;">Abrams</span>Mitchell Abrams, Claire Bonial, Lucia Donatelli</td>
                 <td>SCiL</td>
@@ -1638,7 +1632,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>134</td>
+                <td>133</td>
                 <td>AMR Similarity Metrics from Principles </td>
                 <td><span style="display:none;">Opitz</span>Juri Opitz, Letitia Parcalabescu, Anette Frank</td>
                 <td>TACL</td>
@@ -1649,7 +1643,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>135</td>
+                <td>134</td>
                 <td>A Human Evaluation of AMR-to-English Generation Systems </td>
                 <td><span style="display:none;">Manning</span>Emma Manning, Shira Wein, Nathan Schneider</td>
                 <td>COLING</td>
@@ -1660,7 +1654,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>136</td>
+                <td>135</td>
                 <td>Exploring Probabilistic Soft Logic as a framework for integrating top-down and bottom-up processing of language in a task context </td>
                 <td><span style="display:none;">Dellert</span>Johannes Dellert</td>
                 <td>preprint</td>
@@ -1671,7 +1665,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>137</td>
+                <td>136</td>
                 <td>Graph Transformer for Graph-to-Sequence Learning </td>
                 <td><span style="display:none;">Cai</span>Deng Cai, Wai Lam</td>
                 <td>AAAI</td>
@@ -1682,7 +1676,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>138</td>
+                <td>137</td>
                 <td>AMR Parsing via Graph-Sequence Iterative Inference </td>
                 <td><span style="display:none;">Cai</span>Deng Cai, Wai Lam</td>
                 <td>ACL</td>
@@ -1693,7 +1687,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>139</td>
+                <td>138</td>
                 <td>Understanding and Generating Language with Abstract Meaning Representation </td>
                 <td><span style="display:none;">Damonte</span>Marco Damonte</td>
                 <td>Ph.D. thesis, University of Edinburgh</td>
@@ -1704,7 +1698,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>140</td>
+                <td>139</td>
                 <td>Methods for taking semantic graphs apart and putting them back together again </td>
                 <td><span style="display:none;">Groschwitz</span>Jonas Groschwitz</td>
                 <td>Ph.D. thesis, Saarland University and Macquarie University</td>
@@ -1715,7 +1709,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>141</td>
+                <td>140</td>
                 <td>Parsing and Generation for the Abstract Meaning Representation </td>
                 <td><span style="display:none;">Flanigan</span>Jeffrey Flanigan</td>
                 <td>Ph.D. thesis, Carnegie Mellon University</td>
@@ -1726,7 +1720,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>142</td>
+                <td>141</td>
                 <td>Abstract Meaning Representation Parsing </td>
                 <td><span style="display:none;">Wang</span>Chuan Wang</td>
                 <td>Ph.D. thesis, Brandeis University</td>
@@ -1737,7 +1731,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>143</td>
+                <td>142</td>
                 <td>Abstract Meaning Representation Parsing with Rich Linguistic Features </td>
                 <td><span style="display:none;">Chen</span>Wei-Te Chen</td>
                 <td>Ph.D. thesis, University of Colorado Boulder</td>
@@ -1748,7 +1742,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>144</td>
+                <td>143</td>
                 <td>Bringing together computational and linguistic models of implicit role interpretation </td>
                 <td><span style="display:none;">O'Gorman</span>Tim O'Gorman</td>
                 <td>Ph.D. thesis, University of Colorado Boulder</td>
@@ -1759,7 +1753,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>145</td>
+                <td>144</td>
                 <td>Construct a sense-frame aligned predicate lexicon for Chinese AMR corpus </td>
                 <td><span style="display:none;">Song</span>Li Song, Yuling Dai, Yihuan Liu, Bin Li, Weiguang Qu</td>
                 <td>LREC</td>
@@ -1770,7 +1764,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>146</td>
+                <td>145</td>
                 <td>Dialogue-AMR: Abstract Meaning Representation for dialogue </td>
                 <td><span style="display:none;">Bonial</span>Claire Bonial, Lucia Donatelli, Mitchell Abrams, Stephanie M. Lukin, Stephen Tratz, Matthew Marge, Ron Artstein, David Traum, Clare Voss</td>
                 <td>LREC</td>
@@ -1781,7 +1775,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>147</td>
+                <td>146</td>
                 <td>Spatial AMR: Expanded spatial annotation in the context of a grounded Minecraft corpus </td>
                 <td><span style="display:none;">Bonn</span>Julia Bonn, Martha Palmer, Zheng Cai, Kristin Wright-Bettner</td>
                 <td>LREC</td>
@@ -1792,7 +1786,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>148</td>
+                <td>147</td>
                 <td>From spatial relations to spatial configurations </td>
                 <td><span style="display:none;">Dan</span>Soham Dan, Parisa Kordjamshidi, Julia Bonn, Archna Bhatia, Zheng Cai, Martha Palmer, Dan Roth</td>
                 <td>LREC</td>
@@ -1803,7 +1797,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>149</td>
+                <td>148</td>
                 <td>AMR Parsing with Latent Structural Information </td>
                 <td><span style="display:none;">Zhou</span>Qiji Zhou, Yue Zhang, Donghong Ji, Hao Tang</td>
                 <td>ACL</td>
@@ -1814,7 +1808,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>150</td>
+                <td>149</td>
                 <td>GPT-too: A language-model-first approach for AMR-to-text generation </td>
                 <td><span style="display:none;">Mager</span>Manuel Mager, Ramón Fernandez Astudillo, Tahira Naseem, Md Arafat Sultan, Young-Suk Lee, Radu Florian, Salim Roukos</td>
                 <td>ACL</td>
@@ -1825,7 +1819,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>151</td>
+                <td>150</td>
                 <td>Line Graph Enhanced AMR-to-Text Generation with Mix-Order Graph Attention Networks </td>
                 <td><span style="display:none;">Zhao</span>Yanbin Zhao, Lu Chen, Zhi Chen, Ruisheng Cao, Su Zhu, Kai Yu</td>
                 <td>ACL</td>
@@ -1836,7 +1830,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>152</td>
+                <td>151</td>
                 <td>AMR quality rating with a lightweight CNN </td>
                 <td><span style="display:none;">Opitz</span>Juri Opitz</td>
                 <td>AACL</td>
@@ -1847,7 +1841,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>153</td>
+                <td>152</td>
                 <td>Graphs with Multiple Sources per Vertex </td>
                 <td><span style="display:none;">Harmelen</span>Martin van Harmelen, Jonas Groschwitz</td>
                 <td>preprint</td>
@@ -1858,7 +1852,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>154</td>
+                <td>153</td>
                 <td>Penman: An Open-Source Library and Tool for AMR Graphs </td>
                 <td><span style="display:none;">Goodman</span>Michael Wayne Goodman</td>
                 <td>ACL (Demo session)</td>
@@ -1869,7 +1863,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>155</td>
+                <td>154</td>
                 <td>AMR-To-Text Generation with Graph Transformer </td>
                 <td><span style="display:none;">Wang</span>Tianming Wang, Xiaojun Wan, Hanqi Jin</td>
                 <td>TACL</td>
@@ -1880,7 +1874,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>156</td>
+                <td>155</td>
                 <td>Better AMR-to-text generation with graph structure reconstruction </td>
                 <td><span style="display:none;">Wang</span>Tianming Wang, Xiaojun Wan, Shaowei Yao</td>
                 <td>IJCAI-PRICAI</td>
@@ -1891,7 +1885,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>157</td>
+                <td>156</td>
                 <td>Graph-to-Sequence Learning using Gated Graph Neural Networks </td>
                 <td><span style="display:none;">Beck</span>Daniel Beck, Gholamreza Haffari, Trevor Cohn</td>
                 <td>ACL</td>
@@ -1902,7 +1896,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>158</td>
+                <td>157</td>
                 <td>MRP 2019: Cross-Framework Meaning Representation Parsing </td>
                 <td><span style="display:none;">Oepen</span>Stephan Oepen, Omri Abend, Jan Hajic, Daniel Hershcovich, Marco Kuhlmann, Tim O’Gorman, Nianwen Xue, Jayeol Chun, Milan Straka, Zdenka Uresova</td>
                 <td>CoNLL</td>
@@ -1913,7 +1907,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>159</td>
+                <td>158</td>
                 <td>Investigating Pretrained Language Models for Graph-to-Text Generation </td>
                 <td><span style="display:none;">Ribeiro</span>Leonardo F. R. Ribeiro, Martin Schmitt, Hinrich Schütze, Iryna Gurevych</td>
                 <td>preprint</td>
@@ -1924,7 +1918,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>160</td>
+                <td>159</td>
                 <td>Fast semantic parsing with well-typedness guarantees </td>
                 <td><span style="display:none;">Lindemann</span>Matthias Lindemann, Jonas Groschwitz, Alexander Koller</td>
                 <td>EMNLP</td>
@@ -1935,7 +1929,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>161</td>
+                <td>160</td>
                 <td>Improving AMR Parsing with Sequence-to-Sequence Pre-training </td>
                 <td><span style="display:none;">Xu</span>Dongqin Xu, Junhui Li, Muhua Zhu, Min Zhang, Guodong Zhou</td>
                 <td>EMNLP</td>
@@ -1946,7 +1940,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>162</td>
+                <td>161</td>
                 <td>Towards a Decomposable Metric for Explainable Evaluation of Text Generation from AMR </td>
                 <td><span style="display:none;">Opitz</span>Juri Opitz, Anette Frank</td>
                 <td>EACL</td>
@@ -1957,7 +1951,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>163</td>
+                <td>162</td>
                 <td>Online Back-Parsing for AMR-to-Text Generation </td>
                 <td><span style="display:none;">Bai</span>Xuefeng Bai, Linfeng Song, Yue Zhang</td>
                 <td>EMNLP</td>
@@ -1968,7 +1962,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>164</td>
+                <td>163</td>
                 <td>Lightweight, Dynamic Graph Convolutional Networks for AMR-to-Text Generation </td>
                 <td><span style="display:none;">Zhang</span>Yan Zhang, Zhijiang Guo, Zhiyang Teng, Wei Lu, Shay B. Cohen, Zuozhu Liu, Lidong Bing</td>
                 <td>EMNLP</td>
@@ -1979,7 +1973,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>165</td>
+                <td>164</td>
                 <td>Pushing the Limits of AMR Parsing with Self-Learning </td>
                 <td><span style="display:none;">Lee</span>Young-Suk Lee, Ramón Fernandez Astudillo, Tahira Naseem, Revanth Gangi Reddy, Radu Florian, Salim Roukos</td>
                 <td>Findings of EMNLP</td>
@@ -1990,7 +1984,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>166</td>
+                <td>165</td>
                 <td>Transition-based Parsing with Stack-Transformers </td>
                 <td><span style="display:none;">Astudillo</span>Ramón Fernandez Astudillo, Miguel Ballesteros, Tahira Naseem, Austin Blodgett, Radu Florian</td>
                 <td>Findings of EMNLP</td>
@@ -2001,7 +1995,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>167</td>
+                <td>166</td>
                 <td>XL-AMR: Enabling Cross-Lingual AMR Parsing with Transfer Learning Techniques </td>
                 <td><span style="display:none;">Blloshmi</span>Rexhina Blloshmi, Rocco Tripodi, Roberto Navigli</td>
                 <td>EMNLP</td>
@@ -2012,7 +2006,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>168</td>
+                <td>167</td>
                 <td>A Differentiable Relaxation of Graph Segmentation and Alignment for AMR Parsing </td>
                 <td><span style="display:none;">Lyu</span>Chunchuan Lyu, Shay B. Cohen, Ivan Titov</td>
                 <td>preprint</td>
@@ -2023,7 +2017,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>169</td>
+                <td>168</td>
                 <td>I Know What You Asked: Graph Path Learning using AMR for Commonsense Reasoning </td>
                 <td><span style="display:none;">Lim</span>Jungwoo Lim, Dongsuk Oh, Yoonna Jang, Kisu Yang, Heuiseok Lim</td>
                 <td>COLING</td>
@@ -2034,7 +2028,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>170</td>
+                <td>169</td>
                 <td>Multilingual AMR-to-Text Generation </td>
                 <td><span style="display:none;">Fan</span>Angela Fan, Claire Gardent</td>
                 <td>EMNLP</td>
@@ -2045,7 +2039,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>171</td>
+                <td>170</td>
                 <td>Semantically Inspired AMR Alignment for the Portuguese Language </td>
                 <td><span style="display:none;">Anchiêta</span>Rafael Anchiêta, Thiago Pardo</td>
                 <td>EMNLP</td>
@@ -2056,7 +2050,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>172</td>
+                <td>171</td>
                 <td>The Role of Reentrancies in Abstract Meaning Representation Parsing </td>
                 <td><span style="display:none;">Damonte</span>Marco Damonte, Ida Szubert, Shay B. Cohen, Mark Steedman</td>
                 <td>Findings of EMNLP</td>
@@ -2067,7 +2061,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>173</td>
+                <td>172</td>
                 <td>MRP 2020: The Second Shared Task on Cross-Framework and Cross-Lingual Meaning Representation Parsing </td>
                 <td><span style="display:none;">Oepen</span>Stephan Oepen, Omri Abend, Lasha Abzianidze, Johan Bos, Jan Hajic, Daniel Hershcovich, Bin Li, Tim O’Gorman, Nianwen Xue, Daniel Zeman</td>
                 <td>CoNLL</td>
@@ -2078,7 +2072,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>174</td>
+                <td>173</td>
                 <td>Hitachi at MRP 2020: Text-to-Graph-Notation Transducer </td>
                 <td><span style="display:none;">Ozaki</span>Hiroaki Ozaki, Gaku Morio, Yuta Koreeda, Terufumi Morishita, Toshinori Miyoshi</td>
                 <td>CoNLL</td>
@@ -2089,7 +2083,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>175</td>
+                <td>174</td>
                 <td>ÚFAL at MRP 2020: Permutation-invariant Semantic Parsing in PERIN </td>
                 <td><span style="display:none;">Samuel</span>David Samuel, Milan Straka</td>
                 <td>CoNLL</td>
@@ -2100,7 +2094,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>176</td>
+                <td>175</td>
                 <td>HIT-SCIR at MRP 2020: Transition-based Parser and Iterative Inference Parser </td>
                 <td><span style="display:none;">Dou</span>Longxu Dou, Yunlong Feng, Yuqiu Ji, Wanxiang Che, Ting Liu</td>
                 <td>CoNLL</td>
@@ -2111,7 +2105,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>177</td>
+                <td>176</td>
                 <td>HUJI-KU at MRP 2020: Two Transition-based Neural Parsers </td>
                 <td><span style="display:none;">Arviv</span>Ofir Arviv, Ruixiang Cui, Daniel Hershcovich</td>
                 <td>CoNLL</td>
@@ -2122,7 +2116,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>178</td>
+                <td>177</td>
                 <td>JBNU at MRP 2020: AMR Parsing Using a Joint State Model for Graph-Sequence Iterative Inference </td>
                 <td><span style="display:none;">Na</span>Seung-Hoon Na, Jinwoo Min</td>
                 <td>CoNLL</td>
@@ -2133,7 +2127,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>179</td>
+                <td>178</td>
                 <td>Generalized Shortest-Paths Encoders for AMR-to-Text Generation </td>
                 <td><span style="display:none;">Jin</span>Lisa Jin, Daniel Gildea</td>
                 <td>COLING</td>
@@ -2144,7 +2138,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>180</td>
+                <td>179</td>
                 <td>Predicting Coreference in Abstract Meaning Representations </td>
                 <td><span style="display:none;">Anikina</span>Tatiana Anikina, Alexander Koller, Michael Roth</td>
                 <td>Computational Models of Reference, Anaphora and Coreference Workshop</td>
@@ -2155,7 +2149,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>181</td>
+                <td>180</td>
                 <td>A Continuation Semantics for Abstract Meaning Representation </td>
                 <td><span style="display:none;">Lai</span>Kenneth Lai, Lucia Donatelli, James Pustejovsky</td>
                 <td>Designing Meaning Representations Workshop</td>
@@ -2166,18 +2160,18 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>182</td>
+                <td>181</td>
                 <td>Separating Argument Structure from Logical Structure in AMR </td>
                 <td><span style="display:none;">Bos</span>Johan Bos</td>
                 <td>Designing Meaning Representations Workshop</td>
                 <td>2020</td>
                 <td><a href="https://www.aclweb.org/anthology/2020.dmr-1.2" target="_blank">pdf</a></td>
-                <td></td>
+                <td><a href="https://arxiv.org/abs/1908.01355" target="_blank">arXiv</a></td>
                 <td><button topic="amr extensions" on="0">AMR Extensions</button></td>
             </tr>
         
             <tr>
-                <td>183</td>
+                <td>182</td>
                 <td>Building Korean Abstract Meaning Representation Corpus </td>
                 <td><span style="display:none;">Choe</span>Hyonsu Choe, Jiyoon Han, Hyejin Park, Tae Hwan Oh, Hansaem Kim</td>
                 <td>Designing Meaning Representations Workshop</td>
@@ -2188,7 +2182,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>184</td>
+                <td>183</td>
                 <td>Cross-lingual annotation: a road map for low- and no-resource languages </td>
                 <td><span style="display:none;">Vigus</span>Meagan Vigus, Jens E. L. Van Gysel, Tim O’Gorman, Andrew Cowell, Rosa Vallejos, William Croft</td>
                 <td>Designing Meaning Representations Workshop</td>
@@ -2199,7 +2193,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>185</td>
+                <td>184</td>
                 <td>InfoForager: Leveraging Semantic Search with AMR for COVID-19 Research </td>
                 <td><span style="display:none;">Bonial</span>Claire Bonial, Stephanie M. Lukin, David Doughty, Steven Hill, Clare Voss</td>
                 <td>Designing Meaning Representations Workshop</td>
@@ -2210,7 +2204,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>186</td>
+                <td>185</td>
                 <td>One SPRING to Rule Them Both: Symmetric AMR Semantic Parsing and Generation without a Complex Pipeline </td>
                 <td><span style="display:none;">Bevilacqua</span>Michele Bevilacqua, Rexhina Blloshmi, Roberto Navigli</td>
                 <td>AAAI</td>
@@ -2221,7 +2215,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>187</td>
+                <td>186</td>
                 <td>Leveraging Non-Specialists for Accurate and Time Efficient AMR Annotation </td>
                 <td><span style="display:none;">Martin</span>Mary Martin, Cecilia Mauceri, Martha Palmer, Christoffer Heckman</td>
                 <td>Citizen Linguistics in Language Resource Development Workshop</td>
@@ -2232,7 +2226,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>188</td>
+                <td>187</td>
                 <td>Structural Adapters in Pretrained Language Models for AMR-to-text Generation </td>
                 <td><span style="display:none;">Ribeiro</span>Leonardo F. R. Ribeiro, Yue Zhang, Iryna Gurevych</td>
                 <td>preprint</td>
@@ -2243,7 +2237,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>189</td>
+                <td>188</td>
                 <td>Promoting Graph Awareness in Linearized Graph-to-Text Generation </td>
                 <td><span style="display:none;">Hoyle</span>Alexander Hoyle, Ana Marasović, Noah Smith</td>
                 <td>preprint</td>
@@ -2254,7 +2248,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>190</td>
+                <td>189</td>
                 <td>Parsing Indonesian Sentence into Abstract Meaning Representation using Machine Learning Approach </td>
                 <td><span style="display:none;">Ilmy</span>Adylan Roaffa Ilmy, Masayu Leylia Khodra</td>
                 <td>preprint</td>
@@ -2265,7 +2259,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>191</td>
+                <td>190</td>
                 <td>AMR Parsing with Action-Pointer Transformer </td>
                 <td><span style="display:none;">Zhou</span>Jiawei Zhou, Tahira Naseem, Ramón Fernandez Astudillo, Radu Florian</td>
                 <td>NAACL-HLT</td>
@@ -2276,7 +2270,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>192</td>
+                <td>191</td>
                 <td>Probabilistic, Structure-Aware Algorithms for Improved Variety, Accuracy, and Coverage of AMR Alignments </td>
                 <td><span style="display:none;">Blodgett</span>Austin Blodgett, Nathan Schneider</td>
                 <td>ACL-IJCNLP</td>
@@ -2287,7 +2281,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>193</td>
+                <td>192</td>
                 <td>Builder, we have done it: Evaluating & Extending Dialogue-AMR NLU Pipeline for Two Collaborative Domains </td>
                 <td><span style="display:none;">Bonial</span>Claire Bonial, Mitchell Abrams, David Traum, Clare Voss</td>
                 <td>IWCS</td>
@@ -2298,7 +2292,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>194</td>
+                <td>193</td>
                 <td>Making Better Use of Bilingual Information for Cross-Lingual AMR Parsing </td>
                 <td><span style="display:none;">Cai</span>Yitao Cai, Zhe Lin, Xiaojun Wan</td>
                 <td>Findings of ACL</td>
@@ -2309,7 +2303,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>195</td>
+                <td>194</td>
                 <td>Translate, then Parse! A strong baseline for Cross-Lingual AMR Parsing </td>
                 <td><span style="display:none;">Uhrig</span>Sarah Uhrig, Yoalli Rezepka Garcia, Juri Opitz, Anette Frank</td>
                 <td>IWPT</td>
@@ -2320,7 +2314,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>196</td>
+                <td>195</td>
                 <td>HuRIC: a Human Robot Interaction Corpus </td>
                 <td><span style="display:none;">Bastianelli</span>Emanuele Bastianelli, Giuseppe Castellucci, Danilo Croce, Luca Iocchi, Roberto Basili, Daniele Nardi</td>
                 <td>LREC</td>
@@ -2331,7 +2325,7 @@ $(document).ready(function() {
             </tr>
         
             <tr>
-                <td>197</td>
+                <td>196</td>
                 <td>Character-based Neural Semantic Parsing </td>
                 <td><span style="display:none;">Noord</span>Rik van Noord</td>
                 <td>Ph.D. thesis, University of Groningen</td>
@@ -2339,6 +2333,39 @@ $(document).ready(function() {
                 <td><a href="https://doi.org/10.33612/diss.169308968" target="_blank">pdf</a></td>
                 <td></td>
                 <td><button topic="parsing" on="0">Parsing</button> <button topic="seq2seq" on="0">Seq2Seq</button></td>
+            </tr>
+        
+            <tr>
+                <td>197</td>
+                <td>An Improved Approach for Semantic Graph Composition with CCG </td>
+                <td><span style="display:none;">Blodgett</span>Austin Blodgett, Nathan Schneider</td>
+                <td>IWCS</td>
+                <td>2019</td>
+                <td><a href="https://aclanthology.org/W19-0405" target="_blank">pdf</a></td>
+                <td><a href="https://arxiv.org/abs/1903.11770" target="_blank">arXiv</a></td>
+                <td><button topic="syntax/grammar" on="0">Syntax/Grammar</button></td>
+            </tr>
+        
+            <tr>
+                <td>198</td>
+                <td>Improving Event Detection with Abstract Meaning Representation </td>
+                <td><span style="display:none;">Li</span>Xiang Li, Thien Huu Nguyen, Kai Cao, Ralph Grishman</td>
+                <td>ACL-IJCNLP</td>
+                <td>2015</td>
+                <td><a href="https://aclanthology.org/W15-4502/" target="_blank">pdf</a></td>
+                <td></td>
+                <td><button topic="applications" on="0">Applications</button></td>
+            </tr>
+        
+            <tr>
+                <td>199</td>
+                <td>Abstract Meaning Representation Guided Graph Encoding and Decoding for Joint Information Extraction </td>
+                <td><span style="display:none;">Zhang</span>Zixuan Zhang, Heng Ji</td>
+                <td>NAACL</td>
+                <td>2021</td>
+                <td><a href="https://aclanthology.org/2021.naacl-main.4/" target="_blank">pdf</a></td>
+                <td></td>
+                <td><button topic="applications" on="0">Applications</button></td>
             </tr>
         
 </tbody>
