@@ -196,7 +196,7 @@ Ulf Hermjakob	AMR Annotation Dictionary (maintained by Ulf Hermjakob).			"{ Tool
 "Emanuele Bastianelli, Giuseppe Castellucci, Danilo Croce, Luca Iocchi, Roberto Basili, Daniele Nardi"	HuRIC: a Human Robot Interaction Corpus	LREC	2014	https://www.aclweb.org/anthology/L14-1440		"AMR Extensions, Applications"
 "Rik van Noord"	Character-based Neural Semantic Parsing	Ph.D. thesis, University of Groningen	2021	https://doi.org/10.33612/diss.169308968		"Parsing, Seq2Seq"
 "Austin Blodgett, Nathan Schneider"	An Improved Approach for Semantic Graph Composition with CCG	IWCS	2019	https://aclanthology.org/W19-0405	https://arxiv.org/abs/1903.11770	"Syntax/grammar"
-"Xiang Li, Thien Huu Nguyen, Kai Cao, Ralph Grishman"	Improving Event Detection with Abstract Meaning Representation	ACL-IJCNLP	2015	https://aclanthology.org/W15-4502/		"Applications"
+"Xiang Li, Thien Huu Nguyen, Kai Cao, Ralph Grishman"	Improving Event Detection with Abstract Meaning Representation	Workshop on Computing News Storylines	2015	https://aclanthology.org/W15-4502/		"Applications"
 "Zixuan Zhang, Heng Ji"	Abstract Meaning Representation Guided Graph Encoding and Decoding for Joint Information Extraction	NAACL	2021	https://aclanthology.org/2021.naacl-main.4/		"Applications"
 "Daniel Hershcovich, Omri Abend, Ari Rappoport"	Multitask Parsing Across Semantic Representations	ACL	2018	https://aclanthology.org/P18-1035/		"Parsing, Transition-based"
 "Sinh Trong Vu, Minh Le Nguyen, Ken Satoh"	Abstract meaning representation for legal documents: an empirical research on a human-annotated dataset	Artificial Intelligence and Law	2021	https://link.springer.com/article/10.1007/s10506-021-09292-6		"Applications"
