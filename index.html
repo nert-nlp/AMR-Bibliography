@@ -28,7 +28,7 @@
     <div class="column" style="text-align: center; flex: 45%;">
       <div class='instructions'>
         <h3>Explore the research on AMR</h3>    
-        <p>The <big style="color: #a49;"><b>206</b></big> entries in the table below are sortable by column.<br/>
+        <p>The <big style="color: #a49;"><b>223</b></big> entries in the table below are sortable by column.<br/>
           You can highlight rows by topic (click on a topic <span class="math">TAG</span> in the last column).<br/>
           The main topics are:</p>
       </div>
@@ -85,7 +85,7 @@ label: 'AMR Extensions',
 },
 {
 label: 'Alignment',
-                data: [1, 0, 1, 1, 0, 2, 2, 0, 1, 1],
+                data: [1, 0, 1, 1, 0, 2, 2, 0, 1, 2],
                 backgroundColor: '#117733'
 },
 {
@@ -95,17 +95,17 @@ label: 'Annotation',
 },
 {
 label: 'Applications',
-                data: [0, 0, 0, 4, 4, 3, 4, 1, 3, 4],
+                data: [0, 0, 0, 4, 4, 3, 4, 1, 3, 9],
                 backgroundColor: '#88CCEE'
 },
 {
 label: 'Evaluation',
-                data: [0, 1, 0, 0, 1, 0, 0, 2, 3, 1],
+                data: [0, 1, 0, 0, 1, 0, 0, 2, 3, 2],
                 backgroundColor: '#DDCC77'
 },
 {
 label: 'Generation',
-                data: [0, 0, 0, 0, 4, 5, 2, 8, 11, 1],
+                data: [0, 0, 0, 0, 4, 5, 2, 8, 11, 3],
                 backgroundColor: '#CC6677'
 },
 {
@@ -115,17 +115,17 @@ label: 'Graph algebra',
 },
 {
 label: 'Multilingual',
-                data: [0, 0, 0, 1, 0, 0, 0, 0, 3, 0],
+                data: [0, 0, 0, 1, 0, 0, 0, 0, 3, 1],
                 backgroundColor: '#882255'
 },
 {
 label: 'Overview',
-                data: [0, 1, 0, 3, 0, 0, 0, 0, 0, 0],
+                data: [0, 1, 0, 3, 0, 1, 0, 0, 0, 0],
                 backgroundColor: '#000000'
 },
 {
 label: 'Parsing',
-                data: [0, 1, 2, 9, 15, 18, 13, 11, 18, 8],
+                data: [0, 1, 2, 9, 15, 18, 13, 12, 18, 13],
                 backgroundColor: '#332288'
 },
 {
@@ -2448,6 +2448,193 @@ $(document).ready(function() {
                 <td><a href="https://dl.acm.org/doi/pdf/10.1145/2837185.2837246/" target="_blank">pdf</a></td>
                 <td></td>
                 <td><button topic="multilingual" on="0">Multilingual</button></td>
+            </tr>
+        
+            <tr>
+                <td>207</td>
+                <td>Improving Neural Machine Translation with AMR Semantic Graphs </td>
+                <td><span style="display:none;">Nguyen</span>Long H. B. Nguyen , Viet H. Pham, Dien Dinh</td>
+                <td>Mathematical Problems in Engineering</td>
+                <td>2021</td>
+                <td><a href="https://www.hindawi.com/journals/mpe/2021/9939389/" target="_blank">pdf</a></td>
+                <td></td>
+                <td><button topic="applications" on="0">Applications</button> <button topic="mt" on="0">MT</button></td>
+            </tr>
+        
+            <tr>
+                <td>208</td>
+                <td>Designing a Uniform Meaning Representation for Natural Language Processing </td>
+                <td><span style="display:none;">Gysel</span>Jens E. L. Van Gysel, Meagan Vigus, Jayeol Chun, Kenneth Lai, Sarah Moeller, Jiarui Yao, Tim O’Gorman, Andrew Cowell, William Croft, Chu-Ren Huang, Jan Hajič, James H. Martin, Stephan Oepen, Martha Palmer, James Pustejovsky, Rosa Vallejos, Nianwen Xue</td>
+                <td>Künstliche Intelligenz</td>
+                <td>2021</td>
+                <td><a href="https://link.springer.com/article/10.1007/s13218-021-00722-w" target="_blank">pdf</a></td>
+                <td></td>
+                <td><button topic="multilingual" on="0">Multilingual</button> <button topic="amr extensions" on="0">AMR Extensions</button></td>
+            </tr>
+        
+            <tr>
+                <td>209</td>
+                <td>Broad-Coverage Semantic Parsing as Transduction </td>
+                <td><span style="display:none;">Zhang</span>Sheng Zhang, Xutai Ma, Kevin Duh, Benjamin Van Durme</td>
+                <td>EMNLP-IJCNLP</td>
+                <td>2019</td>
+                <td><a href="https://aclanthology.org/D19-1392.pdf" target="_blank">pdf</a></td>
+                <td><a href="https://arxiv.org/pdf/1909.02607.pdf" target="_blank">arXiv</a></td>
+                <td><button topic="parsing" on="0">Parsing</button> <button topic="transition-based" on="0">Transition-based</button> <button topic="graph-based" on="0">Graph-based</button></td>
+            </tr>
+        
+            <tr>
+                <td>210</td>
+                <td>Bootstrapping Multilingual AMR with Contextual Word Alignments </td>
+                <td><span style="display:none;">Sheth</span>Janaki Sheth, Young-Suk Lee, Ramón Fernandez Astudillo, Tahira Naseem, Radu Florian, Salim Roukos, Todd Ward</td>
+                <td>EACL</td>
+                <td>2021</td>
+                <td><a href="https://aclanthology.org/2021.eacl-main.30.pdf" target="_blank">pdf</a></td>
+                <td><a href="https://arxiv.org/pdf/2102.02189.pdf" target="_blank">arXiv</a></td>
+                <td><button topic="alignment" on="0">Alignment</button> <button topic="multilingual" on="0">Multilingual</button></td>
+            </tr>
+        
+            <tr>
+                <td>211</td>
+                <td>ASQ: Automatically Generating Question-Answer Pairs using AMRs </td>
+                <td><span style="display:none;">Rakshit</span>Geetanjali Rakshit, Jeffrey Flanigan</td>
+                <td>preprint</td>
+                <td>2021</td>
+                <td></td>
+                <td><a href="https://arxiv.org/pdf/2105.10023.pdf" target="_blank">arXiv</a></td>
+                <td><button topic="applications" on="0">Applications</button> <button topic="question answering" on="0">Question Answering</button></td>
+            </tr>
+        
+            <tr>
+                <td>212</td>
+                <td>The State of the Art in Semantic Representation </td>
+                <td><span style="display:none;">Abend</span>Omri Abend, Ari Rappoport</td>
+                <td>ACL</td>
+                <td>2017</td>
+                <td><a href="https://aclanthology.org/P17-1008.pdf" target="_blank">pdf</a></td>
+                <td></td>
+                <td><button topic="overview" on="0">Overview</button></td>
+            </tr>
+        
+            <tr>
+                <td>213</td>
+                <td>SGL: Speaking the Graph Languages of Semantic Parsing via Multilingual Translation </td>
+                <td><span style="display:none;">Procopio</span>Luigi Procopio, Rocco Tripodi, Roberto Navigli</td>
+                <td>NAACL</td>
+                <td>2021</td>
+                <td><a href="https://aclanthology.org/2021.naacl-main.30.pdf" target="_blank">pdf</a></td>
+                <td></td>
+                <td><button topic="parsing" on="0">Parsing</button> <button topic="seq2seq" on="0">Seq2Seq</button> <button topic="mt-based" on="0">MT-based</button></td>
+            </tr>
+        
+            <tr>
+                <td>214</td>
+                <td>Dependency Patterns of Complex Sentences and Semantic Disambiguation for Abstract Meaning Representation Parsing </td>
+                <td><span style="display:none;">Yamamoto</span>Yuki Yamamoto, Yuji Matsumoto, Taro Watanabe</td>
+                <td>*SEM</td>
+                <td>2021</td>
+                <td><a href="https://aclanthology.org/2021.starsem-1.20.pdf" target="_blank">pdf</a></td>
+                <td></td>
+                <td><button topic="parsing" on="0">Parsing</button></td>
+            </tr>
+        
+            <tr>
+                <td>215</td>
+                <td>Fine-grained Information Extraction from Biomedical Literature based on Knowledge-enriched Abstract Meaning Representation </td>
+                <td><span style="display:none;">Zhang</span>Zixuan Zhang, Nikolaus Parulian, Heng Ji, Ahmed S. Elsayed, Skatje Myers, Martha Palmer</td>
+                <td>ACL</td>
+                <td>2021</td>
+                <td><a href="https://aclanthology.org/2021.acl-long.489.pdf" target="_blank">pdf</a></td>
+                <td></td>
+                <td><button topic="applications" on="0">Applications</button> <button topic="biomedical" on="0">Biomedical</button> <button topic="information extraction" on="0">Information Extraction</button></td>
+            </tr>
+        
+            <tr>
+                <td>216</td>
+                <td>Incorporating EDS Graph for AMR Parsing </td>
+                <td><span style="display:none;">Shou</span>Ziyi Shou, Fangzhen Lin</td>
+                <td>*SEM</td>
+                <td>2021</td>
+                <td><a href="https://aclanthology.org/2021.starsem-1.19.pdf" target="_blank">pdf</a></td>
+                <td></td>
+                <td><button topic="parsing" on="0">Parsing</button> <button topic="transition-based" on="0">Transition-based</button></td>
+            </tr>
+        
+            <tr>
+                <td>217</td>
+                <td>End-to-End AMR Coreference Resolution </td>
+                <td><span style="display:none;">Fu</span>Qiankun Fu, Linfeng Song, Wenyu Du, Yue Zhang</td>
+                <td>ACL</td>
+                <td>2021</td>
+                <td><a href="https://aclanthology.org/2021.acl-long.324.pdf" target="_blank">pdf</a></td>
+                <td></td>
+                <td><button topic="applications" on="0">Applications</button> <button topic="coreference resolution" on="0">Coreference Resolution</button></td>
+            </tr>
+        
+            <tr>
+                <td>218</td>
+                <td>XLPT-AMR: Cross-Lingual Pre-Training via Multi-Task Learning for Zero-Shot AMR Parsing and Text Generation </td>
+                <td><span style="display:none;">Xu</span>Dongqin Xu, Junhui Li, Muhua Zhu, Min Zhang, Guodong Zhou</td>
+                <td>ACL</td>
+                <td>2021</td>
+                <td><a href="https://aclanthology.org/2021.acl-long.73.pdf" target="_blank">pdf</a></td>
+                <td></td>
+                <td><button topic="parsing" on="0">Parsing</button> <button topic="generation" on="0">Generation</button> <button topic="multilingual" on="0">Multilingual</button> <button topic="multi-task learning" on="0">Multi-task Learning</button> <button topic="mt" on="0">MT</button></td>
+            </tr>
+        
+            <tr>
+                <td>219</td>
+                <td>Learning compositional structures for semantic graph parsing </td>
+                <td><span style="display:none;">Groschwitz</span>Jonas Groschwitz, Meaghan Fowlie, Alexander Koller</td>
+                <td>SPNLP</td>
+                <td>2021</td>
+                <td><a href="https://aclanthology.org/2021.spnlp-1.3.pdf" target="_blank">pdf</a></td>
+                <td><a href="https://arxiv.org/pdf/2106.04398.pdf" target="_blank">arXiv</a></td>
+                <td><button topic="parsing" on="0">Parsing</button></td>
+            </tr>
+        
+            <tr>
+                <td>220</td>
+                <td>Weisfeiler-Leman in the BAMBOO: Novel AMR Graph Metrics and a Benchmark for AMR Graph Similarity </td>
+                <td><span style="display:none;">Opitz</span>Juri Opitz, Angel Daza, Anette Frank</td>
+                <td>preprint</td>
+                <td>2021</td>
+                <td></td>
+                <td><a href="https://arxiv.org/pdf/2108.11949.pdf" target="_blank">arXiv</a></td>
+                <td><button topic="evaluation" on="0">Evaluation</button></td>
+            </tr>
+        
+            <tr>
+                <td>221</td>
+                <td>Latent Tree Decomposition Parsers for AMR-to-Text Generation </td>
+                <td><span style="display:none;">Jin</span>Lisa Jin, Daniel Gildea</td>
+                <td>preprint</td>
+                <td>2021</td>
+                <td></td>
+                <td><a href="https://arxiv.org/pdf/2108.12304.pdf" target="_blank">arXiv</a></td>
+                <td><button topic="generation" on="0">Generation</button> <button topic="graph-based" on="0">Graph-based</button></td>
+            </tr>
+        
+            <tr>
+                <td>222</td>
+                <td>Tree Decomposition Attention for AMR-to-Text Generation </td>
+                <td><span style="display:none;">Jin</span>Lisa Jin, Daniel Gildea</td>
+                <td>preprint</td>
+                <td>2021</td>
+                <td></td>
+                <td><a href="https://arxiv.org/pdf/2108.12300.pdf" target="_blank">arXiv</a></td>
+                <td><button topic="generation" on="0">Generation</button> <button topic="graph-based" on="0">Graph-based</button></td>
+            </tr>
+        
+            <tr>
+                <td>223</td>
+                <td>Automatic Comprehension of Geometry Problems using AMR Parser </td>
+                <td><span style="display:none;">Iordan</span>Anca-Elena Iordan</td>
+                <td>International Conference on Software Engineering and Knowledge Engineering</td>
+                <td>2021</td>
+                <td></td>
+                <td><a href="https://ksiresearch.org/seke/seke21paper/paper168.pdf" target="_blank">arXiv</a></td>
+                <td><button topic="applications" on="0">Applications</button> <button topic="geometry problems" on="0">Geometry Problems</button></td>
             </tr>
         
 </tbody>
