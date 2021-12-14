@@ -226,3 +226,4 @@ Ulf Hermjakob	AMR Annotation Dictionary (maintained by Ulf Hermjakob).			"{ Tool
 "Peiyi Wang, Liang Chen, Tianyu Liu, Baobao Chang, Zhifang Sui"	Hierarchical Curriculum Learning for AMR Parsing	preprint	2021		https://arxiv.org/abs/2110.07855	"Parsing, Curriculum Learning"
 "Fei-Tzin Lee, Chris Kedzie, Nakul Verma, Kathleen McKeown"	An analysis of document graph construction methods for AMR summarization	preprint	2021		https://arxiv.org/pdf/2111.13993.pdf	"Document-level AMR, Summarization, Evaluation"
 "Z. Uresova, J. Hajic, O. Bojar"	Comparing Czech and English AMRs	Workshop on Lexical and Grammatical Resources for Language Processing	2014	https://aclanthology.org/W14-5808v2.pdf		"Multilingual"
+"Mollie F. Bakal"	Graph-to-Graph Translations To Augment Abstract Meaning Representation Tense And Aspect	B.S. Thesis University of Michigan	2021	https://deepblue.lib.umich.edu/bitstream/handle/2027.42/169387/bakalm.pdf?sequence=1		"AMR Extensions"
