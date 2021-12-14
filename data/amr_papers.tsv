@@ -223,3 +223,4 @@ Ulf Hermjakob	AMR Annotation Dictionary (maintained by Ulf Hermjakob).			"{ Tool
 "Lisa Jin, Daniel Gildea"	Tree Decomposition Attention for AMR-to-Text Generation	preprint	2021		https://arxiv.org/pdf/2108.12300.pdf	"Generation, Graph-based"
 "Anca-Elena Iordan"	Automatic Comprehension of Geometry Problems using AMR Parser	International Conference on Software Engineering and Knowledge Engineering	2021	https://ksiresearch.org/seke/seke21paper/paper168.pdf		"Applications, Geometry Problems"
 "Marcio Lima Inácio, Thiago Alexandre Salgueiro Pardo"	Semantic-Based Opinion Summarization	RANLP	2021	"{ pdf : https://acl-bg.org/proceedings/2021/RANLP%202021/pdf/2021.ranlp-1.70.pdf, code : https://github.com/Superar/SemOpinionS }"		"Applications, Summarization"
+"Peiyi Wang, Liang Chen, Tianyu Liu, Baobao Chang, Zhifang Sui"	Hierarchical Curriculum Learning for AMR Parsing	preprint	2021		https://arxiv.org/abs/2110.07855	"Parsing, Curriculum Learning"
