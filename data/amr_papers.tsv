@@ -243,3 +243,4 @@ Ulf Hermjakob	AMR Annotation Dictionary (maintained by Ulf Hermjakob).			"{ Tool
 "Roberto Navigli, Rexhina Blloshmi, Abelardo Carlos Martínez Lorenzo"	BabelNet Meaning Representation: A Fully Semantic Formalism to Overcome Language Barriers	AAAI	2022	https://www.aaai.org/AAAI22Papers/SMT-00455-NavigliR.pdf		"AMR Extensions, Multilingual"
 "Xuefeng Bai, Yulong Chen, Yue Zhang"	Graph Pre-training for AMR Parsing and Generation	preprint	2022		https://arxiv.org/abs/2203.07836	"Parsing, Generation"
 "Johanna Björklund, Frank Drewes, Anna Jonsson"	Polynomial Graph Parsing with Non-Structural Reentrancies	preprint	2021		https://arxiv.org/pdf/2105.02033.pdf	"Parsing"
+"Weiwen Xu, Huihui Zhang, Deng Cai and Wai Lam"	Dynamic Semantic Graph Construction and Reasoning for Explainable Multi-hop Science Question Answering	Findings of ACL: ACL-IJCNLP	2021	https://aclanthology.org/2021.findings-acl.90.pdf		"Applications, Question Answering"
