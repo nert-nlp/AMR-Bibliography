@@ -125,7 +125,7 @@ Ulf Hermjakob	AMR Annotation Dictionary (maintained by Ulf Hermjakob).			"{ Tool
 "Michael Wayne Goodman"	AMR Normalization for Fairer Evaluation	preprint	2019		https://arxiv.org/abs/1909.01568	"Evaluation"
 "Jie Zhu, Junhui Li, Muhua Zhu, Longhua Qian, Min Zhang, Guodong Zhou"	Modeling Graph Structure in Transformer for Better AMR-to-Text Generation	EMNLP	2019	https://www.aclweb.org/anthology/D19-1548/	https://arxiv.org/abs/1909.00136	"Generation, Transformer"
 "DongLai Ge, Junhui Li, Muhua Zhu, Shoushan Li"	Modeling Source Syntax and Semantics for Neural AMR Parsing	IJCAI	2019	https://www.ijcai.org/proceedings/2019/691		"Parsing, Syntax/grammar"
-"Deng Cai, Wai Lam"	Core Semantic First: A Top-down Approach for AMR Parsing	EMNLP	2019	https://www.aclweb.org/anthology/D19-1393/	https://arxiv.org/abs/1909.04303	"Parsing"
+"Deng Cai, Wai Lam"	Core Semantic First: A Top-down Approach for AMR Parsing	EMNLP	2019	https://www.aclweb.org/anthology/D19-1393/	https://arxiv.org/abs/1909.04303	"Parsing, Evaluation"
 "Guy Lapalme"	Verbalizing AMR Structures	Manuscript	2019	"{pdf: http://rali.iro.umontreal.ca/rali/sites/default/files/publis/GoPhi.pdf, code: https://github.com/rali-udem/gophi, demo: http://rali.iro.umontreal.ca/amr/current/build/amrVerbalizer.cgi}"		"Generation"
 "Marco Antonio Sobrevilla Cabezudo, Simon Mille, Thiago Pardo"	Back-Translation as Strategy to Tackle the Lack of Corpus in Natural Language Generation from Semantic Representations	Multilingual Surface Realisation Workshop	2019	https://www.aclweb.org/anthology/D19-6313/		"Generation"
 "Lisa Jin, Daniel Gildea"	AMR-to-Text Generation with Cache Transition Systems	preprint	2019		https://arxiv.org/abs/1912.01682	"Generation"
