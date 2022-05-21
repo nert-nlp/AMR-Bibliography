@@ -28,7 +28,7 @@
     <div class="column" style="text-align: center; flex: 45%;">
       <div class='instructions'>
         <h3>Explore the research on AMR</h3>    
-        <p>The <big style="color: #a49;"><b>251</b></big> entries in the table below are sortable by column.<br/>
+        <p>The <big style="color: #a49;"><b>254</b></big> entries in the table below are sortable by column.<br/>
           You can highlight rows by topic (click on a topic <span class="math">TAG</span> in the last column).<br/>
           The main topics are:</p>
       </div>
@@ -80,12 +80,12 @@ var myChart = new Chart(ctx, {
     	labels: ['2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022'],
         datasets: [{
 label: 'AMR Extensions',
-                data: [0, 0, 1, 0, 1, 1, 5, 3, 6, 3, 1],
+                data: [0, 0, 1, 0, 1, 1, 5, 3, 6, 3, 2],
                 backgroundColor: '#332288'
 },
 {
 label: 'Alignment',
-                data: [1, 0, 1, 1, 0, 2, 2, 0, 1, 2, 0],
+                data: [1, 0, 1, 1, 0, 2, 2, 0, 1, 2, 1],
                 backgroundColor: '#117733'
 },
 {
@@ -135,7 +135,7 @@ label: 'Overview',
 },
 {
 label: 'Parsing',
-                data: [0, 1, 2, 9, 15, 18, 13, 12, 18, 18, 1],
+                data: [0, 1, 2, 9, 15, 18, 13, 12, 18, 18, 2],
                 backgroundColor: '#44AA99'
 },
 {
@@ -2953,6 +2953,39 @@ $(document).ready(function() {
                 <td></td>
                 <td><a href="https://arxiv.org/abs/2203.09711" target="_blank">arXiv</a></td>
                 <td><button topic="applications" on="0">Applications</button></td>
+            </tr>
+        
+            <tr>
+                <td>252</td>
+                <td>Dialogue Meaning Representation for Task-Oriented Dialogue Systems </td>
+                <td><span style="display:none;">Hu</span>Xiangkun Hu, Junqi Dai, Hang Yan, Yi Zhang, Qipeng Guo, Xipeng Qiu, Zheng Zhang</td>
+                <td>preprint</td>
+                <td>2022</td>
+                <td></td>
+                <td><a href="https://arxiv.org/abs/2204.10989" target="_blank">arXiv</a></td>
+                <td><button topic="amr extensions" on="0">AMR Extensions</button></td>
+            </tr>
+        
+            <tr>
+                <td>253</td>
+                <td>ATP: AMRize Then Parse! Enhancing AMR Parsing with PseudoAMRs </td>
+                <td><span style="display:none;">Chen</span>Liang Chen, Peiyi Wang, Runxin Xu, Tianyu Liu, Zhifang Sui, Baobao Chang</td>
+                <td>Findings of NAACL</td>
+                <td>2022</td>
+                <td></td>
+                <td><a href="https://arxiv.org/abs/2204.08875" target="_blank">arXiv</a></td>
+                <td><button topic="parsing" on="0">Parsing</button></td>
+            </tr>
+        
+            <tr>
+                <td>254</td>
+                <td>AMR Alignment for Morphologically-rich and Pro-drop Languages </td>
+                <td><span style="display:none;">Oral</span>K. Elif Oral, Gülşen Eryiğit</td>
+                <td>ACL Student Research Workshop</td>
+                <td>2022</td>
+                <td><a href="https://aclanthology.org/2022.acl-srw.13/" target="_blank">pdf</a></td>
+                <td></td>
+                <td><button topic="alignment" on="0">Alignment</button> <button topic="multilingual" on="0">Multilingual</button></td>
             </tr>
         
 </tbody>
