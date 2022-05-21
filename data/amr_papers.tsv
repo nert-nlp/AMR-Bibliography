@@ -16,7 +16,7 @@ Authors	Title	Venue	Year	Link	arXiv	Category
 "Lucy Vanderwende, Arul Menezes, Chris Quirk"	"An AMR parser for English, French, German, Spanish and Japanese and a new AMR-annotated corpus"	NAACL (Demo session)	2015	https://aclweb.org/anthology/N15-3006		"Parsing, Annotation, Multilingual, Conversion-based"
 "M. Pust, U. Hermjakob, K. Knight, D. Marcu, J. May"	Using Syntax-Based Machine Translation to Parse English into Abstract Meaning Representation	EMNLP	2015	https://aclweb.org/anthology/D15-1136		"Parsing, MT-based"
 Melanie Tosik	Abstract Meaning Representation: a survey		2015	http://cs.brown.edu/courses/csci2952d/readings/lecture8-tosik.pdf		Overview
-"Naomi Saphra, Adam Lopez"	AMRICA: an AMR Inspector for Cross-language Alignments	NAACL (Demo session)	2015	https://aclweb.org/anthology/N15-3008		"Alignment, Multilingual"
+"Naomi Saphra, Adam Lopez"	AMRICA: an AMR Inspector for Cross-language Alignments	NAACL (Demo session)	2015	https://aclweb.org/anthology/N15-3008		"Alignment, Multilingual, Visualization"
 "Nathan Schneider, Jeffrey Flanigan, Tim O’Gorman"	"Tutorial: The Logic of AMR: Practical, Unified, Graph-Based Sentence Semantics for NLP"	 NAACL-HLT	2015	{Tutorial : https://github.com/nschneid/amr-tutorial}		Overview
 Wei-Te Chen	Learning to Map Dependency Parses to Abstract Meaning Representations	ACL-IJCNLP Student Research Workshop	2015	http://www.aclweb.org/anthology/P15-3007		"Parsing, Alignment, Dependency Trees"
 "X. Peng, L. Song, D. Gildea"	A Synchronous Hyperedge Replacement Grammar based approach for AMR parsing	CoNLL	2015	http://www.aclweb.org/anthology/K15-1004		"Parsing, Graph algebra"
@@ -258,3 +258,7 @@ Ulf Hermjakob	AMR Annotation Dictionary (maintained by Ulf Hermjakob).			"{ Tool
 "Andrew Drozdov, Jiawei Zhou, Radu Florian, Andrew McCallum, Tahira Naseem, Yoon Kim, Ramon Fernandez Astudillo"	Inducing and Using Alignments for Transition-based AMR Parsing	NAACL	2022		https://arxiv.org/abs/2205.01464	"Parsing, Alignment"
 "Runxin Xu, Peiyi Wang, Tianyu Liu, Shuang Zeng, Baobao Chang, Zhifang Sui"	A Two-Stream AMR-enhanced Model for Document-level Event Argument Extraction	NAACL	2022		https://arxiv.org/abs/2205.00241	"Applications"
 "Lisa Jin, Daniel Gildea"	Rewarding Semantic Similarity under Optimized Alignments for AMR-to-Text Generation	ACL	2022	https://aclanthology.org/2022.acl-short.80/		"Generation"
+"Jaron Cohen, Roy Cohen, Edan Toledo, Jan Buys"	RepGraph: Visualising and Analysing Meaning Representation Graphs	EMNLP (Demo session)	2021	https://aclanthology.org/2021.emnlp-demo.10/		"Annotation, Visualization"
+"Deng Cai, Xin Li, Jackie Chun-Sing Ho, Lidong Bing, Wai Lam"	Multilingual AMR Parsing with Noisy Knowledge Distillation	Findings of EMNLP	2021	https://aclanthology.org/2021.findings-emnlp.237/		"Parsing, Multilingual"
+"Qingrong Xia, Zhenghua Li, Rui Wang, Min Zhang"	Stacked AMR Parsing with Silver Data	Findings of EMNLP	2021	https://aclanthology.org/2021.findings-emnlp.406/		"Parsing"
+"Leonardo F. R. Ribeiro, Jonas Pfeiffer, Yue Zhang, Iryna Gurevych"	Smelting Gold and Silver for Improved Multilingual AMR-to-Text Generation	EMNLP	2021	https://aclanthology.org/2021.emnlp-main.57/		"Generation, Multilingual"
