@@ -244,3 +244,5 @@ Ulf Hermjakob	AMR Annotation Dictionary (maintained by Ulf Hermjakob).			"{ Tool
 "Xuefeng Bai, Yulong Chen, Yue Zhang"	Graph Pre-training for AMR Parsing and Generation	ACL	2022	"{code: https://github.com/muyeby/AMRBART}"	https://arxiv.org/abs/2203.07836	"Parsing, Generation"
 "Johanna Björklund, Frank Drewes, Anna Jonsson"	Polynomial Graph Parsing with Non-Structural Reentrancies	preprint	2021		https://arxiv.org/pdf/2105.02033.pdf	"Parsing"
 "Weiwen Xu, Huihui Zhang, Deng Cai and Wai Lam"	Dynamic Semantic Graph Construction and Reasoning for Explainable Multi-hop Science Question Answering	Findings of ACL: ACL-IJCNLP	2021	https://aclanthology.org/2021.findings-acl.90.pdf		"Applications, Question Answering"
+"Shira Wein, Lucia Donatelli, Ethan Ricker, Calvin Engstrom, Alex Nelson, Nathan Schneider"	Spanish Abstract Meaning Representation: Annotation of a General Corpus	preprint	2022		https://arxiv.org/abs/2204.07663	"Multilingual, Annotation"
+"Reza Takhshid, Razieh Shojaei, Zahra Azin, Mohammad Bahrani"	Persian Abstract Meaning Representation	preprint	2022		https://arxiv.org/pdf/2205.07712	"Multilingual, Annotation"
