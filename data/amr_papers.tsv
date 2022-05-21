@@ -255,3 +255,6 @@ Ulf Hermjakob	AMR Annotation Dictionary (maintained by Ulf Hermjakob).			"{ Tool
 "K. Elif Oral, Gülşen Eryiğit"	AMR Alignment for Morphologically-rich and Pro-drop Languages	ACL Student Research Workshop	2022	https://aclanthology.org/2022.acl-srw.13/		"Alignment, Multilingual"
 "Ziyi Shou, Yuxin Jiang, Fangzhen Lin"	AMR-DA: Data Augmentation by Abstract Meaning Representation	Findings of ACL	2022	https://aclanthology.org/2022.findings-acl.244/		"Applications"
 "Irene Li, Linfeng Song, Kun Xu, Dong Yu"	Variational Graph Autoencoding as Cheap Supervision for AMR Coreference Resolution	ACL	2022	https://aclanthology.org/2022.acl-long.199/		"Document-level AMR, Coreference"
+"Andrew Drozdov, Jiawei Zhou, Radu Florian, Andrew McCallum, Tahira Naseem, Yoon Kim, Ramon Fernandez Astudillo"	Inducing and Using Alignments for Transition-based AMR Parsing	NAACL	2022		https://arxiv.org/abs/2205.01464	"Parsing, Alignment"
+"Runxin Xu, Peiyi Wang, Tianyu Liu, Shuang Zeng, Baobao Chang, Zhifang Sui"	A Two-Stream AMR-enhanced Model for Document-level Event Argument Extraction	NAACL	2022		https://arxiv.org/abs/2205.00241	"Applications"
+"Lisa Jin, Daniel Gildea"	Rewarding Semantic Similarity under Optimized Alignments for AMR-to-Text Generation	ACL	2022	https://aclanthology.org/2022.acl-short.80/		"Generation"
