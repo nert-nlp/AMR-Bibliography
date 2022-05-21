@@ -248,3 +248,5 @@ Ulf Hermjakob	AMR Annotation Dictionary (maintained by Ulf Hermjakob).			"{ Tool
 "Reza Takhshid, Razieh Shojaei, Zahra Azin, Mohammad Bahrani"	Persian Abstract Meaning Representation	preprint	2022		https://arxiv.org/pdf/2205.07712	"Multilingual, Annotation"
 "Zahra Azin, Gülşen Eryiğit"	Towards Turkish Abstract Meaning Representation	ACL Student Research Workshop	2019	https://aclanthology.org/P19-2006/		"Multilingual"
 "Elif Oral, Ali Acar, Gülşen Eryiğit"	Abstract meaning representation of Turkish	Natural Language Engineering	2022	https://www.cambridge.org/core/journals/natural-language-engineering/article/abstract-meaning-representation-of-turkish/35E839E5AF1F7B9F6BF16275A44BB71D		"Multilingual, Annitatuib"
+"Leonardo F. R. Ribeiro, Mengwen Liu, Iryna Gurevych, Markus Dreyer, Mohit Bansal"	FactGraph: Evaluating Factuality in Summarization with Semantic Graph Representations	preprint	2022		https://arxiv.org/abs/2204.06508	"Applications"
+"Sarik Ghazarian, Nuan Wen, Aram Galstyan, Nanyun Peng"	DEAM: Dialogue Coherence Evaluation using AMR-based Semantic Manipulations	ACL	2022		https://arxiv.org/abs/2203.09711	"Applications"
