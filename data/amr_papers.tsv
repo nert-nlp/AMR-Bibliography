@@ -276,3 +276,5 @@ Ulf Hermjakob	AMR Annotation Dictionary (maintained by Ulf Hermjakob).			"{ Tool
 "Zhenyun Deng, Yonghua Zhu, Yang Chen, Michael Witbrock, Patricia Riddle"	Interpretable AMR-Based Question Decomposition for Multi-hop Question Answering	 IJCAI	2022		https://arxiv.org/pdf/2206.08486.pdf	"Applications"
 "Changmao Li, Jeffrey Flanigan"	Improving Neural Machine Translation with the Abstract Meaning Representation by Combining Graph and Sequence Transformers	 preprint	2022		https://openreview.net/pdf?id=wn4FiiA_xdF	"Applications"
 "Maxime Amblard, Bruno Guillaume, Siyana Pavlova, Guy Perrier"	Graph Querying for Semantic Annotations	18th Joint ACL - ISO Workshop on Interoperable Semantic Annotation (ISA)	2022	https://sigsem.uvt.nl/isa18/ISA-18_18_Paper.pdf		"Annotation, Visualization"
+"Mitchell Abrams, Claire Bonial, Clare Voss"	Dialogue-AMR Parsing Pipeline	DEVCOM ARL Public Release	2022	https://apps.dtic.mil/sti/pdfs/AD1167707.pdf		"Parsing"
+"Hongyu Hao, Guangtong Li, Zhiming Hu, Huafeng Wang"	"A Survey : Neural Networks for AMR-to-Text"	 preprint	2022		https://arxiv.org/pdf/2206.07328.pdf	"Generation"
