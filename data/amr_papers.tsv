@@ -293,3 +293,4 @@ Ulf Hermjakob	AMR Annotation Dictionary (maintained by Ulf Hermjakob).			"{ Tool
 "Yilun Hua, Zhaoyuan Deng, Zhijie Xu"	"AMRTVSumm: AMR-augmented Hierarchical Network for TV Transcript Summarization"	Workshop on Automatic Summarization for Creative Writing (CreativeSumm)	2022	https://aclanthology.org/2022.creativesumm-1.6/		"Applications, Summarization"
 "Xuefeng Bai, Linfeng Song, Yue Zhang"	"Semantic-based Pre-training for Dialogue Understanding"	COLING	2022	https://aclanthology.org/2022.coling-1.49/		"Applications, Dialogue"
 "Xuefeng Bai, Seng Yang, Leyang Cui, Linfeng Song, Yue Zhang"	"Cross-domain Generalization for AMR Parsing"	preprint	2022		https://arxiv.org/abs/2210.12445	"Parsing, Evaluation"
+"Roberto Navigli, Riccardo Orlando, Cesare Campagnano, Simone Conia"	"Universal Semantic Annotator"	European Language Grid	2022	https://link.springer.com/chapter/10.1007/978-3-031-17258-8_28		"Annotation"
