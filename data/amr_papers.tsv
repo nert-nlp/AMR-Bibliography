@@ -295,3 +295,4 @@ Ulf Hermjakob	AMR Annotation Dictionary (maintained by Ulf Hermjakob).			"{ Tool
 "Xuefeng Bai, Seng Yang, Leyang Cui, Linfeng Song, Yue Zhang"	"Cross-domain Generalization for AMR Parsing"	preprint	2022		https://arxiv.org/abs/2210.12445	"Parsing, Evaluation"
 "Roberto Navigli, Riccardo Orlando, Cesare Campagnano, Simone Conia"	"Universal Semantic Annotator"	European Language Grid	2022	https://link.springer.com/chapter/10.1007/978-3-031-17258-8_28		"Annotation"
 "Juri Opitz, Anette Frank"	"Better Smatch = Better Parser? AMR evaluation is not so simple anymore"	Eval4NLP	2022	https://aclanthology.org/2022.eval4nlp-1.4/		"Evaluation"
+"Giacomo Frisoni, Antonella Carbonaro, Gianluca Moro, Andrea Zammarchi, Marco Avagnano"	"NLG-METRICVERSE: An End-to-End Library for Evaluating Natural Language Generation"	COLING	2022	https://aclanthology.org/2022.coling-1.306.pdf		"Applications, Generation, Evaluation"
