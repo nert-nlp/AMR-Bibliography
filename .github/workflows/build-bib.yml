@@ -4,6 +4,9 @@ on: [push]
 jobs:
   Build-Bib:
     runs-on: ubuntu-latest
+    env: 
+      CI_COMMIT_MESSAGE: Continuous Integration Build Artifacts
+      CI_COMMIT_AUTHOR: Continuous Integration
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
@@ -15,4 +18,13 @@ jobs:
       - name: Build HTML from CSV
         run: |
           python tsv2html.py
+      # Commit and push all changed files. (source: Example 1 of https://joht.github.io/johtizen/build/2022/01/20/github-actions-push-into-repository.html)
+      - name: GIT Commit Build Artifacts (coverage, dist, devdist, docs)
+        # Only run on main branch push (e.g. after pull request merge).
+        if: github.event_name == 'push'
+        run: |
+          git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
+          git config --global user.email "username@users.noreply.github.com"
+          git commit -a -m "${{ env.CI_COMMIT_MESSAGE }}"
+          git push
       - run: echo "🍏 This job's status is ${{ job.status }}."
