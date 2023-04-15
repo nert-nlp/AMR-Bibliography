@@ -305,4 +305,4 @@ Guangxuan Xu	The Joint Training of Transition-Based AMR Parser	"MSc thesis, Univ
 "Antoine Venant, François Lareau"	"Predicates and entities in Abstract Meaning Representation"	"Depling (GURT/Syntaxfest)"	2023	https://aclanthology.org/2023.depling-1.4.pdf		"Annotation"
 "Wai Ching Leung, Shira Wein, Nathan Schneider"	"Semantic Similarity as a Window into Vector- and Graph-Based Metrics"	"2nd Workshop on Natural Language Generation, Evaluation, and Metrics (GEM)"	2022	https://aclanthology.org/2022.gem-1.8.pdf 		"Evaluation"
 "Anubhav Jangra, Preksha Nema, Aravindan Raghuveer"	"T-STAR: Truthful Style Transfer using AMR Graph as Intermediate Representation"	"EMNLP"	2022	https://aclanthology.org/2022.emnlp-main.602.pdf 		"Applications"
-"Shira Wein, Zhuxin Wang, Nathan Schneider"	"Measuring Fine-Grained Semantic Equivalence with Abstract Meaning Representation"	 "preprint"	2022	 "https://arxiv.org/abs/2210.03018"	"Applications"
+"Shira Wein, Zhuxin Wang, Nathan Schneider"	"Measuring Fine-Grained Semantic Equivalence with Abstract Meaning Representation"	preprint	2022		https://arxiv.org/abs/2210.03018	"Applications, Evaluation"
