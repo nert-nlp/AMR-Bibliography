@@ -318,4 +318,5 @@ Benjamin Rozonoyer 	"Graph Convolutional Encoders for Syntax-Aware AMR Parsing"	
 "Almuth Müller, Achim Kuwertz"	"Evaluation of a Semantic Search Approach based on AMR for Information Retrieval in Image Exploitation"	"Workshop on Sensor Data Fusion"	2022	https://ieeexplore.ieee.org/abstract/document/9931702/authors 		"Applications"
 "Liang Chen, Bofei Gao, Baobao Chang"	"A Two-Stage Method for Chinese AMR Parsing"	preprint	2022	"{code: https://github.com/PKUnlp-icler/Two-Stage-CAMRP}"	https://arxiv.org/pdf/2209.14512.pdf	"Parsing, Multilingual"
 "Fei-Tzin Lee, Miguel Ballesteros, Feng Nan, Kathleen McKeown"	"Using Structured Content Plans for Fine-grained Syntactic Control in Pretrained Language Model Generation"	COLING	2022	https://aclanthology.org/2022.coling-1.514.pdf 		"AMR Extensions, Applications"
+"Kuan-Hao Huang, Varun Iyer, Anoop Kumar, Sriram Venkatapathy, Kai-Wei Chang, Aram Galstyan"	"Unsupervised Syntactically Controlled Paraphrase Generation with Abstract Meaning Representations"	EMNLP	2022	https://aclanthology.org/2022.findings-emnlp.111.pdf 		"Applications"
 
