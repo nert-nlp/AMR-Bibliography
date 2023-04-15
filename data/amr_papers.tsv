@@ -316,3 +316,5 @@ Benjamin Rozonoyer 	"Graph Convolutional Encoders for Syntax-Aware AMR Parsing"	
 "Behrooz Mansouri, Douglas W. Oard, Richard Zanibbi"	Contextualized Formula Search Using Math Abstract Meaning Representation	CIKM	2022	https://dl.acm.org/doi/abs/10.1145/3511808.3557567	https://www.cs.rit.edu/~rlaz/files/MathAMR_CIKM_2022.pdf	"Applications, AMR Extensions"
 "Marco Antonio Sobrevilla Cabezudo, Thiago Pardo"	"Exploring a POS-based Two-stage Approach for Improving Low-Resource AMR-to-Text Generation"	"Workshop on Natural Language Generation, Evaluation, and Metrics (GEM)"	2022	https://aclanthology.org/2022.gem-1.49/ 		"Generation, Multilingual"
 "Almuth Müller, Achim Kuwertz"	"Evaluation of a Semantic Search Approach based on AMR for Information Retrieval in Image Exploitation"	"Workshop on Sensor Data Fusion"	2022	https://ieeexplore.ieee.org/abstract/document/9931702/authors 		"Applications"
+"Liang Chen, Bofei Gao, Baobao Chang"	"A Two-Stage Method for Chinese AMR Parsing"	preprint	2022	"{code: https://github.com/PKUnlp-icler/Two-Stage-CAMRP"}	https://arxiv.org/pdf/2209.14512.pdf	"Parsing, Multilingual"
+
