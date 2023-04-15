@@ -310,3 +310,4 @@ Guangxuan Xu	The Joint Training of Transition-Based AMR Parser	"MSc thesis, Univ
 "Nikolaus Schrack, Ruixiang Cui, Hugo López, Daniel Hershcovich"	"Can AMR Assist Legal and Logical Reasoning?"	"Findings of EMNLP"	2022	https://aclanthology.org/2022.findings-emnlp.112.pdf 		"Applications"
 "Chen Yu, Daniel Gildea"	"Strictly Breadth-First AMR Parsing"	preprint	2022		https://arxiv.org/abs/2211.03922	"Parsing"
 "Giacomo Frisoni, Paolo Italiani, Stefano Salvatori, Gianluca Moro"	"Cogito Ergo Summ: Abstractive Summarization of Biomedical Papers via Semantic Parsing Graphs and Consistency Rewards"	"AAAI"	2023	https://cris.unibo.it/handle/11585/913067 		"Applications"
+"Sebastien Montella, Alexis Nasr, Johannes Heinecke, Frederic Bechet, Lina M. Rojas-Barahona"	"Investigating the Effect of Relative Positional Embeddings on AMR-to-Text Generation with Structural Adapters"	preprint	2023		https://arxiv.org/pdf/2302.05900.pdf	"Generation"
