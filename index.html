@@ -100,7 +100,7 @@ label: 'Annotation',
 },
 {
 label: 'Annotation tool',
-                data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0],
+                data: [0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1],
                 backgroundColor: '#DDCC77'
 },
 {
@@ -114,44 +114,39 @@ label: 'Document-level AMR',
                 backgroundColor: '#AA4499'
 },
 {
-label: 'Editor',
-                data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
-                backgroundColor: '#882255'
-},
-{
 label: 'Evaluation',
                 data: [0, 1, 0, 0, 1, 0, 0, 3, 3, 4, 6, 3],
-                backgroundColor: '#000000'
+                backgroundColor: '#882255'
 },
 {
 label: 'Generation',
                 data: [0, 0, 0, 0, 4, 5, 2, 9, 11, 4, 5, 2],
-                backgroundColor: '#332288'
+                backgroundColor: '#000000'
 },
 {
 label: 'Graph algebra',
                 data: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0],
-                backgroundColor: '#117733'
+                backgroundColor: '#332288'
 },
 {
 label: 'Multilingual',
-                data: [0, 0, 1, 1, 0, 0, 0, 2, 3, 2, 9, 1],
-                backgroundColor: '#44AA99'
+                data: [0, 0, 1, 0, 0, 0, 0, 2, 3, 2, 9, 1],
+                backgroundColor: '#117733'
 },
 {
 label: 'Overview',
                 data: [0, 1, 0, 3, 0, 1, 0, 0, 0, 0, 0, 0],
-                backgroundColor: '#88CCEE'
+                backgroundColor: '#44AA99'
 },
 {
 label: 'Parsing',
                 data: [0, 1, 2, 9, 15, 18, 13, 12, 20, 23, 15, 5],
-                backgroundColor: '#DDCC77'
+                backgroundColor: '#88CCEE'
 },
 {
 label: 'Syntax/grammar',
                 data: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0],
-                backgroundColor: '#CC6677'
+                backgroundColor: '#DDCC77'
 },]
     },
     options: {
@@ -2467,7 +2462,7 @@ $(document).ready(function() {
                 <td>2015</td>
                 <td><a href="https://dl.acm.org/doi/pdf/10.1145/2837185.2837246/" target="_blank">pdf</a></td>
                 <td></td>
-                <td><button topic="multilingual" on="0">Multilingual</button></td>
+                <td><button topic="annotation tool" on="0">Annotation tool</button> <button topic="multilingual" on="0">Multilingual</button></td>
             </tr>
         
             <tr>
@@ -3985,7 +3980,7 @@ $(document).ready(function() {
                 <td>2023</td>
                 <td><a href="https://sigsem.uvt.nl/isa19/ISA-19-proceedings.pdf" target="_blank">pdf</a></td>
                 <td></td>
-                <td><button topic="editor" on="0">Editor</button></td>
+                <td><button topic="annotation tool" on="0">Annotation tool</button></td>
             </tr>
         
             <tr>
