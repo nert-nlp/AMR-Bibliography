@@ -391,3 +391,4 @@ Deng Cai	Semantic Transformations across Natural Languages and Abstract Meaning 
 "Lydia Feng, Gregor Williamson, Han He, Jinho D. Choi"	Widely Interpretable Semantic Representation: Frameless Meaning Representation for Broader Applicability	preprint	2023		https://arxiv.org/pdf/2309.06460.pdf	"AMR Extensions"
 "Yunlong Fan, Bin Li, Yikemaiti Sataer, Miao Gao, Chuanqi Shi, Zhiqiang Gao"	Addressing Long-Distance Dependencies in AMR Parsing with Hierarchical Clause Annotation	Electronics	2023	https://www.mdpi.com/2079-9292/12/18/3908		"Parsing"
 "Bofei Gao, Liang Chen1, Peiyi Wang, Zhifang Sui, Baobao Chang"	Guiding AMR Parsing with Reverse Graph Linearization	preprint	2023		https://arxiv.org/pdf/2310.08860.pdf	"Parsing"
+"Chao Lou, Kewei Tu"	AMR Parsing with Causal Hierarchical Attention and Pointers	EMNLP	2023		https://arxiv.org/pdf/2310.11964.pdf	"Parsing"
