@@ -403,3 +403,5 @@ Yikemaiti Sataer, Zhiqiang Gao, Yunlong Fan, Bin Li, Miao Gao, Chuanqi Shi 	Expl
 "Marco Damonte, Shay Cohen"	Abstract Meaning Representation 2.0 - Four Translations	LDC	2020	"{data : https://catalog.ldc.upenn.edu/LDC2020T07}"		"Annotation, Mutlilingual"
 "Bin Li, Liming Xiao, Yihuan Liu, Yuan Wen, Li Song, Jayeol Chun, Minxuan Feng, Junsheng Zhou, Weiguang Qu, Nianwen Xue"	Chinese Abstract Meaning Representation 2.0	LDC	2021	"{data : https://catalog.ldc.upenn.edu/LDC2021T13}"		"Annotation, Multilingual"
 Claire Bonial, Clare Voss, Taylor Hudson, Lucia Donatelli, David Traum, Mitchell Abrams, Austin Blodgett 	Dialogue-AMR Annotation Guidelines	DEVCOM Army Research Laboratory report	2023	"{pdf: https://apps.dtic.mil/sti/trecms/pdf/AD1194325.pdf}"		"AMR Extensions, Annotation"
+Jonas Groschwitz, Shay B. Cohen, Lucia Donatelli, Meaghan Fowlie 	AMR Parsing is Far from Solved: GrAPES, the Granular AMR Parsing Evaluation Suite	EMNLP	2023	"{code: https://github.com/jgroschwitz/GrAPES}"		"Evaluation, Parsing"
+
