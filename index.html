@@ -28,7 +28,7 @@
     <div class="column" style="text-align: center; flex: 45%;">
       <div class='instructions'>
         <h3>Explore the research on AMR</h3>    
-        <p>The <big style="color: #a49;"><b>409</b></big> entries in the table below are sortable by column.<br/>
+        <p>The <big style="color: #a49;"><b>410</b></big> entries in the table below are sortable by column.<br/>
           You can highlight rows by topic (click on a topic <span class="math">TAG</span> in the last column).<br/>
           The main topics are:</p>
       </div>
@@ -104,54 +104,59 @@ label: 'Annotation tool',
                 backgroundColor: '#DDCC77'
 },
 {
+label: 'Application',
+                data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0],
+                backgroundColor: '#CC6677'
+},
+{
 label: 'Applications',
                 data: [0, 0, 0, 4, 4, 3, 6, 1, 4, 14, 21, 27, 0],
-                backgroundColor: '#CC6677'
+                backgroundColor: '#AA4499'
 },
 {
 label: 'Document-level AMR',
                 data: [0, 0, 0, 0, 0, 1, 0, 0, 0, 2, 1, 1, 0],
-                backgroundColor: '#AA4499'
+                backgroundColor: '#882255'
 },
 {
 label: 'Evaluation',
                 data: [0, 1, 0, 0, 1, 0, 0, 3, 3, 4, 6, 4, 1],
-                backgroundColor: '#882255'
+                backgroundColor: '#000000'
 },
 {
 label: 'Generation',
                 data: [0, 0, 0, 0, 4, 5, 2, 9, 11, 4, 5, 2, 0],
-                backgroundColor: '#000000'
+                backgroundColor: '#332288'
 },
 {
 label: 'Graph algebra',
                 data: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0],
-                backgroundColor: '#332288'
+                backgroundColor: '#117733'
 },
 {
 label: 'Multilingual',
                 data: [0, 0, 1, 0, 0, 0, 0, 2, 3, 2, 9, 2, 0],
-                backgroundColor: '#117733'
+                backgroundColor: '#44AA99'
 },
 {
 label: 'Overview',
                 data: [0, 1, 0, 3, 0, 1, 0, 0, 0, 0, 0, 0, 0],
-                backgroundColor: '#44AA99'
+                backgroundColor: '#88CCEE'
 },
 {
 label: 'Parsing',
                 data: [0, 1, 2, 9, 15, 18, 13, 12, 21, 23, 16, 10, 1],
-                backgroundColor: '#88CCEE'
+                backgroundColor: '#DDCC77'
 },
 {
 label: 'Question Answering',
                 data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0],
-                backgroundColor: '#DDCC77'
+                backgroundColor: '#CC6677'
 },
 {
 label: 'Syntax/grammar',
                 data: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0],
-                backgroundColor: '#CC6677'
+                backgroundColor: '#AA4499'
 },]
     },
     options: {
@@ -4701,6 +4706,17 @@ $(document).ready(function() {
                 <td><a href="http://joces.nudt.edu.cn/EN/abstract/abstract17827.shtml" target="_blank">pdf</a></td>
                 <td></td>
                 <td><button topic="parsing" on="0">Parsing</button> <button topic="multilingual" on="0">Multilingual</button></td>
+            </tr>
+        
+            <tr>
+                <td>410</td>
+                <td>Improving Long Dialogue Summarization with Semantic Graph Representation </td>
+                <td><span style="display:none;">Hua</span>Yilun Hua, Zhaoyuan Deng, Kathleen McKeown</td>
+                <td>Findings of ACL</td>
+                <td>2023</td>
+                <td><a href="https://aclanthology.org/2023.findings-acl.871/" target="_blank">pdf</a></td>
+                <td></td>
+                <td><button topic="application" on="0">Application</button> <button topic="summarization" on="0">Summarization</button></td>
             </tr>
         
 </tbody>
