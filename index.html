@@ -28,7 +28,7 @@
     <div class="column" style="text-align: center; flex: 45%;">
       <div class='instructions'>
         <h3>Explore the research on AMR</h3>    
-        <p>The <big style="color: #a49;"><b>415</b></big> entries in the table below are sortable by column.<br/>
+        <p>The <big style="color: #a49;"><b>417</b></big> entries in the table below are sortable by column.<br/>
           You can highlight rows by topic (click on a topic <span class="math">TAG</span> in the last column).<br/>
           The main topics are:</p>
       </div>
@@ -104,59 +104,54 @@ label: 'Annotation tool',
                 backgroundColor: '#DDCC77'
 },
 {
-label: 'Application',
-                data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2],
-                backgroundColor: '#CC6677'
-},
-{
 label: 'Applications',
-                data: [0, 0, 0, 4, 4, 3, 6, 1, 4, 14, 21, 27, 2],
-                backgroundColor: '#AA4499'
+                data: [0, 0, 0, 4, 4, 3, 6, 1, 4, 14, 21, 27, 4],
+                backgroundColor: '#CC6677'
 },
 {
 label: 'Document-level AMR',
                 data: [0, 0, 0, 0, 0, 1, 0, 0, 0, 2, 1, 1, 0],
-                backgroundColor: '#882255'
+                backgroundColor: '#AA4499'
 },
 {
 label: 'Evaluation',
                 data: [0, 1, 0, 0, 1, 0, 0, 3, 3, 4, 6, 5, 0],
-                backgroundColor: '#000000'
+                backgroundColor: '#882255'
 },
 {
 label: 'Generation',
                 data: [0, 0, 0, 0, 4, 5, 2, 9, 11, 4, 5, 2, 0],
-                backgroundColor: '#332288'
+                backgroundColor: '#000000'
 },
 {
 label: 'Graph algebra',
                 data: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0],
-                backgroundColor: '#117733'
+                backgroundColor: '#332288'
 },
 {
 label: 'Multilingual',
                 data: [0, 0, 1, 0, 0, 0, 0, 2, 3, 2, 9, 2, 0],
-                backgroundColor: '#44AA99'
+                backgroundColor: '#117733'
 },
 {
 label: 'Overview',
                 data: [0, 1, 0, 3, 0, 1, 0, 0, 0, 0, 0, 0, 0],
-                backgroundColor: '#88CCEE'
+                backgroundColor: '#44AA99'
 },
 {
 label: 'Parsing',
-                data: [0, 1, 2, 9, 15, 18, 13, 12, 21, 23, 16, 10, 1],
-                backgroundColor: '#DDCC77'
+                data: [0, 1, 2, 9, 15, 18, 13, 12, 21, 23, 16, 11, 2],
+                backgroundColor: '#88CCEE'
 },
 {
 label: 'Question Answering',
                 data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0],
-                backgroundColor: '#CC6677'
+                backgroundColor: '#DDCC77'
 },
 {
 label: 'Syntax/grammar',
                 data: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0],
-                backgroundColor: '#AA4499'
+                backgroundColor: '#CC6677'
 },]
     },
     options: {
@@ -4733,7 +4728,7 @@ $(document).ready(function() {
             <tr>
                 <td>412</td>
                 <td>Improving Medical Dialogue Generation with Abstract Meaning Representations </td>
-                <td><span style="display:none;">Yang</span>Bohao Yang, Chen Tang, Chenghua Lin</td>
+                <td><span style="display:none;">Yang</span>"Bohao Yang, Chen Tang, Chenghua Lin",</td>
                 <td>ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</td>
                 <td>2024</td>
                 <td><a href="https://ieeexplore.ieee.org/abstract/document/10447688/authors#authors" target="_blank">pdf</a></td>
@@ -4760,7 +4755,7 @@ $(document).ready(function() {
                 <td>2024</td>
                 <td><a href="https://ieeexplore.ieee.org/abstract/document/10444443" target="_blank">pdf</a></td>
                 <td></td>
-                <td><button topic="application" on="0">Application</button></td>
+                <td><button topic="applications" on="0">Applications</button></td>
             </tr>
         
             <tr>
@@ -4771,7 +4766,29 @@ $(document).ready(function() {
                 <td>2024</td>
                 <td><a href="https://ieeexplore.ieee.org/abstract/document/10444230" target="_blank">pdf</a></td>
                 <td></td>
-                <td><button topic="application" on="0">Application</button></td>
+                <td><button topic="applications" on="0">Applications</button></td>
+            </tr>
+        
+            <tr>
+                <td>416</td>
+                <td>Hierarchical information matters! Improving AMR parsing with multi-granularity representation interactions </td>
+                <td><span style="display:none;">Sataer</span>Yikemaiti Sataer, Yunlong Fan, Bin Li, Miao Gao, Chuanqi Shi, Zhiqiang Gao</td>
+                <td>Information Processing & Management</td>
+                <td>2024</td>
+                <td><a href="https://www.sciencedirect.com/science/article/abs/pii/S030645732400058X" target="_blank">pdf</a></td>
+                <td></td>
+                <td><button topic="parsing" on="0">Parsing</button></td>
+            </tr>
+        
+            <tr>
+                <td>417</td>
+                <td>CAPPST:Chinese AMR Parsing with Parameter-efficient Fine-tuned Pre-trained Language Model for Particular Sentence Types </td>
+                <td><span style="display:none;">Wu</span>Zihao Wu, Hua Yin, Yuelei Ji, Hanlin Wang, Yiliang Lu, Ziqian Gao</td>
+                <td>Proceedings of the 2023 6th International Conference on Machine Learning and Natural Language Processing</td>
+                <td>2023</td>
+                <td><a href="https://dl.acm.org/doi/abs/10.1145/3639479.3639507" target="_blank">pdf</a></td>
+                <td></td>
+                <td><button topic="parsing" on="0">Parsing</button> <button topic="multilingual" on="0">Multilingual</button></td>
             </tr>
         
 </tbody>
