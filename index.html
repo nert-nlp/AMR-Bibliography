@@ -28,7 +28,7 @@
     <div class="column" style="text-align: center; flex: 45%;">
       <div class='instructions'>
         <h3>Explore the research on AMR</h3>    
-        <p>The <big style="color: #a49;"><b>413</b></big> entries in the table below are sortable by column.<br/>
+        <p>The <big style="color: #a49;"><b>414</b></big> entries in the table below are sortable by column.<br/>
           You can highlight rows by topic (click on a topic <span class="math">TAG</span> in the last column).<br/>
           The main topics are:</p>
       </div>
@@ -104,54 +104,59 @@ label: 'Annotation tool',
                 backgroundColor: '#DDCC77'
 },
 {
+label: 'Application',
+                data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+                backgroundColor: '#CC6677'
+},
+{
 label: 'Applications',
                 data: [0, 0, 0, 4, 4, 3, 6, 1, 4, 14, 21, 27, 2],
-                backgroundColor: '#CC6677'
+                backgroundColor: '#AA4499'
 },
 {
 label: 'Document-level AMR',
                 data: [0, 0, 0, 0, 0, 1, 0, 0, 0, 2, 1, 1, 0],
-                backgroundColor: '#AA4499'
+                backgroundColor: '#882255'
 },
 {
 label: 'Evaluation',
                 data: [0, 1, 0, 0, 1, 0, 0, 3, 3, 4, 6, 5, 0],
-                backgroundColor: '#882255'
+                backgroundColor: '#000000'
 },
 {
 label: 'Generation',
                 data: [0, 0, 0, 0, 4, 5, 2, 9, 11, 4, 5, 2, 0],
-                backgroundColor: '#000000'
+                backgroundColor: '#332288'
 },
 {
 label: 'Graph algebra',
                 data: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0],
-                backgroundColor: '#332288'
+                backgroundColor: '#117733'
 },
 {
 label: 'Multilingual',
                 data: [0, 0, 1, 0, 0, 0, 0, 2, 3, 2, 9, 2, 0],
-                backgroundColor: '#117733'
+                backgroundColor: '#44AA99'
 },
 {
 label: 'Overview',
                 data: [0, 1, 0, 3, 0, 1, 0, 0, 0, 0, 0, 0, 0],
-                backgroundColor: '#44AA99'
+                backgroundColor: '#88CCEE'
 },
 {
 label: 'Parsing',
                 data: [0, 1, 2, 9, 15, 18, 13, 12, 21, 23, 16, 10, 1],
-                backgroundColor: '#88CCEE'
+                backgroundColor: '#DDCC77'
 },
 {
 label: 'Question Answering',
                 data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0],
-                backgroundColor: '#DDCC77'
+                backgroundColor: '#CC6677'
 },
 {
 label: 'Syntax/grammar',
                 data: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0],
-                backgroundColor: '#CC6677'
+                backgroundColor: '#AA4499'
 },]
     },
     options: {
@@ -4745,6 +4750,17 @@ $(document).ready(function() {
                 <td><a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/9c1535a02f0ce079433344e14d910597-Paper-Datasets_and_Benchmarks.pdf" target="_blank">pdf</a></td>
                 <td></td>
                 <td><button topic="evaluation" on="0">Evaluation</button></td>
+            </tr>
+        
+            <tr>
+                <td>414</td>
+                <td>De-Bias Using Abstract Meaning Representation for Image Captioning </td>
+                <td><span style="display:none;">Kim</span>Jungeun Kim, Jangyeong Jeon, Seungjin Jung, Junyeong Kim</td>
+                <td>IEEE International Conference on Consumer Electronics (ICCE)</td>
+                <td>2024</td>
+                <td><a href="https://ieeexplore.ieee.org/abstract/document/10444443" target="_blank">pdf</a></td>
+                <td></td>
+                <td><button topic="application" on="0">Application</button></td>
             </tr>
         
 </tbody>
