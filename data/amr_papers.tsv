@@ -443,4 +443,5 @@ Lin-yu Fan, Jun-hui Li,Fang Kong 	Cross-lingual AMR parsing based on unsupervise
 "Jorge Baptista, Sónia Reis, João Dias, Pedro A. Santos"	 "Lexicalized Meaning Representation (LMR)"	Designing Meaning Representations Workshop	2024	https://aclanthology.org/2024.dmr-1.11.pdf		"Multilingual"
 "Maja Buljan, Lilja Øvrelid, Stephan Oepen"	 "Argument Sharing in Meaning Representation Parsing"	Designing Meaning Representations Workshop	2024	https://aclanthology.org/2024.dmr-1.9.pdf		"Parsing, Evaluation"
 "Werner Winiwarter"	 "VOLARE – Visual Ontological LAnguage REpresentation"	Designing Meaning Representations Workshop	2024	https://aclanthology.org/2024.dmr-1.7.pdf		"AMR Extensions"
-"Sreyan Ghosh, Utkarsh Tyagi, Sonal Kumar, Chandra Kiran Reddy Evuru, S Ramaneswaran, S Sakshi , Dinesh Manocha"	ABEX: Data Augmentation for Low-Resource NLU via Expanding Abstract Descriptions	preprint	2024		https://arxiv.org/pdf/2406.04286	Applications
+"Sreyan Ghosh, Utkarsh Tyagi, Sonal Kumar, Chandra Kiran Reddy Evuru, S Ramaneswaran, S Sakshi, Dinesh Manocha"	ABEX: Data Augmentation for Low-Resource NLU via Expanding Abstract Descriptions	preprint	2024		https://arxiv.org/pdf/2406.04286	Applications
+"Daniel Marcu, Laura Banarescu, Madalina Georgescu"	Disjunctive AMR 1.0	preprint	2013		https://amr.isi.edu/damr.1.0.pdf	AMR Extensions, Annotation 
