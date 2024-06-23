@@ -452,4 +452,3 @@ Timothy Obiso	Holographic Embeddings for Text and Graphs	"MSc thesis, Brandeis U
 "Haoyi Qiu, Kung-Hsiang Huang, Jingnong Qu, Nanyun Peng"	AMRFACT: Enhancing Summarization Factuality Evaluation with AMR-driven Training Data Generation	NAACL	2024	https://aclanthology.org/2024.naacl-long.33/	https://arxiv.org/pdf/2311.09521.pdf	"Applications, Summarization"
 "Michael Regan, Shira Wein, George Baker, Emilio Monti"	MASSIVE Multilingual Abstract Meaning Representation: A Dataset and Baselines for Hallucination Detection	*SEM	2024		https://arxiv.org/abs/2405.19285	"Applications, Multilingual"
 "Frédéric Charpentier, Jairo Cugliari, Adrien Guille1"	Exploring Semantics in Pretrained Language Model Attention	*SEM	2024		https://adrienguille.github.io/publications/sem2024.pdf	"Evaluation"
-
