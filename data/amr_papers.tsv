@@ -479,7 +479,6 @@ Kostyantyn Guzhva	Unsupervised Syntactic Text Simplification with AMR	"MSc thesi
 "Xiaowen Sun, Jiangtao Qi, Zhenfang Zhu, Meng Li, Hongli Pei,Jing Meng"	SenticNet and Abstract Meaning Representation driven Attention-Gate semantic framework for aspect sentiment triplet extraction	Engineering Applications of Artificial Intelligence	2024	https://www.sciencedirect.com/science/article/abs/pii/S0952197624017834		"Applications"
 "Jeongwoo Kang, Maximin Coavoux, Cédric Lopez, Didier Schwab"	Should Cross-Lingual AMR Parsing go Meta? An Empirical Assessment of Meta-Learning and Joint Learning AMR	Findings of EMNLP	2024	https://aclanthology.org/2024.findings-emnlp.3.pdf	https://arxiv.org/abs/2410.03357	"Parsing, Multilingual, Evaluation"
 "Shira Wein, Juri Opitz"	A Survey of AMR Applications	EMNLP	2024	https://aclanthology.org/2024.emnlp-main.390/		"Applications"
-"Shira Wein, Juri Opitz"	A Survey of AMR Applications	EMNLP	2024	https://aclanthology.org/2024.emnlp-main.390/		"Applications"
 "Bram Vanroy"	Abstract Meaning Representation 3.0 - Machine Translations	LDC	2024	https://catalog.ldc.upenn.edu/LDC2024T11		"Annotation, Multilingual"
 "Shira Wein"	Ambiguity and Disagreement in Abstract Meaning Representation	"Context and Meaning: Navigating Disagreements in NLP Annotation"	2025	https://aclanthology.org/2025.comedi-1.14.pdf		"Annotation"
 "Maksim Koptelov, Margaux Holveck, Bruno Cremilleux, Justine Reynaud, Mathieu Roche, Maguelonne Teisseire"	(Semi-)automatic Extraction of Urban Planning Rules in French for Better Management of Land Artificialization	SN Computer Science	2025	https://link.springer.com/content/pdf/10.1007/s42979-024-03629-z.pdf		"Applications, Summarization, Evaluation"
@@ -488,4 +487,5 @@ Kostyantyn Guzhva	Unsupervised Syntactic Text Simplification with AMR	"MSc thesi
 "Hongji Li, Andrianos Michail, Reto Gubelmann, Simon Clematide, Juri Opitz"	Sentence Smith: Formally Controllable Text Transformation and its Application to Evaluation of Text Embedding Models	Preprint	2025	https://arxiv.org/abs/2502.14734		"Applications"
 "Jiahuan Zhang, Tianheng Wang, Hanqing Wu, Ziyi Huang, Yulong Wu, Dongbai Chen, Linfeng Song, Yue Zhang, Guozheng Rao, Kaicheng Yu"	SR-LLM: Rethinking the Structured Representation in Large Language Model	Preprint	2025	https://arxiv.org/abs/2502.14352		"Applications"
 "Botond Barta, Endre Hamerlik, Milán Konor Nyist, Judit Ács"	HuAMR: A Hungarian AMR Parser and Dataset	Preprint	2025	https://arxiv.org/abs/2502.20552		"Parsing"
+"Hyeonchu Park, Byungjun Kim, Bugeun Kim"	DART: An AIGT Detector using AMR of Rephrased Text	preprint	2024	https://arxiv.org/abs/2412.11517		"Applications"
 
