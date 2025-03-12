@@ -488,3 +488,4 @@ Kostyantyn Guzhva	Unsupervised Syntactic Text Simplification with AMR	"MSc thesi
 "Jiahuan Zhang, Tianheng Wang, Hanqing Wu, Ziyi Huang, Yulong Wu, Dongbai Chen, Linfeng Song, Yue Zhang, Guozheng Rao, Kaicheng Yu"	SR-LLM: Rethinking the Structured Representation in Large Language Model	Preprint	2025	https://arxiv.org/abs/2502.14352		"Applications"
 "Botond Barta, Endre Hamerlik, Milán Konor Nyist, Judit Ács"	HuAMR: A Hungarian AMR Parser and Dataset	Preprint	2025	https://arxiv.org/abs/2502.20552		"Parsing"
 "Hyeonchu Park, Byungjun Kim, Bugeun Kim"	DART: An AIGT Detector using AMR of Rephrased Text	Preprint	2024	https://arxiv.org/abs/2412.11517		"Applications"
+"Justin DeBenedetto"	Linearization Order Matters for AMR-to-Text Generation Input	Proceedings of the UMR Parsing Workshop	2024	http://www.csc.villanova.edu/~jdeben/AMR_Sequence_Ordering.pdf		"Applications"
