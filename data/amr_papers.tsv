@@ -1,4 +1,5 @@
 Authors	Title	Venue	Year	Link	arXiv	Category
+"Reza Takhshid, Tara Azin, Razieh Shojaei, Mohammad Bahrani"  Persian Abstract Meaning Representation: Annotation Guidelines and Gold Standard Dataset	UMR Parsing Workshop	2024	https://aclanthology.org/2024.umrpw-1.2/  "Annotation, Multilingual"
 "Bevan Jones, Jacob Andreas, Daniel Bauer, Karl-Moritz Hermann, Kevin Knight"	Semantics-Based Machine Translation with Hyperedge Replacement Grammars	COLING	2012	https://www.aclweb.org/anthology/C12-1083		"Alignment, Parsing, Generation, MT, Graph algebra"
 "David Chiang, Jacob Andreas, Daniel Bauer, Karl Moritz Hermann, Bevan Jones, Kevin Knight"	Parsing Graphs with Hyperedge Replacement Grammars	ACL	2013	http://www.aclweb.org/anthology/P13-1091		"Parsing, Graph algebra"
 "Laura Banarescu, Claire Bonial, Shu Cai, Madalina Georgescu, Kira Griffitt, Ulf Hermjakob, Kevin Knight, Philipp Koehn, Martha Palmer, Nathan Schneider"	Abstract Meaning Representation for Sembanking	 Linguistic Annotation Workshop	2013	https://aclanthology.org/W13-2322.pdf		Overview
