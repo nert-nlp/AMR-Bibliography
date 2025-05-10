@@ -493,5 +493,4 @@ Kostyantyn Guzhva	Unsupervised Syntactic Text Simplification with AMR	"MSc thesi
 "Jeongwoo Kang, Maximin Coavoux, Didier Schwab, Cédric Lopez"	Reassessing Graph Linearization for Sequence-to-sequence AMR Parsing: On the Advantages and Limitations of Triple-Based	The Sixth Workshop on Insights from Negative Results in NLP	2025	https://aclanthology.org/2025.insights-1.3/		"Parsing, Evaluation"
 "Justin DeBenedetto"	Linearization Order Matters for AMR-to-Text Generation Input	Proceedings of the UMR Parsing Workshop	2024	http://www.csc.villanova.edu/~jdeben/AMR_Sequence_Ordering.pdf		"Applications"
 "Peitao Han, Lis Pereira, Fei Cheng, Wan Jou She, Eiji Aramaki"	AMR-RE: Abstract Meaning Representations for Retrieval-Based In-Context Learning in Relation Extraction	Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 4: Student Research Workshop)	2025	https://aclanthology.org/2025.naacl-srw.33/		"Applications"
-"Behrooz Mansouri"	Survey of Abstract Meaning Representation: Then, Now, Future
-	preprint	2025	https://arxiv.org/abs/2505.03229		"Evaluation, Parsing, Application"
+"Behrooz Mansouri"	Survey of Abstract Meaning Representation: Then, Now, Future	preprint	2025	https://arxiv.org/abs/2505.03229		"Evaluation, Parsing, Application,multilingual"
