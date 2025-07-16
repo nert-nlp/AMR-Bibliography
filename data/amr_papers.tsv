@@ -499,3 +499,6 @@ Kostyantyn Guzhva	Unsupervised Syntactic Text Simplification with AMR	"MSc thesi
 "Paul Landes, Sitara Rao, Aaron Jeremy Chaise, Barbara Di Eugenio"	"Abstract Meaning Representation for Hospital Discharge Summarization"	"preprint"	2025		https://arxiv.org/abs/2506.14101	"Applications"
 "Junghyun Min, Xiulin Yang, Shira Wein"	"When Does Meaning Backfire? Investigating the Role of AMRs in NLI"	"preprint"	2025		https://arxiv.org/abs/2506.14613	"Applications"
 "Song He, Wenli Du, Xin Peng, Zhangpeng Wei, Xin Li"	"Knowledge Compensation for Event Argument Extraction via AMR-Guided Dynamic Probability Gain"	"Expert Systems with Applications"	2025	https://www.sciencedirect.com/science/article/pii/S0957417425024637		"Applications"
+"Christos Papakostas, Christos Troussas, Akrivi Krouska, Cleo Sgouropoulou"	"A Hybrid Neuro-Symbolic Pipeline for Coreference Resolution and AMR-Based Semantic Parsing"	"Information"	2025	https://www.mdpi.com/2078-2489/16/7/529		"Applications"
+"Yanming Li, Meaghan Fowlie"	"GPT makes a poor AMR parser"	"Journal for Language Technology and Computational Linguistics (JLCL)"	2025	https://jlcl.org/article/view/285		"Evaluation"
+
