@@ -509,4 +509,4 @@ Kostyantyn Guzhva	Unsupervised Syntactic Text Simplification with AMR	"MSc thesi
 "Hosein Rezaei, Tommy Yuan, Tarique Anwar"	Incorporating Structural Information in Text Classification for Motivational Interviewing	Yorkshire Innovation in Science & Engineering Conference	2024	https://openreview.net/pdf?id=Oduxsr6QKW		"Applications"
 "Jeongwoo Kang, Maria Boritchev, Maximin Coavoux"	"ding-01 :ARG0: An AMR Corpus for Spontaneous French Dialogue"	"preprint"	2025		https://arxiv.org/pdf/2508.12819	"Annotation, Multilingual"
 "Shubham Gupta, Shraban Kumar Chatterjee, Suman Kundu"	"LLM-based Contrastive Self-Supervised AMR Learning with Masked Graph Autoencoders for Fake News Detection"	"preprint"	2025		https://arxiv.org/abs/2508.18819	"Applications"
-
+"Huma Jamil, Ibrahim Khebour, Kenneth Lai, James Pustejovsky, Nikhil Krishnaswamy"	A Graph Autoencoder Approach for Gesture Classification with Gesture AMR	IWCS	2025	https://aclanthology.org/anthology-files/pdf/iwcs/2025.iwcs-1.pdf#page=68		"Applications, AMR Extensions"
