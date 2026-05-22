@@ -1,4 +1,7 @@
 Authors	Title	Venue	Year	Link	arXiv	Category
+"Johannes Heinecke"	Syntax is the key to semantics: Combining Universal Dependencies and Abstract Meaning Representation	UDW	2026	https://universaldependencies.org/udw26/papers/7_Paper.pdf		"Annotation, Parsing"
+"Venera Gareeva, Johannes Heinecke"	Modelling Idiomatic Expressions in Abstract Meaning Representation	DMR	2026	http://lrec-conf.org/proceedings/lrec2026/workshops/dmr/2026.dmr-1.0.pdf		"Evaluation, Annotation"
+"Johannes Heinecke, Munshi Asadullah, Frédéric Herledan, Géraldine Damnati"	Creating a High Quality Abstract Meaning Representation Dataset Automatically	LREC	2026	https://lrec.elra.info/lrec2026-main-932		"Data Augmentation, Annotation"
 "Bevan Jones, Jacob Andreas, Daniel Bauer, Karl-Moritz Hermann, Kevin Knight"	Semantics-Based Machine Translation with Hyperedge Replacement Grammars	COLING	2012	https://www.aclweb.org/anthology/C12-1083		"Alignment, Parsing, Generation, MT, Graph algebra"
 "David Chiang, Jacob Andreas, Daniel Bauer, Karl Moritz Hermann, Bevan Jones, Kevin Knight"	Parsing Graphs with Hyperedge Replacement Grammars	ACL	2013	http://www.aclweb.org/anthology/P13-1091		"Parsing, Graph algebra"
 "Laura Banarescu, Claire Bonial, Shu Cai, Madalina Georgescu, Kira Griffitt, Ulf Hermjakob, Kevin Knight, Philipp Koehn, Martha Palmer, Nathan Schneider"	Abstract Meaning Representation for Sembanking	 Linguistic Annotation Workshop	2013	https://aclanthology.org/W13-2322.pdf		Overview
