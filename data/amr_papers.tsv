@@ -532,4 +532,4 @@ Kostyantyn Guzhva	Unsupervised Syntactic Text Simplification with AMR	"MSc thesi
 "Andrianos Michail, Stylianos Psychias, Michelle Wastl, Simon Clematide, Rico Sennrich, Juri Opitz"	"ALEE: Any-Language Evaluation of Embeddings via English-Centric Minimal Pairs"	preprint	2026		https://arxiv.org/abs/2607.00171	"Applications"
 Camilo Brown-Pinilla	On Translation as a Symmetry of Language	Undergraduate thesis, Harvard University	2026	https://dash.harvard.edu/server/api/core/bitstreams/3b92f428-c204-4341-99f2-b05a45950907/content		"Applications"
 "Emma Markle, Javier Gutierrez Bach, Shira Wein"	"SETUP: Sentence-level English-To-Uniform Meaning Representation Parser"	"LREC"	2026	https://aclanthology.org/2026.lrec-1.762/	https://arxiv.org/abs/2512.07068	"Applications, AMR Extensions, Parsing"
-"Mina Yang, Shira Wein"	"TrAinMR: an Annotator Training Website for Abstract Meaning Representation"	"LREC"	2026	https://aclanthology.org/2026.dmr-1.4/		"Annotation"
+"Mina Yang, Shira Wein"	"TrAinMR: an Annotator Training Website for Abstract Meaning Representation"	"DMR"	2026	https://aclanthology.org/2026.dmr-1.4/		"Annotation"
